@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C63E3311803C74600E0AAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C63E3301803C74600E0AAEC /* Foundation.framework */; };
+		1C63E3331803C74600E0AAEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C63E3321803C74600E0AAEC /* CoreGraphics.framework */; };
+		1C63E3351803C74600E0AAEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C63E3341803C74600E0AAEC /* UIKit.framework */; };
+		1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3391803C74600E0AAEC /* InfoPlist.strings */; };
+		1C63E33D1803C74600E0AAEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E33C1803C74600E0AAEC /* main.m */; };
+		1C63E3411803C74600E0AAEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3401803C74600E0AAEC /* AppDelegate.m */; };
+		1C63E3441803C74600E0AAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3421803C74600E0AAEC /* Main.storyboard */; };
+		1C63E3471803C74600E0AAEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3461803C74600E0AAEC /* ViewController.m */; };
+		1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3481803C74600E0AAEC /* Images.xcassets */; };
+		1C63E3501803C74700E0AAEC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C63E34F1803C74700E0AAEC /* XCTest.framework */; };
+		1C63E3511803C74700E0AAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C63E3301803C74600E0AAEC /* Foundation.framework */; };
+		1C63E3521803C74700E0AAEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C63E3341803C74600E0AAEC /* UIKit.framework */; };
+		1C63E35A1803C74700E0AAEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3581803C74700E0AAEC /* InfoPlist.strings */; };
+		1C63E35C1803C74700E0AAEC /* PSAMediaPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E35B1803C74700E0AAEC /* PSAMediaPlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C63E3531803C74700E0AAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C63E3251803C74600E0AAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C63E32C1803C74600E0AAEC;
+			remoteInfo = PSAMediaPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C63E32D1803C74600E0AAEC /* PSAMediaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSAMediaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C63E3301803C74600E0AAEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C63E3321803C74600E0AAEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C63E3341803C74600E0AAEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C63E3381803C74600E0AAEC /* PSAMediaPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSAMediaPlayer-Info.plist"; sourceTree = "<group>"; };
+		1C63E33A1803C74600E0AAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C63E33C1803C74600E0AAEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C63E33E1803C74600E0AAEC /* PSAMediaPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSAMediaPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		1C63E33F1803C74600E0AAEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C63E3401803C74600E0AAEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C63E3431803C74600E0AAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C63E3451803C74600E0AAEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C63E3461803C74600E0AAEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C63E3481803C74600E0AAEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C63E34E1803C74700E0AAEC /* PSAMediaPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSAMediaPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C63E34F1803C74700E0AAEC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1C63E3571803C74700E0AAEC /* PSAMediaPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSAMediaPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		1C63E3591803C74700E0AAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C63E35B1803C74700E0AAEC /* PSAMediaPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAMediaPlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C63E32A1803C74600E0AAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C63E3331803C74600E0AAEC /* CoreGraphics.framework in Frameworks */,
+				1C63E3351803C74600E0AAEC /* UIKit.framework in Frameworks */,
+				1C63E3311803C74600E0AAEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C63E34B1803C74700E0AAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C63E3501803C74700E0AAEC /* XCTest.framework in Frameworks */,
+				1C63E3521803C74700E0AAEC /* UIKit.framework in Frameworks */,
+				1C63E3511803C74700E0AAEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C63E3241803C74600E0AAEC = {
+			isa = PBXGroup;
+			children = (
+				1C63E3361803C74600E0AAEC /* PSAMediaPlayer */,
+				1C63E3551803C74700E0AAEC /* PSAMediaPlayerTests */,
+				1C63E32F1803C74600E0AAEC /* Frameworks */,
+				1C63E32E1803C74600E0AAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C63E32E1803C74600E0AAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C63E32D1803C74600E0AAEC /* PSAMediaPlayer.app */,
+				1C63E34E1803C74700E0AAEC /* PSAMediaPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C63E32F1803C74600E0AAEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C63E3301803C74600E0AAEC /* Foundation.framework */,
+				1C63E3321803C74600E0AAEC /* CoreGraphics.framework */,
+				1C63E3341803C74600E0AAEC /* UIKit.framework */,
+				1C63E34F1803C74700E0AAEC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C63E3361803C74600E0AAEC /* PSAMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1C63E33F1803C74600E0AAEC /* AppDelegate.h */,
+				1C63E3401803C74600E0AAEC /* AppDelegate.m */,
+				1C63E3421803C74600E0AAEC /* Main.storyboard */,
+				1C63E3451803C74600E0AAEC /* ViewController.h */,
+				1C63E3461803C74600E0AAEC /* ViewController.m */,
+				1C63E3481803C74600E0AAEC /* Images.xcassets */,
+				1C63E3371803C74600E0AAEC /* Supporting Files */,
+			);
+			path = PSAMediaPlayer;
+			sourceTree = "<group>";
+		};
+		1C63E3371803C74600E0AAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C63E3381803C74600E0AAEC /* PSAMediaPlayer-Info.plist */,
+				1C63E3391803C74600E0AAEC /* InfoPlist.strings */,
+				1C63E33C1803C74600E0AAEC /* main.m */,
+				1C63E33E1803C74600E0AAEC /* PSAMediaPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C63E3551803C74700E0AAEC /* PSAMediaPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C63E35B1803C74700E0AAEC /* PSAMediaPlayerTests.m */,
+				1C63E3561803C74700E0AAEC /* Supporting Files */,
+			);
+			path = PSAMediaPlayerTests;
+			sourceTree = "<group>";
+		};
+		1C63E3561803C74700E0AAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C63E3571803C74700E0AAEC /* PSAMediaPlayerTests-Info.plist */,
+				1C63E3581803C74700E0AAEC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C63E32C1803C74600E0AAEC /* PSAMediaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C63E35F1803C74700E0AAEC /* Build configuration list for PBXNativeTarget "PSAMediaPlayer" */;
+			buildPhases = (
+				1C63E3291803C74600E0AAEC /* Sources */,
+				1C63E32A1803C74600E0AAEC /* Frameworks */,
+				1C63E32B1803C74600E0AAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSAMediaPlayer;
+			productName = PSAMediaPlayer;
+			productReference = 1C63E32D1803C74600E0AAEC /* PSAMediaPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C63E34D1803C74700E0AAEC /* PSAMediaPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C63E3621803C74700E0AAEC /* Build configuration list for PBXNativeTarget "PSAMediaPlayerTests" */;
+			buildPhases = (
+				1C63E34A1803C74700E0AAEC /* Sources */,
+				1C63E34B1803C74700E0AAEC /* Frameworks */,
+				1C63E34C1803C74700E0AAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C63E3541803C74700E0AAEC /* PBXTargetDependency */,
+			);
+			name = PSAMediaPlayerTests;
+			productName = PSAMediaPlayerTests;
+			productReference = 1C63E34E1803C74700E0AAEC /* PSAMediaPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C63E3251803C74600E0AAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Fan's Mac";
+				TargetAttributes = {
+					1C63E34D1803C74700E0AAEC = {
+						TestTargetID = 1C63E32C1803C74600E0AAEC;
+					};
+				};
+			};
+			buildConfigurationList = 1C63E3281803C74600E0AAEC /* Build configuration list for PBXProject "PSAMediaPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C63E3241803C74600E0AAEC;
+			productRefGroup = 1C63E32E1803C74600E0AAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C63E32C1803C74600E0AAEC /* PSAMediaPlayer */,
+				1C63E34D1803C74700E0AAEC /* PSAMediaPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C63E32B1803C74600E0AAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */,
+				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
+				1C63E3441803C74600E0AAEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C63E34C1803C74700E0AAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C63E35A1803C74700E0AAEC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C63E3291803C74600E0AAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C63E3471803C74600E0AAEC /* ViewController.m in Sources */,
+				1C63E3411803C74600E0AAEC /* AppDelegate.m in Sources */,
+				1C63E33D1803C74600E0AAEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C63E34A1803C74700E0AAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C63E35C1803C74700E0AAEC /* PSAMediaPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C63E3541803C74700E0AAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C63E32C1803C74600E0AAEC /* PSAMediaPlayer */;
+			targetProxy = 1C63E3531803C74700E0AAEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C63E3391803C74600E0AAEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C63E33A1803C74600E0AAEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1C63E3421803C74600E0AAEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C63E3431803C74600E0AAEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C63E3581803C74700E0AAEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C63E3591803C74700E0AAEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C63E35D1803C74700E0AAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1C63E35E1803C74700E0AAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C63E3601803C74700E0AAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSAMediaPlayer/PSAMediaPlayer-Prefix.pch";
+				INFOPLIST_FILE = "PSAMediaPlayer/PSAMediaPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C63E3611803C74700E0AAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSAMediaPlayer/PSAMediaPlayer-Prefix.pch";
+				INFOPLIST_FILE = "PSAMediaPlayer/PSAMediaPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1C63E3631803C74700E0AAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PSAMediaPlayer.app/PSAMediaPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSAMediaPlayer/PSAMediaPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PSAMediaPlayerTests/PSAMediaPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1C63E3641803C74700E0AAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PSAMediaPlayer.app/PSAMediaPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSAMediaPlayer/PSAMediaPlayer-Prefix.pch";
+				INFOPLIST_FILE = "PSAMediaPlayerTests/PSAMediaPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C63E3281803C74600E0AAEC /* Build configuration list for PBXProject "PSAMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C63E35D1803C74700E0AAEC /* Debug */,
+				1C63E35E1803C74700E0AAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C63E35F1803C74700E0AAEC /* Build configuration list for PBXNativeTarget "PSAMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C63E3601803C74700E0AAEC /* Debug */,
+				1C63E3611803C74700E0AAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C63E3621803C74700E0AAEC /* Build configuration list for PBXNativeTarget "PSAMediaPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C63E3631803C74700E0AAEC /* Debug */,
+				1C63E3641803C74700E0AAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C63E3251803C74600E0AAEC /* Project object */;
+}
