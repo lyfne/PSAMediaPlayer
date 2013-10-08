@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PSAMainViewController.h
 //  PSAMediaPlayer
 //
 //  Created by Fan's Mac on 13-10-8.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PSAMainViewController : UIViewController
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PSAMainViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
