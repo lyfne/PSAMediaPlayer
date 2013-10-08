@@ -53,6 +53,7 @@
 		1C63E36C1803C7FD00E0AAEC /* PSAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAMainViewController.h; path = Class/ViewController/PSAMainViewController.h; sourceTree = "<group>"; };
 		1C63E36D1803C7FD00E0AAEC /* PSAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAMainViewController.m; path = Class/ViewController/PSAMainViewController.m; sourceTree = "<group>"; };
 		1C63E36E1803C7FD00E0AAEC /* PSAMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PSAMainViewController.xib; path = Class/ViewController/PSAMainViewController.xib; sourceTree = "<group>"; };
+		1C63E3711803C91D00E0AAEC /* PSAConstantConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAConstantConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 				1C63E3651803C7C000E0AAEC /* Class */,
 				1C63E33F1803C74600E0AAEC /* AppDelegate.h */,
 				1C63E3401803C74600E0AAEC /* AppDelegate.m */,
+				1C63E3711803C91D00E0AAEC /* PSAConstantConfig.h */,
 				1C63E3481803C74600E0AAEC /* Images.xcassets */,
 				1C63E3371803C74600E0AAEC /* Supporting Files */,
 			);
