@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PSAVideoPanelViewController.h"
 
 @interface PSAMainViewController : UIViewController
+
+@property (strong, nonatomic) PSAVideoPanelViewController *videoPanelVC;
 
 @end

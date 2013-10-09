@@ -26,13 +26,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    [self initVideo];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark Init Method
+
+- (void)initVideo
+{
+    self.videoPanelVC = [PSAVideoPanelViewController createVideoViewController];
+    [self.videoPanelVC.view setX:54 Y:77];
+    [self.view addSubview:self.videoPanelVC.view];
 }
 
 @end

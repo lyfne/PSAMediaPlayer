@@ -21,6 +21,10 @@
 		1C63E35C1803C74700E0AAEC /* PSAMediaPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E35B1803C74700E0AAEC /* PSAMediaPlayerTests.m */; };
 		1C63E36F1803C7FD00E0AAEC /* PSAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E36D1803C7FD00E0AAEC /* PSAMainViewController.m */; };
 		1C63E3701803C7FD00E0AAEC /* PSAMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E36E1803C7FD00E0AAEC /* PSAMainViewController.xib */; };
+		1C63E3751804E55500E0AAEC /* PSAVideoPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3731804E55500E0AAEC /* PSAVideoPanelViewController.m */; };
+		1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3741804E55500E0AAEC /* PSAVideoPanelViewController.xib */; };
+		1C63E37D1804E67700E0AAEC /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3791804E67700E0AAEC /* UIView+Frame.m */; };
+		1C63E37E1804E67700E0AAEC /* UILabel+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E37B1804E67700E0AAEC /* UILabel+Font.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,13 @@
 		1C63E36D1803C7FD00E0AAEC /* PSAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAMainViewController.m; path = Class/ViewController/PSAMainViewController.m; sourceTree = "<group>"; };
 		1C63E36E1803C7FD00E0AAEC /* PSAMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PSAMainViewController.xib; path = Class/ViewController/PSAMainViewController.xib; sourceTree = "<group>"; };
 		1C63E3711803C91D00E0AAEC /* PSAConstantConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAConstantConfig.h; sourceTree = "<group>"; };
+		1C63E3721804E55500E0AAEC /* PSAVideoPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoPanelViewController.h; sourceTree = "<group>"; };
+		1C63E3731804E55500E0AAEC /* PSAVideoPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoPanelViewController.m; sourceTree = "<group>"; };
+		1C63E3741804E55500E0AAEC /* PSAVideoPanelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoPanelViewController.xib; sourceTree = "<group>"; };
+		1C63E3781804E67700E0AAEC /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		1C63E3791804E67700E0AAEC /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		1C63E37A1804E67700E0AAEC /* UILabel+Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Font.h"; sourceTree = "<group>"; };
+		1C63E37B1804E67700E0AAEC /* UILabel+Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Font.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +166,7 @@
 		1C63E3651803C7C000E0AAEC /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				1C63E3771804E65000E0AAEC /* Category */,
 				1C63E3661803C7C500E0AAEC /* ViewController */,
 			);
 			name = Class;
@@ -163,11 +175,25 @@
 		1C63E3661803C7C500E0AAEC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1C63E3721804E55500E0AAEC /* PSAVideoPanelViewController.h */,
+				1C63E3731804E55500E0AAEC /* PSAVideoPanelViewController.m */,
+				1C63E3741804E55500E0AAEC /* PSAVideoPanelViewController.xib */,
 				1C63E36C1803C7FD00E0AAEC /* PSAMainViewController.h */,
 				1C63E36D1803C7FD00E0AAEC /* PSAMainViewController.m */,
 				1C63E36E1803C7FD00E0AAEC /* PSAMainViewController.xib */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		1C63E3771804E65000E0AAEC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1C63E3781804E67700E0AAEC /* UIView+Frame.h */,
+				1C63E3791804E67700E0AAEC /* UIView+Frame.m */,
+				1C63E37A1804E67700E0AAEC /* UILabel+Font.h */,
+				1C63E37B1804E67700E0AAEC /* UILabel+Font.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +274,7 @@
 			files = (
 				1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */,
 				1C63E3701803C7FD00E0AAEC /* PSAMainViewController.xib in Resources */,
+				1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */,
 				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +295,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C63E36F1803C7FD00E0AAEC /* PSAMainViewController.m in Sources */,
+				1C63E37E1804E67700E0AAEC /* UILabel+Font.m in Sources */,
 				1C63E3411803C74600E0AAEC /* AppDelegate.m in Sources */,
+				1C63E3751804E55500E0AAEC /* PSAVideoPanelViewController.m in Sources */,
+				1C63E37D1804E67700E0AAEC /* UIView+Frame.m in Sources */,
 				1C63E33D1803C74600E0AAEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
