@@ -41,7 +41,7 @@ typedef enum {
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.currentPanelID = PSAVIDEO_DEVICE;
+        self.currentPanelID = PSAVIDEO_DVD;
         self.view.clipsToBounds = YES;
     }
     return self;
@@ -72,18 +72,18 @@ typedef enum {
 
 - (void)initAllView
 {
-//    self.videoDVDViewController = [PSAVideoDVDViewController createVideoDVDViewController];
-//    [self.videoDVDViewController.view setY:46];
-//    [self.videoDVDViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
-//    [self.videoDVDViewController setTimeColor:selectedColor];
-//    
+    self.videoDVDViewController = [PSAVideoDVDViewController createVideoDVDViewController];
+    [self.videoDVDViewController.view setY:46];
+    //[self.videoDVDViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    [self.videoDVDViewController setTimeColor:selectedColor];
+    
 //    self.videoDeviceViewController = [PSAVideoDeviceViewController createVideoDeviceViewController];
 //    [self.videoDeviceViewController.view setY:46];
 //    [self.videoDeviceViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
-//    
-//    self.videoYoukuViewController = [PSAVideoYoukuViewController createVideoYoukuViewController];
-//    [self.videoYoukuViewController.view setY:46];
-//    self.videoYoukuViewController.delegate = self;
+    
+    self.videoYoukuViewController = [PSAVideoYoukuViewController createVideoYoukuViewController];
+    [self.videoYoukuViewController.view setY:46];
+    self.videoYoukuViewController.delegate = self;
 //    [self.videoYoukuViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
     
     shadowView = [[UIView alloc] initWithFrame:CGRectMake(-54, 0, 1024, 614)];
@@ -138,15 +138,15 @@ typedef enum {
 - (UIViewController *)panelViewWithID:(PSAVIDEOID)panelId
 {
     switch (panelId) {
-//        case PSAVIDEO_DVD:
-//            return self.videoDVDViewController;
-//            break;
+        case PSAVIDEO_DVD:
+            return self.videoDVDViewController;
+            break;
 //        case PSAVIDEO_DEVICE:
 //            return self.videoDeviceViewController;
 //            break;
-//        case PSAVIDEO_YOUKU:
-//            return self.videoYoukuViewController;
-//            break;
+        case PSAVIDEO_YOUKU:
+            return self.videoYoukuViewController;
+            break;
         default:
             break;
     }

@@ -25,6 +25,10 @@
 		1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3741804E55500E0AAEC /* PSAVideoPanelViewController.xib */; };
 		1C63E37D1804E67700E0AAEC /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3791804E67700E0AAEC /* UIView+Frame.m */; };
 		1C63E37E1804E67700E0AAEC /* UILabel+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E37B1804E67700E0AAEC /* UILabel+Font.m */; };
+		1C63E38318051C7D00E0AAEC /* PSAVideoDVDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E38118051C7D00E0AAEC /* PSAVideoDVDViewController.m */; };
+		1C63E38418051C7D00E0AAEC /* PSAVideoDVDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E38218051C7D00E0AAEC /* PSAVideoDVDViewController.xib */; };
+		1C63E38818051DD400E0AAEC /* PSAVideoYoukuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E38618051DD400E0AAEC /* PSAVideoYoukuViewController.m */; };
+		1C63E38918051DD400E0AAEC /* PSAVideoYoukuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E38718051DD400E0AAEC /* PSAVideoYoukuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,12 @@
 		1C63E3791804E67700E0AAEC /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		1C63E37A1804E67700E0AAEC /* UILabel+Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Font.h"; sourceTree = "<group>"; };
 		1C63E37B1804E67700E0AAEC /* UILabel+Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Font.m"; sourceTree = "<group>"; };
+		1C63E38018051C7C00E0AAEC /* PSAVideoDVDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoDVDViewController.h; sourceTree = "<group>"; };
+		1C63E38118051C7D00E0AAEC /* PSAVideoDVDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoDVDViewController.m; sourceTree = "<group>"; };
+		1C63E38218051C7D00E0AAEC /* PSAVideoDVDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoDVDViewController.xib; sourceTree = "<group>"; };
+		1C63E38518051DD400E0AAEC /* PSAVideoYoukuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoYoukuViewController.h; sourceTree = "<group>"; };
+		1C63E38618051DD400E0AAEC /* PSAVideoYoukuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoYoukuViewController.m; sourceTree = "<group>"; };
+		1C63E38718051DD400E0AAEC /* PSAVideoYoukuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoYoukuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,9 +188,15 @@
 				1C63E3721804E55500E0AAEC /* PSAVideoPanelViewController.h */,
 				1C63E3731804E55500E0AAEC /* PSAVideoPanelViewController.m */,
 				1C63E3741804E55500E0AAEC /* PSAVideoPanelViewController.xib */,
+				1C63E38018051C7C00E0AAEC /* PSAVideoDVDViewController.h */,
+				1C63E38118051C7D00E0AAEC /* PSAVideoDVDViewController.m */,
+				1C63E38218051C7D00E0AAEC /* PSAVideoDVDViewController.xib */,
 				1C63E36C1803C7FD00E0AAEC /* PSAMainViewController.h */,
 				1C63E36D1803C7FD00E0AAEC /* PSAMainViewController.m */,
 				1C63E36E1803C7FD00E0AAEC /* PSAMainViewController.xib */,
+				1C63E38518051DD400E0AAEC /* PSAVideoYoukuViewController.h */,
+				1C63E38618051DD400E0AAEC /* PSAVideoYoukuViewController.m */,
+				1C63E38718051DD400E0AAEC /* PSAVideoYoukuViewController.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -273,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */,
+				1C63E38918051DD400E0AAEC /* PSAVideoYoukuViewController.xib in Resources */,
 				1C63E3701803C7FD00E0AAEC /* PSAMainViewController.xib in Resources */,
 				1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */,
+				1C63E38418051C7D00E0AAEC /* PSAVideoDVDViewController.xib in Resources */,
 				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +318,8 @@
 				1C63E3751804E55500E0AAEC /* PSAVideoPanelViewController.m in Sources */,
 				1C63E37D1804E67700E0AAEC /* UIView+Frame.m in Sources */,
 				1C63E33D1803C74600E0AAEC /* main.m in Sources */,
+				1C63E38318051C7D00E0AAEC /* PSAVideoDVDViewController.m in Sources */,
+				1C63E38818051DD400E0AAEC /* PSAVideoYoukuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
