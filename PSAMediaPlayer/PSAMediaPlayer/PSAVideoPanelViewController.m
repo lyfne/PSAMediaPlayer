@@ -7,12 +7,12 @@
 //
 
 #import "PSAVideoPanelViewController.h"
-//#import "PSAVideoConstantsConfig.h"
+#import "PSAVideoConstantsConfig.h"
 //#import "PSARadioConstantsConfig.h"
 //#import "PSAMusicConstantsConfig.h"
 //#import "PSARadioPlayer.h"
 //#import "PSAMusicPlayer.h"
-//#import "UIView+FadeInOut.h"
+#import "UIView+FadeInOut.h"
 
 #define kPSAVideoPanelViewControllerNibName @"PSAVideoPanelViewController"
 
@@ -200,23 +200,23 @@ typedef enum {
 
 - (void)resetAllColor
 {
-//    for (int i = kVideoSegmentButtonTagBasic+1; i<kVideoSegmentButtonTagBasic+5; i++) {
-//        UIButton *btn = (UIButton *)[segmentView viewWithTag:i];
-//        [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-//        btn.alpha = 0.4f;
-//        btn.userInteractionEnabled = YES;
-//    }
+    for (int i = kVideoSegmentButtonTagBasic+1; i<kVideoSegmentButtonTagBasic+5; i++) {
+        UIButton *btn = (UIButton *)[segmentView viewWithTag:i];
+        [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        btn.alpha = 0.4f;
+        btn.userInteractionEnabled = YES;
+    }
 }
 
 - (void)switchVideo:(NSNotification *)notification
 {
-//    NSDictionary *dic = [notification userInfo];
-//    NSString *object = [dic objectForKey:kVideoUserInfo];
-//    
-//    self.view.clipsToBounds = NO;
-//    [self.view addSubview:shadowView];
-//    [shadowView fadeIn:0.7f];
-//    [self performSelector:@selector(addVideoView:) withObject:object afterDelay:0.5f];
+    NSDictionary *dic = [notification userInfo];
+    NSString *object = [dic objectForKey:kVideoUserInfo];
+    
+    self.view.clipsToBounds = NO;
+    [self.view addSubview:shadowView];
+    [shadowView fadeIn:0.7f];
+    [self performSelector:@selector(addVideoView:) withObject:object afterDelay:0.5f];
 }
 
 - (void)addVideoView:(id)object

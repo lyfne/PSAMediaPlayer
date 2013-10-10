@@ -7,18 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "PSAMusicDiskView.h"
-//#import "DMPagingScrollView.h"
-//#import "StyledPageControl.h"
+#import "PSAMusicDiskView.h"
+#import "DMPagingScrollView.h"
+#import "StyledPageControl.h"
 
-@interface PSAVideoDVDViewController : UIViewController/*<UIScrollViewDelegate,DiskViewDelegate>{
+@interface PSAVideoDVDViewController : UIViewController<UIScrollViewDelegate,DiskViewDelegate>{
     StyledPageControl *pageControl;
-}*/
+}
 
 + (PSAVideoDVDViewController *)createVideoDVDViewController;
 
 - (void)setTimeColor:(UIColor *)color;
 
-//@property (weak, nonatomic) IBOutlet DMPagingScrollView *diskScrollView;
+@property (weak, nonatomic) IBOutlet DMPagingScrollView *diskScrollView;
 
 @end
