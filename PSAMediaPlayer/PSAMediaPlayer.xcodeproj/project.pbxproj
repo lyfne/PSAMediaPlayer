@@ -29,6 +29,7 @@
 		1C63E38418051C7D00E0AAEC /* PSAVideoDVDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E38218051C7D00E0AAEC /* PSAVideoDVDViewController.xib */; };
 		1C63E38818051DD400E0AAEC /* PSAVideoYoukuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E38618051DD400E0AAEC /* PSAVideoYoukuViewController.m */; };
 		1C63E38918051DD400E0AAEC /* PSAVideoYoukuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E38718051DD400E0AAEC /* PSAVideoYoukuViewController.xib */; };
+		1C63E38D1807D40F00E0AAEC /* PSAMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E38B1807D40F00E0AAEC /* PSAMusicPlayer.m */; };
 		7FC2793C18068E6800E7B225 /* UIView+FadeInOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2793B18068E6800E7B225 /* UIView+FadeInOut.m */; };
 		7FC2794018068F4D00E7B225 /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2793F18068F4D00E7B225 /* StyledPageControl.m */; };
 		7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2794218068F6200E7B225 /* DMPagingScrollView.m */; };
@@ -80,6 +81,9 @@
 		1C63E38518051DD400E0AAEC /* PSAVideoYoukuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoYoukuViewController.h; sourceTree = "<group>"; };
 		1C63E38618051DD400E0AAEC /* PSAVideoYoukuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoYoukuViewController.m; sourceTree = "<group>"; };
 		1C63E38718051DD400E0AAEC /* PSAVideoYoukuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoYoukuViewController.xib; sourceTree = "<group>"; };
+		1C63E38A1807D40F00E0AAEC /* PSAMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicPlayer.h; sourceTree = "<group>"; };
+		1C63E38B1807D40F00E0AAEC /* PSAMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicPlayer.m; sourceTree = "<group>"; };
+		1C63E38C1807D40F00E0AAEC /* PSAMusicConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicConstantsConfig.h; sourceTree = "<group>"; };
 		7FC2793918068DEE00E7B225 /* PSAVideoConstantsConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAVideoConstantsConfig.h; sourceTree = "<group>"; };
 		7FC2793A18068E6800E7B225 /* UIView+FadeInOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FadeInOut.h"; sourceTree = "<group>"; };
 		7FC2793B18068E6800E7B225 /* UIView+FadeInOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FadeInOut.m"; sourceTree = "<group>"; };
@@ -247,6 +251,9 @@
 		7FC2793818068BFB00E7B225 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				1C63E38A1807D40F00E0AAEC /* PSAMusicPlayer.h */,
+				1C63E38B1807D40F00E0AAEC /* PSAMusicPlayer.m */,
+				1C63E38C1807D40F00E0AAEC /* PSAMusicConstantsConfig.h */,
 			);
 			name = Music;
 			sourceTree = "<group>";
@@ -378,6 +385,7 @@
 				1C63E37E1804E67700E0AAEC /* UILabel+Font.m in Sources */,
 				1C63E3411803C74600E0AAEC /* AppDelegate.m in Sources */,
 				1C63E3751804E55500E0AAEC /* PSAVideoPanelViewController.m in Sources */,
+				1C63E38D1807D40F00E0AAEC /* PSAMusicPlayer.m in Sources */,
 				1C63E37D1804E67700E0AAEC /* UIView+Frame.m in Sources */,
 				1C63E33D1803C74600E0AAEC /* main.m in Sources */,
 				1C63E38318051C7D00E0AAEC /* PSAVideoDVDViewController.m in Sources */,
