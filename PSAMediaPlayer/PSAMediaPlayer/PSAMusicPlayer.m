@@ -8,8 +8,9 @@
 
 #import "PSAMusicPlayer.h"
 #import "PSAMusicConstantsConfig.h"
-#import "PSARadioPlayer.h"
-#import "PSARadioConstantsConfig.h"
+//#import "PSARadioPlayer.h"
+//#import "PSARadioConstantsConfig.h"
+#import "NSArray+Data.h"
 
 static PSAMusicPlayer *psaMusicPlayerInstance;
 static int songIndex;
@@ -359,10 +360,10 @@ static int musicPlayerState;
 
 - (void)playMusic
 {
-    if ([[PSARadioPlayer sharedPSARadioPlayer] getRadioPlayerState] == kRadioPlayerStatePlaying) {
-        [[PSARadioPlayer sharedPSARadioPlayer] setRadioPlayerState:kRadioPlayerStateStop];
-        [[PSARadioPlayer sharedPSARadioPlayer] pause];
-    }
+//    if ([[PSARadioPlayer sharedPSARadioPlayer] getRadioPlayerState] == kRadioPlayerStatePlaying) {
+//        [[PSARadioPlayer sharedPSARadioPlayer] setRadioPlayerState:kRadioPlayerStateStop];
+//        [[PSARadioPlayer sharedPSARadioPlayer] pause];
+//    }
     musicPlayerState = kMusicPlayerStatePlaying;
     [psaMusicPlayerInstance play];
 }

@@ -42,7 +42,6 @@
 
 //     Tune
 
-//- (void)setNowPlayingTune:(PSATune *)tune;
 - (PSATune *)getCurrentTune;
 - (void)addTuneToArray:(PSATune *)tune;
 - (void)removeTuneFromArray:(PSATune *)tune;
