@@ -34,6 +34,8 @@
 		1C63E3941807D47700E0AAEC /* PSATunesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3921807D47700E0AAEC /* PSATunesList.m */; };
 		1C63E3971807D4CE00E0AAEC /* NSArray+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3961807D4CE00E0AAEC /* NSArray+Data.m */; };
 		4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */; };
+		4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */; };
+		4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */; };
 		7FC2793C18068E6800E7B225 /* UIView+FadeInOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2793B18068E6800E7B225 /* UIView+FadeInOut.m */; };
 		7FC2794018068F4D00E7B225 /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2793F18068F4D00E7B225 /* StyledPageControl.m */; };
 		7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2794218068F6200E7B225 /* DMPagingScrollView.m */; };
@@ -109,6 +111,9 @@
 		4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioConstantsConfig.h; sourceTree = "<group>"; };
 		4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPlayer.h; sourceTree = "<group>"; };
 		4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPlayer.m; sourceTree = "<group>"; };
+		4BBC7164180A689E00D3C5EB /* PSARadioPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPanelViewController.h; sourceTree = "<group>"; };
+		4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPanelViewController.m; sourceTree = "<group>"; };
+		4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSARadioPanelViewController.xib; sourceTree = "<group>"; };
 		7FC2793918068DEE00E7B225 /* PSAVideoConstantsConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAVideoConstantsConfig.h; sourceTree = "<group>"; };
 		7FC2793A18068E6800E7B225 /* UIView+FadeInOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FadeInOut.h"; sourceTree = "<group>"; };
 		7FC2793B18068E6800E7B225 /* UIView+FadeInOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FadeInOut.m"; sourceTree = "<group>"; };
@@ -295,6 +300,9 @@
 				4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */,
 				4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */,
 				4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */,
+				4BBC7164180A689E00D3C5EB /* PSARadioPanelViewController.h */,
+				4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */,
+				4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */,
 			);
 			name = Radio;
 			sourceTree = "<group>";
@@ -447,6 +455,7 @@
 				1C63E38918051DD400E0AAEC /* PSAVideoYoukuViewController.xib in Resources */,
 				1C63E3701803C7FD00E0AAEC /* PSAMainViewController.xib in Resources */,
 				1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */,
+				4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */,
 				1C63E38418051C7D00E0AAEC /* PSAVideoDVDViewController.xib in Resources */,
 				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
 				7FC2795A1807E57100E7B225 /* PSAAppListHeaderView.xib in Resources */,
@@ -494,6 +503,7 @@
 				7FC279681807E5B700E7B225 /* PSAVideoCoverItemView.m in Sources */,
 				7FC279641807E59000E7B225 /* PSAMusicPlusCell.m in Sources */,
 				7FC2794018068F4D00E7B225 /* StyledPageControl.m in Sources */,
+				4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
