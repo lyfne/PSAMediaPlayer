@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-//#import "PSAVideoDeviceViewController.h"
+#import "PSAVideoDeviceViewController.h"
 #import "PSAVideoDVDViewController.h"
 //#import "PSAVideoNowPlayingViewController.h"
 #import "PSAVideoYoukuViewController.h"
@@ -27,7 +27,7 @@
 @property (weak, nonatomic) IBOutlet UIView *segmentView;
 
 //@property (strong ,nonatomic) PSAVideoNowPlayingViewController *videoNowPlayingViewController;
-//@property (strong ,nonatomic) PSAVideoDeviceViewController *videoDeviceViewController;
+@property (strong ,nonatomic) PSAVideoDeviceViewController *videoDeviceViewController;
 @property (strong ,nonatomic) PSAVideoDVDViewController *videoDVDViewController;
 @property (strong, nonatomic) PSAVideoYoukuViewController *videoYoukuViewController;
 //@property (strong, nonatomic) PSAVideoLoginViewController *videoLoginViewController;

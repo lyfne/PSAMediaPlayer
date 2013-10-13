@@ -9,9 +9,9 @@
 #import "PSAVideoPanelViewController.h"
 #import "PSAVideoConstantsConfig.h"
 //#import "PSARadioConstantsConfig.h"
-//#import "PSAMusicConstantsConfig.h"
+#import "PSAMusicConstantsConfig.h"
 //#import "PSARadioPlayer.h"
-//#import "PSAMusicPlayer.h"
+#import "PSAMusicPlayer.h"
 #import "UIView+FadeInOut.h"
 
 #define kPSAVideoPanelViewControllerNibName @"PSAVideoPanelViewController"
@@ -41,7 +41,7 @@ typedef enum {
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.currentPanelID = PSAVIDEO_DVD;
+        self.currentPanelID = PSAVIDEO_DEVICE;
         self.view.clipsToBounds = YES;
     }
     return self;
@@ -77,8 +77,8 @@ typedef enum {
     //[self.videoDVDViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
     [self.videoDVDViewController setTimeColor:selectedColor];
     
-//    self.videoDeviceViewController = [PSAVideoDeviceViewController createVideoDeviceViewController];
-//    [self.videoDeviceViewController.view setY:46];
+    self.videoDeviceViewController = [PSAVideoDeviceViewController createVideoDeviceViewController];
+    [self.videoDeviceViewController.view setY:46];
 //    [self.videoDeviceViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
     
     self.videoYoukuViewController = [PSAVideoYoukuViewController createVideoYoukuViewController];
@@ -141,9 +141,9 @@ typedef enum {
         case PSAVIDEO_DVD:
             return self.videoDVDViewController;
             break;
-//        case PSAVIDEO_DEVICE:
-//            return self.videoDeviceViewController;
-//            break;
+        case PSAVIDEO_DEVICE:
+            return self.videoDeviceViewController;
+            break;
         case PSAVIDEO_YOUKU:
             return self.videoYoukuViewController;
             break;

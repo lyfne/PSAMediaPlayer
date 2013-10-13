@@ -38,6 +38,18 @@
 		7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2794218068F6200E7B225 /* DMPagingScrollView.m */; };
 		7FC2794718068F9900E7B225 /* PSAMusicDiskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2794618068F9900E7B225 /* PSAMusicDiskView.m */; };
 		7FC2794A18068FD700E7B225 /* UIView+Subview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2794918068FD700E7B225 /* UIView+Subview.m */; };
+		7FC2794E1807E52F00E7B225 /* PSAVideoDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2794C1807E52F00E7B225 /* PSAVideoDeviceViewController.m */; };
+		7FC2794F1807E52F00E7B225 /* PSAVideoDeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2794D1807E52F00E7B225 /* PSAVideoDeviceViewController.xib */; };
+		7FC279531807E53B00E7B225 /* PSAVideoCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279511807E53B00E7B225 /* PSAVideoCoverViewController.m */; };
+		7FC279541807E53B00E7B225 /* PSAVideoCoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279521807E53B00E7B225 /* PSAVideoCoverViewController.xib */; };
+		7FC279591807E57100E7B225 /* PSAAppListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279571807E57100E7B225 /* PSAAppListHeaderView.m */; };
+		7FC2795A1807E57100E7B225 /* PSAAppListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279581807E57100E7B225 /* PSAAppListHeaderView.xib */; };
+		7FC2795E1807E57F00E7B225 /* PSAMusicDeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2795C1807E57F00E7B225 /* PSAMusicDeviceCell.m */; };
+		7FC2795F1807E57F00E7B225 /* PSAMusicDeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2795D1807E57F00E7B225 /* PSAMusicDeviceCell.xib */; };
+		7FC279631807E59000E7B225 /* PSAMusicPlusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279601807E59000E7B225 /* PSAMusicPlusCell.xib */; };
+		7FC279641807E59000E7B225 /* PSAMusicPlusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279621807E59000E7B225 /* PSAMusicPlusCell.m */; };
+		7FC279681807E5B700E7B225 /* PSAVideoCoverItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279661807E5B700E7B225 /* PSAVideoCoverItemView.m */; };
+		7FC279691807E5B700E7B225 /* PSAVideoCoverItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279671807E5B700E7B225 /* PSAVideoCoverItemView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +116,24 @@
 		7FC2794618068F9900E7B225 /* PSAMusicDiskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicDiskView.m; sourceTree = "<group>"; };
 		7FC2794818068FD700E7B225 /* UIView+Subview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Subview.h"; sourceTree = "<group>"; };
 		7FC2794918068FD700E7B225 /* UIView+Subview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Subview.m"; sourceTree = "<group>"; };
+		7FC2794B1807E52F00E7B225 /* PSAVideoDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoDeviceViewController.h; sourceTree = "<group>"; };
+		7FC2794C1807E52F00E7B225 /* PSAVideoDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoDeviceViewController.m; sourceTree = "<group>"; };
+		7FC2794D1807E52F00E7B225 /* PSAVideoDeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoDeviceViewController.xib; sourceTree = "<group>"; };
+		7FC279501807E53B00E7B225 /* PSAVideoCoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoCoverViewController.h; sourceTree = "<group>"; };
+		7FC279511807E53B00E7B225 /* PSAVideoCoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoCoverViewController.m; sourceTree = "<group>"; };
+		7FC279521807E53B00E7B225 /* PSAVideoCoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoCoverViewController.xib; sourceTree = "<group>"; };
+		7FC279561807E57100E7B225 /* PSAAppListHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAAppListHeaderView.h; sourceTree = "<group>"; };
+		7FC279571807E57100E7B225 /* PSAAppListHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAAppListHeaderView.m; sourceTree = "<group>"; };
+		7FC279581807E57100E7B225 /* PSAAppListHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAAppListHeaderView.xib; sourceTree = "<group>"; };
+		7FC2795B1807E57F00E7B225 /* PSAMusicDeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicDeviceCell.h; sourceTree = "<group>"; };
+		7FC2795C1807E57F00E7B225 /* PSAMusicDeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicDeviceCell.m; sourceTree = "<group>"; };
+		7FC2795D1807E57F00E7B225 /* PSAMusicDeviceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicDeviceCell.xib; sourceTree = "<group>"; };
+		7FC279601807E59000E7B225 /* PSAMusicPlusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicPlusCell.xib; sourceTree = "<group>"; };
+		7FC279611807E59000E7B225 /* PSAMusicPlusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicPlusCell.h; sourceTree = "<group>"; };
+		7FC279621807E59000E7B225 /* PSAMusicPlusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicPlusCell.m; sourceTree = "<group>"; };
+		7FC279651807E5B700E7B225 /* PSAVideoCoverItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoCoverItemView.h; sourceTree = "<group>"; };
+		7FC279661807E5B700E7B225 /* PSAVideoCoverItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoCoverItemView.m; sourceTree = "<group>"; };
+		7FC279671807E5B700E7B225 /* PSAVideoCoverItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoCoverItemView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +297,12 @@
 				1C63E38518051DD400E0AAEC /* PSAVideoYoukuViewController.h */,
 				1C63E38618051DD400E0AAEC /* PSAVideoYoukuViewController.m */,
 				1C63E38718051DD400E0AAEC /* PSAVideoYoukuViewController.xib */,
+				7FC2794B1807E52F00E7B225 /* PSAVideoDeviceViewController.h */,
+				7FC2794C1807E52F00E7B225 /* PSAVideoDeviceViewController.m */,
+				7FC2794D1807E52F00E7B225 /* PSAVideoDeviceViewController.xib */,
+				7FC279501807E53B00E7B225 /* PSAVideoCoverViewController.h */,
+				7FC279511807E53B00E7B225 /* PSAVideoCoverViewController.m */,
+				7FC279521807E53B00E7B225 /* PSAVideoCoverViewController.xib */,
 			);
 			name = Video;
 			sourceTree = "<group>";
@@ -297,6 +333,18 @@
 			children = (
 				7FC2794518068F9900E7B225 /* PSAMusicDiskView.h */,
 				7FC2794618068F9900E7B225 /* PSAMusicDiskView.m */,
+				7FC279561807E57100E7B225 /* PSAAppListHeaderView.h */,
+				7FC279571807E57100E7B225 /* PSAAppListHeaderView.m */,
+				7FC279581807E57100E7B225 /* PSAAppListHeaderView.xib */,
+				7FC2795B1807E57F00E7B225 /* PSAMusicDeviceCell.h */,
+				7FC2795C1807E57F00E7B225 /* PSAMusicDeviceCell.m */,
+				7FC2795D1807E57F00E7B225 /* PSAMusicDeviceCell.xib */,
+				7FC279601807E59000E7B225 /* PSAMusicPlusCell.xib */,
+				7FC279611807E59000E7B225 /* PSAMusicPlusCell.h */,
+				7FC279621807E59000E7B225 /* PSAMusicPlusCell.m */,
+				7FC279651807E5B700E7B225 /* PSAVideoCoverItemView.h */,
+				7FC279661807E5B700E7B225 /* PSAVideoCoverItemView.m */,
+				7FC279671807E5B700E7B225 /* PSAVideoCoverItemView.xib */,
 			);
 			name = CustomView;
 			sourceTree = "<group>";
@@ -377,12 +425,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC2795F1807E57F00E7B225 /* PSAMusicDeviceCell.xib in Resources */,
 				1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */,
+				7FC279691807E5B700E7B225 /* PSAVideoCoverItemView.xib in Resources */,
+				7FC279541807E53B00E7B225 /* PSAVideoCoverViewController.xib in Resources */,
 				1C63E38918051DD400E0AAEC /* PSAVideoYoukuViewController.xib in Resources */,
 				1C63E3701803C7FD00E0AAEC /* PSAMainViewController.xib in Resources */,
 				1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */,
 				1C63E38418051C7D00E0AAEC /* PSAVideoDVDViewController.xib in Resources */,
 				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
+				7FC2795A1807E57100E7B225 /* PSAAppListHeaderView.xib in Resources */,
+				7FC2794F1807E52F00E7B225 /* PSAVideoDeviceViewController.xib in Resources */,
+				7FC279631807E59000E7B225 /* PSAMusicPlusCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,19 +458,25 @@
 				7FC2794A18068FD700E7B225 /* UIView+Subview.m in Sources */,
 				1C63E3931807D47700E0AAEC /* PSATune.m in Sources */,
 				7FC2794718068F9900E7B225 /* PSAMusicDiskView.m in Sources */,
+				7FC2794E1807E52F00E7B225 /* PSAVideoDeviceViewController.m in Sources */,
 				1C63E36F1803C7FD00E0AAEC /* PSAMainViewController.m in Sources */,
 				7FC2793C18068E6800E7B225 /* UIView+FadeInOut.m in Sources */,
+				7FC279591807E57100E7B225 /* PSAAppListHeaderView.m in Sources */,
 				1C63E37E1804E67700E0AAEC /* UILabel+Font.m in Sources */,
 				1C63E3411803C74600E0AAEC /* AppDelegate.m in Sources */,
 				1C63E3751804E55500E0AAEC /* PSAVideoPanelViewController.m in Sources */,
 				1C63E3941807D47700E0AAEC /* PSATunesList.m in Sources */,
+				7FC279531807E53B00E7B225 /* PSAVideoCoverViewController.m in Sources */,
 				1C63E3971807D4CE00E0AAEC /* NSArray+Data.m in Sources */,
 				1C63E38D1807D40F00E0AAEC /* PSAMusicPlayer.m in Sources */,
+				7FC2795E1807E57F00E7B225 /* PSAMusicDeviceCell.m in Sources */,
 				1C63E37D1804E67700E0AAEC /* UIView+Frame.m in Sources */,
 				1C63E33D1803C74600E0AAEC /* main.m in Sources */,
 				1C63E38318051C7D00E0AAEC /* PSAVideoDVDViewController.m in Sources */,
 				1C63E38818051DD400E0AAEC /* PSAVideoYoukuViewController.m in Sources */,
 				7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */,
+				7FC279681807E5B700E7B225 /* PSAVideoCoverItemView.m in Sources */,
+				7FC279641807E59000E7B225 /* PSAMusicPlusCell.m in Sources */,
 				7FC2794018068F4D00E7B225 /* StyledPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
