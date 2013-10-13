@@ -53,6 +53,23 @@
 		7FC279641807E59000E7B225 /* PSAMusicPlusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279621807E59000E7B225 /* PSAMusicPlusCell.m */; };
 		7FC279681807E5B700E7B225 /* PSAVideoCoverItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279661807E5B700E7B225 /* PSAVideoCoverItemView.m */; };
 		7FC279691807E5B700E7B225 /* PSAVideoCoverItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279671807E5B700E7B225 /* PSAVideoCoverItemView.xib */; };
+		7FC2799F180AE4B400E7B225 /* VideoListBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27990180AE4B400E7B225 /* VideoListBG.png */; };
+		7FC279A0180AE4B400E7B225 /* VideoSegmentBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27991180AE4B400E7B225 /* VideoSegmentBG.png */; };
+		7FC279A1180AE4B400E7B225 /* VideoEditSegmentBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27992180AE4B400E7B225 /* VideoEditSegmentBG.png */; };
+		7FC279A2180AE4B400E7B225 /* VideoPanelBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27993180AE4B400E7B225 /* VideoPanelBG.png */; };
+		7FC279A3180AE4B400E7B225 /* Video_backButtonBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27994180AE4B400E7B225 /* Video_backButtonBG.png */; };
+		7FC279A4180AE4B400E7B225 /* Video_DVD_disk_onPlayingBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27995180AE4B400E7B225 /* Video_DVD_disk_onPlayingBG.png */; };
+		7FC279A5180AE4B400E7B225 /* Video_DVD_disk.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27996180AE4B400E7B225 /* Video_DVD_disk.png */; };
+		7FC279A6180AE4B400E7B225 /* Video_quick_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27997180AE4B400E7B225 /* Video_quick_next.png */; };
+		7FC279A7180AE4B400E7B225 /* Video_quick_pre.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27998180AE4B400E7B225 /* Video_quick_pre.png */; };
+		7FC279A8180AE4B400E7B225 /* Video_plus_deviceList.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27999180AE4B400E7B225 /* Video_plus_deviceList.png */; };
+		7FC279A9180AE4B400E7B225 /* Video_YoukuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2799A180AE4B400E7B225 /* Video_YoukuIcon.png */; };
+		7FC279AA180AE4B400E7B225 /* Video_YoukuVideo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2799B180AE4B400E7B225 /* Video_YoukuVideo1.png */; };
+		7FC279AB180AE4B400E7B225 /* Video_YoukuVideo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2799C180AE4B400E7B225 /* Video_YoukuVideo2.png */; };
+		7FC279AC180AE4B400E7B225 /* Video_YoukuVideo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2799D180AE4B400E7B225 /* Video_YoukuVideo3.png */; };
+		7FC279AD180AE4B400E7B225 /* Video_YoukuVideo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2799E180AE4B400E7B225 /* Video_YoukuVideo4.png */; };
+		7FC279B0180AE4E700E7B225 /* Gaptain America.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279AE180AE4E700E7B225 /* Gaptain America.png */; };
+		7FC279B1180AE4E700E7B225 /* The Hunger Games.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279AF180AE4E700E7B225 /* The Hunger Games.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +160,23 @@
 		7FC279651807E5B700E7B225 /* PSAVideoCoverItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoCoverItemView.h; sourceTree = "<group>"; };
 		7FC279661807E5B700E7B225 /* PSAVideoCoverItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoCoverItemView.m; sourceTree = "<group>"; };
 		7FC279671807E5B700E7B225 /* PSAVideoCoverItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoCoverItemView.xib; sourceTree = "<group>"; };
+		7FC27990180AE4B400E7B225 /* VideoListBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VideoListBG.png; sourceTree = "<group>"; };
+		7FC27991180AE4B400E7B225 /* VideoSegmentBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VideoSegmentBG.png; sourceTree = "<group>"; };
+		7FC27992180AE4B400E7B225 /* VideoEditSegmentBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VideoEditSegmentBG.png; sourceTree = "<group>"; };
+		7FC27993180AE4B400E7B225 /* VideoPanelBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VideoPanelBG.png; sourceTree = "<group>"; };
+		7FC27994180AE4B400E7B225 /* Video_backButtonBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_backButtonBG.png; sourceTree = "<group>"; };
+		7FC27995180AE4B400E7B225 /* Video_DVD_disk_onPlayingBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_DVD_disk_onPlayingBG.png; sourceTree = "<group>"; };
+		7FC27996180AE4B400E7B225 /* Video_DVD_disk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_DVD_disk.png; sourceTree = "<group>"; };
+		7FC27997180AE4B400E7B225 /* Video_quick_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_quick_next.png; sourceTree = "<group>"; };
+		7FC27998180AE4B400E7B225 /* Video_quick_pre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_quick_pre.png; sourceTree = "<group>"; };
+		7FC27999180AE4B400E7B225 /* Video_plus_deviceList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_plus_deviceList.png; sourceTree = "<group>"; };
+		7FC2799A180AE4B400E7B225 /* Video_YoukuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_YoukuIcon.png; sourceTree = "<group>"; };
+		7FC2799B180AE4B400E7B225 /* Video_YoukuVideo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_YoukuVideo1.png; sourceTree = "<group>"; };
+		7FC2799C180AE4B400E7B225 /* Video_YoukuVideo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_YoukuVideo2.png; sourceTree = "<group>"; };
+		7FC2799D180AE4B400E7B225 /* Video_YoukuVideo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_YoukuVideo3.png; sourceTree = "<group>"; };
+		7FC2799E180AE4B400E7B225 /* Video_YoukuVideo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_YoukuVideo4.png; sourceTree = "<group>"; };
+		7FC279AE180AE4E700E7B225 /* Gaptain America.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gaptain America.png"; sourceTree = "<group>"; };
+		7FC279AF180AE4E700E7B225 /* The Hunger Games.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Hunger Games.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +236,7 @@
 		1C63E3361803C74600E0AAEC /* PSAMediaPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				7FC2798F180AE47000E7B225 /* Resources */,
 				1C63E3651803C7C000E0AAEC /* Class */,
 				1C63E33F1803C74600E0AAEC /* AppDelegate.h */,
 				1C63E3401803C74600E0AAEC /* AppDelegate.m */,
@@ -372,6 +407,30 @@
 			name = CustomView;
 			sourceTree = "<group>";
 		};
+		7FC2798F180AE47000E7B225 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FC27990180AE4B400E7B225 /* VideoListBG.png */,
+				7FC27991180AE4B400E7B225 /* VideoSegmentBG.png */,
+				7FC27992180AE4B400E7B225 /* VideoEditSegmentBG.png */,
+				7FC27993180AE4B400E7B225 /* VideoPanelBG.png */,
+				7FC27994180AE4B400E7B225 /* Video_backButtonBG.png */,
+				7FC27995180AE4B400E7B225 /* Video_DVD_disk_onPlayingBG.png */,
+				7FC27996180AE4B400E7B225 /* Video_DVD_disk.png */,
+				7FC27997180AE4B400E7B225 /* Video_quick_next.png */,
+				7FC27998180AE4B400E7B225 /* Video_quick_pre.png */,
+				7FC27999180AE4B400E7B225 /* Video_plus_deviceList.png */,
+				7FC2799A180AE4B400E7B225 /* Video_YoukuIcon.png */,
+				7FC2799B180AE4B400E7B225 /* Video_YoukuVideo1.png */,
+				7FC279AE180AE4E700E7B225 /* Gaptain America.png */,
+				7FC279AF180AE4E700E7B225 /* The Hunger Games.png */,
+				7FC2799C180AE4B400E7B225 /* Video_YoukuVideo2.png */,
+				7FC2799D180AE4B400E7B225 /* Video_YoukuVideo3.png */,
+				7FC2799E180AE4B400E7B225 /* Video_YoukuVideo4.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -448,19 +507,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC279AA180AE4B400E7B225 /* Video_YoukuVideo1.png in Resources */,
 				7FC2795F1807E57F00E7B225 /* PSAMusicDeviceCell.xib in Resources */,
+				7FC279A0180AE4B400E7B225 /* VideoSegmentBG.png in Resources */,
+				7FC279A9180AE4B400E7B225 /* Video_YoukuIcon.png in Resources */,
+				7FC279A1180AE4B400E7B225 /* VideoEditSegmentBG.png in Resources */,
+				7FC279A5180AE4B400E7B225 /* Video_DVD_disk.png in Resources */,
+				7FC279B1180AE4E700E7B225 /* The Hunger Games.png in Resources */,
+				7FC279AB180AE4B400E7B225 /* Video_YoukuVideo2.png in Resources */,
 				1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */,
 				7FC279691807E5B700E7B225 /* PSAVideoCoverItemView.xib in Resources */,
 				7FC279541807E53B00E7B225 /* PSAVideoCoverViewController.xib in Resources */,
+				7FC279A4180AE4B400E7B225 /* Video_DVD_disk_onPlayingBG.png in Resources */,
+				7FC2799F180AE4B400E7B225 /* VideoListBG.png in Resources */,
+				7FC279A8180AE4B400E7B225 /* Video_plus_deviceList.png in Resources */,
 				1C63E38918051DD400E0AAEC /* PSAVideoYoukuViewController.xib in Resources */,
+				7FC279AD180AE4B400E7B225 /* Video_YoukuVideo4.png in Resources */,
+				7FC279AC180AE4B400E7B225 /* Video_YoukuVideo3.png in Resources */,
 				1C63E3701803C7FD00E0AAEC /* PSAMainViewController.xib in Resources */,
+				7FC279A2180AE4B400E7B225 /* VideoPanelBG.png in Resources */,
 				1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */,
+				7FC279A7180AE4B400E7B225 /* Video_quick_pre.png in Resources */,
 				4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */,
 				1C63E38418051C7D00E0AAEC /* PSAVideoDVDViewController.xib in Resources */,
 				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
 				7FC2795A1807E57100E7B225 /* PSAAppListHeaderView.xib in Resources */,
 				7FC2794F1807E52F00E7B225 /* PSAVideoDeviceViewController.xib in Resources */,
+				7FC279A6180AE4B400E7B225 /* Video_quick_next.png in Resources */,
+				7FC279B0180AE4E700E7B225 /* Gaptain America.png in Resources */,
 				7FC279631807E59000E7B225 /* PSAMusicPlusCell.xib in Resources */,
+				7FC279A3180AE4B400E7B225 /* Video_backButtonBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
