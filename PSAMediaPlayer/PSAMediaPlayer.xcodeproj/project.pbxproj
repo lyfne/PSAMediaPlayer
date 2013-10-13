@@ -33,6 +33,7 @@
 		1C63E3931807D47700E0AAEC /* PSATune.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3901807D47700E0AAEC /* PSATune.m */; };
 		1C63E3941807D47700E0AAEC /* PSATunesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3921807D47700E0AAEC /* PSATunesList.m */; };
 		1C63E3971807D4CE00E0AAEC /* NSArray+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3961807D4CE00E0AAEC /* NSArray+Data.m */; };
+		4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */; };
 		7FC2793C18068E6800E7B225 /* UIView+FadeInOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2793B18068E6800E7B225 /* UIView+FadeInOut.m */; };
 		7FC2794018068F4D00E7B225 /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2793F18068F4D00E7B225 /* StyledPageControl.m */; };
 		7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2794218068F6200E7B225 /* DMPagingScrollView.m */; };
@@ -105,6 +106,9 @@
 		1C63E3921807D47700E0AAEC /* PSATunesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSATunesList.m; sourceTree = "<group>"; };
 		1C63E3951807D4CE00E0AAEC /* NSArray+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Data.h"; sourceTree = "<group>"; };
 		1C63E3961807D4CE00E0AAEC /* NSArray+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Data.m"; sourceTree = "<group>"; };
+		4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioConstantsConfig.h; sourceTree = "<group>"; };
+		4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPlayer.h; sourceTree = "<group>"; };
+		4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPlayer.m; sourceTree = "<group>"; };
 		7FC2793918068DEE00E7B225 /* PSAVideoConstantsConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAVideoConstantsConfig.h; sourceTree = "<group>"; };
 		7FC2793A18068E6800E7B225 /* UIView+FadeInOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FadeInOut.h"; sourceTree = "<group>"; };
 		7FC2793B18068E6800E7B225 /* UIView+FadeInOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FadeInOut.m"; sourceTree = "<group>"; };
@@ -247,6 +251,7 @@
 		1C63E3661803C7C500E0AAEC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4BBC715F180A67E300D3C5EB /* Radio */,
 				7FC2793818068BFB00E7B225 /* Music */,
 				7FC2793718068BE600E7B225 /* Video */,
 				1C63E36C1803C7FD00E0AAEC /* PSAMainViewController.h */,
@@ -282,6 +287,16 @@
 				1C63E3921807D47700E0AAEC /* PSATunesList.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		4BBC715F180A67E300D3C5EB /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */,
+				4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */,
+				4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */,
+			);
+			name = Radio;
 			sourceTree = "<group>";
 		};
 		7FC2793718068BE600E7B225 /* Video */ = {
@@ -474,6 +489,7 @@
 				1C63E33D1803C74600E0AAEC /* main.m in Sources */,
 				1C63E38318051C7D00E0AAEC /* PSAVideoDVDViewController.m in Sources */,
 				1C63E38818051DD400E0AAEC /* PSAVideoYoukuViewController.m in Sources */,
+				4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */,
 				7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */,
 				7FC279681807E5B700E7B225 /* PSAVideoCoverItemView.m in Sources */,
 				7FC279641807E59000E7B225 /* PSAMusicPlusCell.m in Sources */,
