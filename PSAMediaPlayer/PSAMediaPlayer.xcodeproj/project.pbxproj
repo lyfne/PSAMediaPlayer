@@ -70,6 +70,10 @@
 		7FC279AD180AE4B400E7B225 /* Video_YoukuVideo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2799E180AE4B400E7B225 /* Video_YoukuVideo4.png */; };
 		7FC279B0180AE4E700E7B225 /* Gaptain America.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279AE180AE4E700E7B225 /* Gaptain America.png */; };
 		7FC279B1180AE4E700E7B225 /* The Hunger Games.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279AF180AE4E700E7B225 /* The Hunger Games.png */; };
+		7FC279B5180B804F00E7B225 /* PSAVideoLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279B3180B804F00E7B225 /* PSAVideoLoginViewController.m */; };
+		7FC279B6180B804F00E7B225 /* PSAVideoLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279B4180B804F00E7B225 /* PSAVideoLoginViewController.xib */; };
+		7FC279B9180B807D00E7B225 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279B7180B807D00E7B225 /* easing.c */; };
+		7FC279BC180B808800E7B225 /* UIView+EasingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279BB180B808800E7B225 /* UIView+EasingFunctions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,6 +181,13 @@
 		7FC2799E180AE4B400E7B225 /* Video_YoukuVideo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video_YoukuVideo4.png; sourceTree = "<group>"; };
 		7FC279AE180AE4E700E7B225 /* Gaptain America.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gaptain America.png"; sourceTree = "<group>"; };
 		7FC279AF180AE4E700E7B225 /* The Hunger Games.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Hunger Games.png"; sourceTree = "<group>"; };
+		7FC279B2180B804F00E7B225 /* PSAVideoLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoLoginViewController.h; sourceTree = "<group>"; };
+		7FC279B3180B804F00E7B225 /* PSAVideoLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoLoginViewController.m; sourceTree = "<group>"; };
+		7FC279B4180B804F00E7B225 /* PSAVideoLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoLoginViewController.xib; sourceTree = "<group>"; };
+		7FC279B7180B807D00E7B225 /* easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
+		7FC279B8180B807D00E7B225 /* easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
+		7FC279BA180B808800E7B225 /* UIView+EasingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasingFunctions.h"; sourceTree = "<group>"; };
+		7FC279BB180B808800E7B225 /* UIView+EasingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasingFunctions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +315,10 @@
 		1C63E3771804E65000E0AAEC /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7FC279BA180B808800E7B225 /* UIView+EasingFunctions.h */,
+				7FC279BB180B808800E7B225 /* UIView+EasingFunctions.m */,
+				7FC279B7180B807D00E7B225 /* easing.c */,
+				7FC279B8180B807D00E7B225 /* easing.h */,
 				1C63E3951807D4CE00E0AAEC /* NSArray+Data.h */,
 				1C63E3961807D4CE00E0AAEC /* NSArray+Data.m */,
 				7FC2794818068FD700E7B225 /* UIView+Subview.h */,
@@ -361,6 +376,9 @@
 				7FC279501807E53B00E7B225 /* PSAVideoCoverViewController.h */,
 				7FC279511807E53B00E7B225 /* PSAVideoCoverViewController.m */,
 				7FC279521807E53B00E7B225 /* PSAVideoCoverViewController.xib */,
+				7FC279B2180B804F00E7B225 /* PSAVideoLoginViewController.h */,
+				7FC279B3180B804F00E7B225 /* PSAVideoLoginViewController.m */,
+				7FC279B4180B804F00E7B225 /* PSAVideoLoginViewController.xib */,
 			);
 			name = Video;
 			sourceTree = "<group>";
@@ -515,6 +533,7 @@
 				7FC279A5180AE4B400E7B225 /* Video_DVD_disk.png in Resources */,
 				7FC279B1180AE4E700E7B225 /* The Hunger Games.png in Resources */,
 				7FC279AB180AE4B400E7B225 /* Video_YoukuVideo2.png in Resources */,
+				7FC279B6180B804F00E7B225 /* PSAVideoLoginViewController.xib in Resources */,
 				1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */,
 				7FC279691807E5B700E7B225 /* PSAVideoCoverItemView.xib in Resources */,
 				7FC279541807E53B00E7B225 /* PSAVideoCoverViewController.xib in Resources */,
@@ -558,6 +577,7 @@
 				7FC2794A18068FD700E7B225 /* UIView+Subview.m in Sources */,
 				1C63E3931807D47700E0AAEC /* PSATune.m in Sources */,
 				7FC2794718068F9900E7B225 /* PSAMusicDiskView.m in Sources */,
+				7FC279BC180B808800E7B225 /* UIView+EasingFunctions.m in Sources */,
 				7FC2794E1807E52F00E7B225 /* PSAVideoDeviceViewController.m in Sources */,
 				1C63E36F1803C7FD00E0AAEC /* PSAMainViewController.m in Sources */,
 				7FC2793C18068E6800E7B225 /* UIView+FadeInOut.m in Sources */,
@@ -576,8 +596,10 @@
 				1C63E38818051DD400E0AAEC /* PSAVideoYoukuViewController.m in Sources */,
 				4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */,
 				7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */,
+				7FC279B5180B804F00E7B225 /* PSAVideoLoginViewController.m in Sources */,
 				7FC279681807E5B700E7B225 /* PSAVideoCoverItemView.m in Sources */,
 				7FC279641807E59000E7B225 /* PSAMusicPlusCell.m in Sources */,
+				7FC279B9180B807D00E7B225 /* easing.c in Sources */,
 				7FC2794018068F4D00E7B225 /* StyledPageControl.m in Sources */,
 				4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */,
 			);

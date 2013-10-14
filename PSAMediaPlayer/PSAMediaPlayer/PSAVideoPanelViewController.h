@@ -12,7 +12,7 @@
 #import "PSAVideoDVDViewController.h"
 //#import "PSAVideoNowPlayingViewController.h"
 #import "PSAVideoYoukuViewController.h"
-//#import "PSAVideoLoginViewController.h"
+#import "PSAVideoLoginViewController.h"
 
 @interface PSAVideoPanelViewController : UIViewController</*VideoNowPlayingDelegate,*/VideoYoukuDelegate>{
     UIColor *selectedColor;
@@ -30,7 +30,7 @@
 @property (strong ,nonatomic) PSAVideoDeviceViewController *videoDeviceViewController;
 @property (strong ,nonatomic) PSAVideoDVDViewController *videoDVDViewController;
 @property (strong, nonatomic) PSAVideoYoukuViewController *videoYoukuViewController;
-//@property (strong, nonatomic) PSAVideoLoginViewController *videoLoginViewController;
+@property (strong, nonatomic) PSAVideoLoginViewController *videoLoginViewController;
 
 - (IBAction)switchVideoSourceAction:(id)sender;
 

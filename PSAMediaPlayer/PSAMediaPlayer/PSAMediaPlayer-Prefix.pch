@@ -16,4 +16,6 @@
     #import "PSAConstantConfig.h"
     #import "UIView+Frame.h"
     #import "UILabel+Font.h"
+    #import "easing.h"
+    #import "UIView+EasingFunctions.h"
 #endif

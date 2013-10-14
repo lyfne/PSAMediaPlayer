@@ -74,17 +74,17 @@ typedef enum {
 {
     self.videoDVDViewController = [PSAVideoDVDViewController createVideoDVDViewController];
     [self.videoDVDViewController.view setY:46];
-    //[self.videoDVDViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    [self.videoDVDViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
     [self.videoDVDViewController setTimeColor:selectedColor];
     
     self.videoDeviceViewController = [PSAVideoDeviceViewController createVideoDeviceViewController];
     [self.videoDeviceViewController.view setY:46];
-//    [self.videoDeviceViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    [self.videoDeviceViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
     
     self.videoYoukuViewController = [PSAVideoYoukuViewController createVideoYoukuViewController];
     [self.videoYoukuViewController.view setY:46];
     self.videoYoukuViewController.delegate = self;
-//    [self.videoYoukuViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    [self.videoYoukuViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
     
     shadowView = [[UIView alloc] initWithFrame:CGRectMake(-54, 0, 1024, 614)];
     shadowView.backgroundColor = [UIColor blackColor];
@@ -259,9 +259,9 @@ typedef enum {
 
 - (void)addLoginView
 {
-//    self.videoLoginViewController = [PSAVideoLoginViewController createVideoLoginViewController];
-//    [self.videoLoginViewController.view setX:0 Y:0];
-//    [self.view addSubview:self.videoLoginViewController.view];
+    self.videoLoginViewController = [PSAVideoLoginViewController createVideoLoginViewController];
+    [self.videoLoginViewController.view setX:0 Y:0];
+    [self.view addSubview:self.videoLoginViewController.view];
 }
 
 @end
