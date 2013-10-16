@@ -33,6 +33,10 @@
 		1C63E3931807D47700E0AAEC /* PSATune.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3901807D47700E0AAEC /* PSATune.m */; };
 		1C63E3941807D47700E0AAEC /* PSATunesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3921807D47700E0AAEC /* PSATunesList.m */; };
 		1C63E3971807D4CE00E0AAEC /* NSArray+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3961807D4CE00E0AAEC /* NSArray+Data.m */; };
+		1C63E39B180E442500E0AAEC /* PSAMusicMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E399180E442500E0AAEC /* PSAMusicMainViewController.m */; };
+		1C63E39C180E442500E0AAEC /* PSAMusicMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E39A180E442500E0AAEC /* PSAMusicMainViewController.xib */; };
+		1C63E3A0180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E39E180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m */; };
+		1C63E3A1180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E39F180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib */; };
 		4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */; };
 		4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */; };
 		4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */; };
@@ -129,6 +133,12 @@
 		1C63E3921807D47700E0AAEC /* PSATunesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSATunesList.m; sourceTree = "<group>"; };
 		1C63E3951807D4CE00E0AAEC /* NSArray+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Data.h"; sourceTree = "<group>"; };
 		1C63E3961807D4CE00E0AAEC /* NSArray+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Data.m"; sourceTree = "<group>"; };
+		1C63E398180E442500E0AAEC /* PSAMusicMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicMainViewController.h; sourceTree = "<group>"; };
+		1C63E399180E442500E0AAEC /* PSAMusicMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicMainViewController.m; sourceTree = "<group>"; };
+		1C63E39A180E442500E0AAEC /* PSAMusicMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicMainViewController.xib; sourceTree = "<group>"; };
+		1C63E39D180E44F700E0AAEC /* PSAMusicNowPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicNowPlayingViewController.h; sourceTree = "<group>"; };
+		1C63E39E180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicNowPlayingViewController.m; sourceTree = "<group>"; };
+		1C63E39F180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicNowPlayingViewController.xib; sourceTree = "<group>"; };
 		4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioConstantsConfig.h; sourceTree = "<group>"; };
 		4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPlayer.h; sourceTree = "<group>"; };
 		4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPlayer.m; sourceTree = "<group>"; };
@@ -389,6 +399,12 @@
 				1C63E38A1807D40F00E0AAEC /* PSAMusicPlayer.h */,
 				1C63E38B1807D40F00E0AAEC /* PSAMusicPlayer.m */,
 				1C63E38C1807D40F00E0AAEC /* PSAMusicConstantsConfig.h */,
+				1C63E398180E442500E0AAEC /* PSAMusicMainViewController.h */,
+				1C63E399180E442500E0AAEC /* PSAMusicMainViewController.m */,
+				1C63E39A180E442500E0AAEC /* PSAMusicMainViewController.xib */,
+				1C63E39D180E44F700E0AAEC /* PSAMusicNowPlayingViewController.h */,
+				1C63E39E180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m */,
+				1C63E39F180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib */,
 			);
 			name = Music;
 			sourceTree = "<group>";
@@ -529,6 +545,7 @@
 				7FC2795F1807E57F00E7B225 /* PSAMusicDeviceCell.xib in Resources */,
 				7FC279A0180AE4B400E7B225 /* VideoSegmentBG.png in Resources */,
 				7FC279A9180AE4B400E7B225 /* Video_YoukuIcon.png in Resources */,
+				1C63E3A1180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib in Resources */,
 				7FC279A1180AE4B400E7B225 /* VideoEditSegmentBG.png in Resources */,
 				7FC279A5180AE4B400E7B225 /* Video_DVD_disk.png in Resources */,
 				7FC279B1180AE4E700E7B225 /* The Hunger Games.png in Resources */,
@@ -549,6 +566,7 @@
 				7FC279A7180AE4B400E7B225 /* Video_quick_pre.png in Resources */,
 				4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */,
 				1C63E38418051C7D00E0AAEC /* PSAVideoDVDViewController.xib in Resources */,
+				1C63E39C180E442500E0AAEC /* PSAMusicMainViewController.xib in Resources */,
 				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
 				7FC2795A1807E57100E7B225 /* PSAAppListHeaderView.xib in Resources */,
 				7FC2794F1807E52F00E7B225 /* PSAVideoDeviceViewController.xib in Resources */,
@@ -575,6 +593,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FC2794A18068FD700E7B225 /* UIView+Subview.m in Sources */,
+				1C63E39B180E442500E0AAEC /* PSAMusicMainViewController.m in Sources */,
 				1C63E3931807D47700E0AAEC /* PSATune.m in Sources */,
 				7FC2794718068F9900E7B225 /* PSAMusicDiskView.m in Sources */,
 				7FC279BC180B808800E7B225 /* UIView+EasingFunctions.m in Sources */,
@@ -596,6 +615,7 @@
 				1C63E38818051DD400E0AAEC /* PSAVideoYoukuViewController.m in Sources */,
 				4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */,
 				7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */,
+				1C63E3A0180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m in Sources */,
 				7FC279B5180B804F00E7B225 /* PSAVideoLoginViewController.m in Sources */,
 				7FC279681807E5B700E7B225 /* PSAVideoCoverItemView.m in Sources */,
 				7FC279641807E59000E7B225 /* PSAMusicPlusCell.m in Sources */,
