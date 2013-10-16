@@ -37,6 +37,8 @@
 		1C63E39C180E442500E0AAEC /* PSAMusicMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E39A180E442500E0AAEC /* PSAMusicMainViewController.xib */; };
 		1C63E3A0180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E39E180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m */; };
 		1C63E3A1180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E39F180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib */; };
+		1C63E3A5180E69A400E0AAEC /* PSARootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3A3180E69A400E0AAEC /* PSARootViewController.m */; };
+		1C63E3A6180E69A400E0AAEC /* PSARootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3A4180E69A400E0AAEC /* PSARootViewController.xib */; };
 		4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */; };
 		4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */; };
 		4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */; };
@@ -139,6 +141,9 @@
 		1C63E39D180E44F700E0AAEC /* PSAMusicNowPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicNowPlayingViewController.h; sourceTree = "<group>"; };
 		1C63E39E180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicNowPlayingViewController.m; sourceTree = "<group>"; };
 		1C63E39F180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicNowPlayingViewController.xib; sourceTree = "<group>"; };
+		1C63E3A2180E69A400E0AAEC /* PSARootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARootViewController.h; sourceTree = "<group>"; };
+		1C63E3A3180E69A400E0AAEC /* PSARootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARootViewController.m; sourceTree = "<group>"; };
+		1C63E3A4180E69A400E0AAEC /* PSARootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSARootViewController.xib; sourceTree = "<group>"; };
 		4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioConstantsConfig.h; sourceTree = "<group>"; };
 		4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPlayer.h; sourceTree = "<group>"; };
 		4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPlayer.m; sourceTree = "<group>"; };
@@ -318,6 +323,9 @@
 				1C63E36C1803C7FD00E0AAEC /* PSAMainViewController.h */,
 				1C63E36D1803C7FD00E0AAEC /* PSAMainViewController.m */,
 				1C63E36E1803C7FD00E0AAEC /* PSAMainViewController.xib */,
+				1C63E3A2180E69A400E0AAEC /* PSARootViewController.h */,
+				1C63E3A3180E69A400E0AAEC /* PSARootViewController.m */,
+				1C63E3A4180E69A400E0AAEC /* PSARootViewController.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -550,6 +558,7 @@
 				7FC279A5180AE4B400E7B225 /* Video_DVD_disk.png in Resources */,
 				7FC279B1180AE4E700E7B225 /* The Hunger Games.png in Resources */,
 				7FC279AB180AE4B400E7B225 /* Video_YoukuVideo2.png in Resources */,
+				1C63E3A6180E69A400E0AAEC /* PSARootViewController.xib in Resources */,
 				7FC279B6180B804F00E7B225 /* PSAVideoLoginViewController.xib in Resources */,
 				1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */,
 				7FC279691807E5B700E7B225 /* PSAVideoCoverItemView.xib in Resources */,
@@ -614,6 +623,7 @@
 				1C63E38318051C7D00E0AAEC /* PSAVideoDVDViewController.m in Sources */,
 				1C63E38818051DD400E0AAEC /* PSAVideoYoukuViewController.m in Sources */,
 				4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */,
+				1C63E3A5180E69A400E0AAEC /* PSARootViewController.m in Sources */,
 				7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */,
 				1C63E3A0180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m in Sources */,
 				7FC279B5180B804F00E7B225 /* PSAVideoLoginViewController.m in Sources */,

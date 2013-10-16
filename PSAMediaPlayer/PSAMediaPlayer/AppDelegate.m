@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PSARootViewController.h"
 
 @implementation AppDelegate
 
@@ -14,7 +15,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor clearColor];
-    self.window.rootViewController = [[PSAMainViewController alloc] initWithNibName:@"PSAMainViewController" bundle:nil];
+    self.window.rootViewController = [[PSARootViewController alloc] initWithNibName:@"PSARootViewController" bundle:nil];
     [self.window makeKeyAndVisible];
     return YES;
 }

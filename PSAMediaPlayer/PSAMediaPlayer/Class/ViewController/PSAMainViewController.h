@@ -8,9 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "PSAVideoPanelViewController.h"
+#import "PSAMusicMainViewController.h"
+#import "PSARadioPanelViewController.h"
 
 @interface PSAMainViewController : UIViewController
 
 @property (strong, nonatomic) PSAVideoPanelViewController *videoPanelVC;
+@property (strong, nonatomic) PSAMusicMainViewController *musicMainVC;
+@property (strong, nonatomic) PSARadioPanelViewController *radioPanelVC;
+
+- (IBAction)swtichMainViewAction:(id)sender;
++ (PSAMainViewController *)createMainViewController;
 
 @end
