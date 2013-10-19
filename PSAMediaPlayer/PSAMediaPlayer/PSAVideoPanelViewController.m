@@ -47,6 +47,17 @@ typedef enum {
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(switchVideo:) name:kSwitchVideoNotifySign object:nil];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kSwitchVideoNotifySign object:nil];
+    [self.videoNowPlayingViewController stopVideo];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -221,13 +232,12 @@ typedef enum {
 
 - (void)addVideoView:(id)object
 {
-//    self.videoNowPlayingViewController = [PSAVideoNowPlayingViewController createVideoNowPlayingViewController];
-//    [self.videoNowPlayingViewController.view setX:0 Y:0];
-//    self.videoNowPlayingViewController.delegate = self;
-//    [self.view setWidth:1024];
-//    [self.view setX:0];
-//    [self.view addSubview:self.videoNowPlayingViewController.view];
-//    [self.videoNowPlayingViewController initPlayerController:(NSString *)object];
+    self.videoNowPlayingViewController = [PSAVideoNowPlayingViewController createVideoNowPlayingViewController];
+    [self.videoNowPlayingViewController.view setX:0 Y:0];
+    self.videoNowPlayingViewController.delegate = self;
+    [self.view setWidth:1024];
+    [self.view addSubview:self.videoNowPlayingViewController.view];
+    [self.videoNowPlayingViewController initPlayerController:(NSString *)object];
 }
 
 - (void)setSelectedButton:(UIButton *)button
@@ -243,11 +253,10 @@ typedef enum {
 
 - (void)resetToNormalSize
 {
-//    [self.videoNowPlayingViewController.view removeFromSuperview];
-//    [self.view setX:54];
-//    [self.view setWidth:916];
-//    [shadowView fadeOut:0.7f];
-//    [self performSelector:@selector(backToNormal) withObject:nil afterDelay:0.5f];
+    [self.videoNowPlayingViewController.view removeFromSuperview];
+    [self.view setWidth:916];
+    [shadowView fadeOut:0.7f];
+    [self performSelector:@selector(backToNormal) withObject:nil afterDelay:0.5f];
 }
 
 - (void)backToNormal

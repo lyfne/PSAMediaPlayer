@@ -7,10 +7,9 @@
 //
 
 #import "PSAVideoCoverItemView.h"
+#import "PSAVideoConstantsConfig.h"
 
 #define kPSAVideoCoverItemViewNibName @"PSAVideoCoverItemView"
-#define kSwitchVideoNotifySign @"SWITCHVIDEO"
-#define kVideoUserInfo @"VideoUserInfo"
 
 @implementation PSAVideoCoverItemView
 

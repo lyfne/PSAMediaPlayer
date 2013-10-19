@@ -80,6 +80,11 @@
 		7FC279B6180B804F00E7B225 /* PSAVideoLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279B4180B804F00E7B225 /* PSAVideoLoginViewController.xib */; };
 		7FC279B9180B807D00E7B225 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279B7180B807D00E7B225 /* easing.c */; };
 		7FC279BC180B808800E7B225 /* UIView+EasingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279BB180B808800E7B225 /* UIView+EasingFunctions.m */; };
+		7FC279C3180FC84900E7B225 /* PSAVideoNowPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279BE180FC84900E7B225 /* PSAVideoNowPlayingViewController.m */; };
+		7FC279C4180FC84900E7B225 /* PSAVideoNowPlayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279BF180FC84900E7B225 /* PSAVideoNowPlayingViewController.xib */; };
+		7FC279C5180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279C1180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.m */; };
+		7FC279C6180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279C2180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib */; };
+		7FC279C9180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279C8180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,6 +208,14 @@
 		7FC279B8180B807D00E7B225 /* easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
 		7FC279BA180B808800E7B225 /* UIView+EasingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasingFunctions.h"; sourceTree = "<group>"; };
 		7FC279BB180B808800E7B225 /* UIView+EasingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasingFunctions.m"; sourceTree = "<group>"; };
+		7FC279BD180FC84900E7B225 /* PSAVideoNowPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoNowPlayingViewController.h; sourceTree = "<group>"; };
+		7FC279BE180FC84900E7B225 /* PSAVideoNowPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoNowPlayingViewController.m; sourceTree = "<group>"; };
+		7FC279BF180FC84900E7B225 /* PSAVideoNowPlayingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoNowPlayingViewController.xib; sourceTree = "<group>"; };
+		7FC279C0180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoNowPlayingSegmentViewController.h; sourceTree = "<group>"; };
+		7FC279C1180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoNowPlayingSegmentViewController.m; sourceTree = "<group>"; };
+		7FC279C2180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoNowPlayingSegmentViewController.xib; sourceTree = "<group>"; };
+		7FC279C7180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicNowPlayingSlider.h; sourceTree = "<group>"; };
+		7FC279C8180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicNowPlayingSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -397,6 +410,12 @@
 				7FC279B2180B804F00E7B225 /* PSAVideoLoginViewController.h */,
 				7FC279B3180B804F00E7B225 /* PSAVideoLoginViewController.m */,
 				7FC279B4180B804F00E7B225 /* PSAVideoLoginViewController.xib */,
+				7FC279BD180FC84900E7B225 /* PSAVideoNowPlayingViewController.h */,
+				7FC279BE180FC84900E7B225 /* PSAVideoNowPlayingViewController.m */,
+				7FC279BF180FC84900E7B225 /* PSAVideoNowPlayingViewController.xib */,
+				7FC279C0180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.h */,
+				7FC279C1180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.m */,
+				7FC279C2180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib */,
 			);
 			name = Video;
 			sourceTree = "<group>";
@@ -431,6 +450,8 @@
 		7FC2794418068F8D00E7B225 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				7FC279C7180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.h */,
+				7FC279C8180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m */,
 				7FC2794518068F9900E7B225 /* PSAMusicDiskView.h */,
 				7FC2794618068F9900E7B225 /* PSAMusicDiskView.m */,
 				7FC279561807E57100E7B225 /* PSAAppListHeaderView.h */,
@@ -550,6 +571,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FC279AA180AE4B400E7B225 /* Video_YoukuVideo1.png in Resources */,
+				7FC279C6180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib in Resources */,
 				7FC2795F1807E57F00E7B225 /* PSAMusicDeviceCell.xib in Resources */,
 				7FC279A0180AE4B400E7B225 /* VideoSegmentBG.png in Resources */,
 				7FC279A9180AE4B400E7B225 /* Video_YoukuIcon.png in Resources */,
@@ -570,6 +592,7 @@
 				7FC279AD180AE4B400E7B225 /* Video_YoukuVideo4.png in Resources */,
 				7FC279AC180AE4B400E7B225 /* Video_YoukuVideo3.png in Resources */,
 				1C63E3701803C7FD00E0AAEC /* PSAMainViewController.xib in Resources */,
+				7FC279C4180FC84900E7B225 /* PSAVideoNowPlayingViewController.xib in Resources */,
 				7FC279A2180AE4B400E7B225 /* VideoPanelBG.png in Resources */,
 				1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */,
 				7FC279A7180AE4B400E7B225 /* Video_quick_pre.png in Resources */,
@@ -606,6 +629,7 @@
 				1C63E3931807D47700E0AAEC /* PSATune.m in Sources */,
 				7FC2794718068F9900E7B225 /* PSAMusicDiskView.m in Sources */,
 				7FC279BC180B808800E7B225 /* UIView+EasingFunctions.m in Sources */,
+				7FC279C9180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m in Sources */,
 				7FC2794E1807E52F00E7B225 /* PSAVideoDeviceViewController.m in Sources */,
 				1C63E36F1803C7FD00E0AAEC /* PSAMainViewController.m in Sources */,
 				7FC2793C18068E6800E7B225 /* UIView+FadeInOut.m in Sources */,
@@ -626,8 +650,10 @@
 				1C63E3A5180E69A400E0AAEC /* PSARootViewController.m in Sources */,
 				7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */,
 				1C63E3A0180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m in Sources */,
+				7FC279C5180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.m in Sources */,
 				7FC279B5180B804F00E7B225 /* PSAVideoLoginViewController.m in Sources */,
 				7FC279681807E5B700E7B225 /* PSAVideoCoverItemView.m in Sources */,
+				7FC279C3180FC84900E7B225 /* PSAVideoNowPlayingViewController.m in Sources */,
 				7FC279641807E59000E7B225 /* PSAMusicPlusCell.m in Sources */,
 				7FC279B9180B807D00E7B225 /* easing.c in Sources */,
 				7FC2794018068F4D00E7B225 /* StyledPageControl.m in Sources */,

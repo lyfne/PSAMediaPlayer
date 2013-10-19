@@ -10,11 +10,11 @@
 #import <AVFoundation/AVFoundation.h>
 #import "PSAVideoDeviceViewController.h"
 #import "PSAVideoDVDViewController.h"
-//#import "PSAVideoNowPlayingViewController.h"
+#import "PSAVideoNowPlayingViewController.h"
 #import "PSAVideoYoukuViewController.h"
 #import "PSAVideoLoginViewController.h"
 
-@interface PSAVideoPanelViewController : UIViewController</*VideoNowPlayingDelegate,*/VideoYoukuDelegate>{
+@interface PSAVideoPanelViewController : UIViewController<VideoNowPlayingDelegate,VideoYoukuDelegate>{
     UIColor *selectedColor;
     UIImage *screenShot;
     UIView *shadowView;
@@ -26,7 +26,7 @@
 
 @property (weak, nonatomic) IBOutlet UIView *segmentView;
 
-//@property (strong ,nonatomic) PSAVideoNowPlayingViewController *videoNowPlayingViewController;
+@property (strong ,nonatomic) PSAVideoNowPlayingViewController *videoNowPlayingViewController;
 @property (strong ,nonatomic) PSAVideoDeviceViewController *videoDeviceViewController;
 @property (strong ,nonatomic) PSAVideoDVDViewController *videoDVDViewController;
 @property (strong, nonatomic) PSAVideoYoukuViewController *videoYoukuViewController;
