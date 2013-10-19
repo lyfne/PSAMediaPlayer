@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Life in Technicolor</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Cemeteries of London</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Lost!</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>42</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Lovers in Japan _</string>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Yes</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Viva la Vida</string>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Violet Hill</string>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Strawberry Swing</string>
+	</dict>
+	<key>9</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Death and All His Friends</string>
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Lost_</string>
+	</dict>
+	<key>11</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Lovers in Japan</string>
+	</dict>
+	<key>12</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Viva La Vida or Death and All His Friends</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>The Escapist</string>
+	</dict>
+	<key>20</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Dreams and Disasters</string>
+	</dict>
+	<key>21</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Shooting Star</string>
+	</dict>
+	<key>23</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Dementia</string>
+	</dict>
+	<key>24</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>I&apos;m Coming After You</string>
+	</dict>
+	<key>25</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Speed of Love</string>
+	</dict>
+	<key>26</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Good Time</string>
+	</dict>
+	<key>27</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Embers</string>
+	</dict>
+	<key>28</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Silhouette</string>
+	</dict>
+	<key>29</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Metropolis</string>
+	</dict>
+	<key>30</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Take It All Away</string>
+	</dict>
+	<key>31</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Bombshell Blonde</string>
+	</dict>
+	<key>22</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The Midsummer Station</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Gold</string>
+	</dict>
+	<key>40</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Mylo Xyloto</string>
+	</dict>
+	<key>41</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Hurts Like Heaven</string>
+	</dict>
+	<key>42</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Paradise</string>
+	</dict>
+	<key>43</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Charlie Brown</string>
+	</dict>
+	<key>44</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Us Against the World</string>
+	</dict>
+	<key>45</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>M.M.I.X.</string>
+	</dict>
+	<key>46</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Every Teardrop Is a Waterfall</string>
+	</dict>
+	<key>47</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Major Minus</string>
+	</dict>
+	<key>48</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>U.F.O.</string>
+	</dict>
+	<key>49</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Princess of China</string>
+	</dict>
+	<key>50</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Up in Flames</string>
+	</dict>
+	<key>51</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>A Hopeful Transmission</string>
+	</dict>
+	<key>52</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Don&apos;t Let It Break Your Heart</string>
+	</dict>
+	<key>53</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Mylo Xyloto</string>
+		<key>SingerName</key>
+		<string>Coldplay</string>
+		<key>SongName</key>
+		<string>Up with the Birds</string>
+	</dict>
+	<key>60</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The 2nd Law</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Supremacy</string>
+	</dict>
+	<key>61</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The 2nd Law</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Madness</string>
+	</dict>
+	<key>62</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The 2nd Law</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Panic Station</string>
+	</dict>
+	<key>63</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The 2nd Law</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Prelude</string>
+	</dict>
+	<key>64</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The 2nd Law</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Survival</string>
+	</dict>
+	<key>65</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The 2nd Law</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Follow Me</string>
+	</dict>
+	<key>66</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The 2nd Law</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Animals</string>
+	</dict>
+	<key>67</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>The 2nd Law</string>
+		<key>SingerName</key>
+		<string>Muse</string>
+		<key>SongName</key>
+		<string>Explorers</string>
+	</dict>
+	<key>68</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Overexposed</string>
+		<key>SingerName</key>
+		<string>Maroon 5</string>
+		<key>SongName</key>
+		<string>One More Night</string>
+	</dict>
+	<key>69</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Overexposed</string>
+		<key>SingerName</key>
+		<string>Maroon 5</string>
+		<key>SongName</key>
+		<string>Payphone</string>
+	</dict>
+	<key>70</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Overexposed</string>
+		<key>SingerName</key>
+		<string>Maroon 5</string>
+		<key>SongName</key>
+		<string>Daylight</string>
+	</dict>
+	<key>71</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Overexposed</string>
+		<key>SingerName</key>
+		<string>Maroon 5</string>
+		<key>SongName</key>
+		<string>Lucky Strike</string>
+	</dict>
+	<key>72</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Overexposed</string>
+		<key>SingerName</key>
+		<string>Maroon 5</string>
+		<key>SongName</key>
+		<string>The Man Who Never Lied</string>
+	</dict>
+	<key>73</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Overexposed</string>
+		<key>SingerName</key>
+		<string>Maroon 5</string>
+		<key>SongName</key>
+		<string>Love Somebody</string>
+	</dict>
+	<key>74</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Overexposed</string>
+		<key>SingerName</key>
+		<string>Maroon 5</string>
+		<key>SongName</key>
+		<string>Ladykiller</string>
+	</dict>
+	<key>75</key>
+	<dict>
+		<key>AlbumName</key>
+		<string>Overexposed</string>
+		<key>SingerName</key>
+		<string>Maroon 5</string>
+		<key>SongName</key>
+		<string>Fortune Teller</string>
+	</dict>
+</dict>
+</plist>

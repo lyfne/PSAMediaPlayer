@@ -39,6 +39,59 @@
 		1C63E3A1180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E39F180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib */; };
 		1C63E3A5180E69A400E0AAEC /* PSARootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E3A3180E69A400E0AAEC /* PSARootViewController.m */; };
 		1C63E3A6180E69A400E0AAEC /* PSARootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3A4180E69A400E0AAEC /* PSARootViewController.xib */; };
+		1C63E3DE1812B98400E0AAEC /* List_musicPanelHeaderBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3A91812B98400E0AAEC /* List_musicPanelHeaderBG.png */; };
+		1C63E3DF1812B98400E0AAEC /* AlbumBlueColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3AA1812B98400E0AAEC /* AlbumBlueColor.png */; };
+		1C63E3E01812B98400E0AAEC /* MusicLoginBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3AB1812B98400E0AAEC /* MusicLoginBG.png */; };
+		1C63E3E11812B98400E0AAEC /* MusicLoginButtonBG_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3AC1812B98400E0AAEC /* MusicLoginButtonBG_selected.png */; };
+		1C63E3E21812B98400E0AAEC /* List_seperator.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3AD1812B98400E0AAEC /* List_seperator.png */; };
+		1C63E3E31812B98400E0AAEC /* List_PanelBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3AE1812B98400E0AAEC /* List_PanelBG.png */; };
+		1C63E3E41812B98400E0AAEC /* List_like.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3AF1812B98400E0AAEC /* List_like.png */; };
+		1C63E3E51812B98400E0AAEC /* List_tableView_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3B01812B98400E0AAEC /* List_tableView_bg.png */; };
+		1C63E3E61812B98400E0AAEC /* List_minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3B11812B98400E0AAEC /* List_minus.png */; };
+		1C63E3E71812B98400E0AAEC /* Music_DVD_disk_onPlayingBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3B21812B98400E0AAEC /* Music_DVD_disk_onPlayingBG.png */; };
+		1C63E3E81812B98400E0AAEC /* Music_DVD_disk.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3B31812B98400E0AAEC /* Music_DVD_disk.png */; };
+		1C63E3E91812B98400E0AAEC /* Device_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3B41812B98400E0AAEC /* Device_check.png */; };
+		1C63E3EA1812B98400E0AAEC /* Device_coverlist_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3B51812B98400E0AAEC /* Device_coverlist_selected.png */; };
+		1C63E3EB1812B98400E0AAEC /* Device_coverlist_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3B61812B98400E0AAEC /* Device_coverlist_bg.png */; };
+		1C63E3EC1812B98400E0AAEC /* MusicDeviceConnected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3B71812B98400E0AAEC /* MusicDeviceConnected.png */; };
+		1C63E3ED1812B98400E0AAEC /* MusicDeviceUnconnected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3B81812B98400E0AAEC /* MusicDeviceUnconnected.png */; };
+		1C63E3EE1812B98400E0AAEC /* NowPlaying_PanelBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3B91812B98400E0AAEC /* NowPlaying_PanelBG.png */; };
+		1C63E3EF1812B98400E0AAEC /* Disk.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3BA1812B98400E0AAEC /* Disk.png */; };
+		1C63E3F01812B98400E0AAEC /* CircleSingleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3BB1812B98400E0AAEC /* CircleSingleButton.png */; };
+		1C63E3F11812B98400E0AAEC /* CircleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3BC1812B98400E0AAEC /* CircleButton.png */; };
+		1C63E3F21812B98400E0AAEC /* OptionAddToFavoriteCellBG_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3BD1812B98400E0AAEC /* OptionAddToFavoriteCellBG_selected.png */; };
+		1C63E3F31812B98400E0AAEC /* OptionAddToFavoriteCellBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3BE1812B98400E0AAEC /* OptionAddToFavoriteCellBG.png */; };
+		1C63E3F41812B98400E0AAEC /* OptionPaperCellBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3BF1812B98400E0AAEC /* OptionPaperCellBG.png */; };
+		1C63E3F51812B98400E0AAEC /* OptionListCellBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3C01812B98400E0AAEC /* OptionListCellBG.png */; };
+		1C63E3F61812B98400E0AAEC /* OptionPaperCellBG_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3C11812B98400E0AAEC /* OptionPaperCellBG_selected.png */; };
+		1C63E3F71812B98400E0AAEC /* OptionListCellBG_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3C21812B98400E0AAEC /* OptionListCellBG_selected.png */; };
+		1C63E3F81812B98400E0AAEC /* OptionCellBG_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3C31812B98400E0AAEC /* OptionCellBG_selected.png */; };
+		1C63E3F91812B98400E0AAEC /* OptionCreateCellBG_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3C41812B98400E0AAEC /* OptionCreateCellBG_selected.png */; };
+		1C63E3FA1812B98400E0AAEC /* OptionCreateCellBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3C51812B98400E0AAEC /* OptionCreateCellBG.png */; };
+		1C63E3FB1812B98400E0AAEC /* MusicOnline_divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3C61812B98400E0AAEC /* MusicOnline_divider.png */; };
+		1C63E3FC1812B98400E0AAEC /* MusicOnlineDisk1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3C71812B98400E0AAEC /* MusicOnlineDisk1.png */; };
+		1C63E3FD1812B98400E0AAEC /* MusicOnlineDisk2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3C81812B98400E0AAEC /* MusicOnlineDisk2.png */; };
+		1C63E3FE1812B98400E0AAEC /* MusicOnlineDisk3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3C91812B98400E0AAEC /* MusicOnlineDisk3.png */; };
+		1C63E3FF1812B98400E0AAEC /* MusicOptionalCellBG_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3CA1812B98400E0AAEC /* MusicOptionalCellBG_selected.png */; };
+		1C63E4001812B98400E0AAEC /* MusicOnlineDisk4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3CB1812B98400E0AAEC /* MusicOnlineDisk4.png */; };
+		1C63E4011812B98400E0AAEC /* MusicOnlineDisk5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3CC1812B98400E0AAEC /* MusicOnlineDisk5.png */; };
+		1C63E4021812B98400E0AAEC /* List_plus_deviceList.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3CD1812B98400E0AAEC /* List_plus_deviceList.png */; };
+		1C63E4031812B98400E0AAEC /* MusicOnline_xiami_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3CE1812B98400E0AAEC /* MusicOnline_xiami_logo.png */; };
+		1C63E4041812B98400E0AAEC /* OptionMenuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3CF1812B98400E0AAEC /* OptionMenuIcon.png */; };
+		1C63E4051812B98400E0AAEC /* Music_create_alertViewBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3D01812B98400E0AAEC /* Music_create_alertViewBG.png */; };
+		1C63E4061812B98400E0AAEC /* OptionCellBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3D11812B98400E0AAEC /* OptionCellBG.png */; };
+		1C63E4071812B98400E0AAEC /* OthersButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3D21812B98400E0AAEC /* OthersButton.png */; };
+		1C63E4081812B98400E0AAEC /* List_button_left_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3D31812B98400E0AAEC /* List_button_left_bg.png */; };
+		1C63E4091812B98400E0AAEC /* List_button_right_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3D41812B98400E0AAEC /* List_button_right_bg.png */; };
+		1C63E40A1812B98400E0AAEC /* ShuffleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3D51812B98400E0AAEC /* ShuffleButton.png */; };
+		1C63E40B1812B98400E0AAEC /* NextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3D61812B98400E0AAEC /* NextButton.png */; };
+		1C63E40C1812B98400E0AAEC /* MusicBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3D71812B98400E0AAEC /* MusicBg.png */; };
+		1C63E40D1812B98400E0AAEC /* OptionalMenulBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3D81812B98400E0AAEC /* OptionalMenulBG.png */; };
+		1C63E40E1812B98400E0AAEC /* PreviousButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3D91812B98400E0AAEC /* PreviousButton.png */; };
+		1C63E40F1812B98400E0AAEC /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3DA1812B98400E0AAEC /* PauseButton.png */; };
+		1C63E4101812B98400E0AAEC /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3DB1812B98400E0AAEC /* PlayButton.png */; };
+		1C63E4111812B98400E0AAEC /* ProgressThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3DC1812B98400E0AAEC /* ProgressThumb.png */; };
+		1C63E4121812B98400E0AAEC /* MusicList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E3DD1812B98400E0AAEC /* MusicList.plist */; };
 		4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */; };
 		4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */; };
 		4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */; };
@@ -149,6 +202,60 @@
 		1C63E3A2180E69A400E0AAEC /* PSARootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARootViewController.h; sourceTree = "<group>"; };
 		1C63E3A3180E69A400E0AAEC /* PSARootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARootViewController.m; sourceTree = "<group>"; };
 		1C63E3A4180E69A400E0AAEC /* PSARootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSARootViewController.xib; sourceTree = "<group>"; };
+		1C63E3A91812B98400E0AAEC /* List_musicPanelHeaderBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_musicPanelHeaderBG.png; sourceTree = "<group>"; };
+		1C63E3AA1812B98400E0AAEC /* AlbumBlueColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlbumBlueColor.png; sourceTree = "<group>"; };
+		1C63E3AB1812B98400E0AAEC /* MusicLoginBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicLoginBG.png; sourceTree = "<group>"; };
+		1C63E3AC1812B98400E0AAEC /* MusicLoginButtonBG_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicLoginButtonBG_selected.png; sourceTree = "<group>"; };
+		1C63E3AD1812B98400E0AAEC /* List_seperator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_seperator.png; sourceTree = "<group>"; };
+		1C63E3AE1812B98400E0AAEC /* List_PanelBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_PanelBG.png; sourceTree = "<group>"; };
+		1C63E3AF1812B98400E0AAEC /* List_like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_like.png; sourceTree = "<group>"; };
+		1C63E3B01812B98400E0AAEC /* List_tableView_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_tableView_bg.png; sourceTree = "<group>"; };
+		1C63E3B11812B98400E0AAEC /* List_minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_minus.png; sourceTree = "<group>"; };
+		1C63E3B21812B98400E0AAEC /* Music_DVD_disk_onPlayingBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Music_DVD_disk_onPlayingBG.png; sourceTree = "<group>"; };
+		1C63E3B31812B98400E0AAEC /* Music_DVD_disk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Music_DVD_disk.png; sourceTree = "<group>"; };
+		1C63E3B41812B98400E0AAEC /* Device_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Device_check.png; sourceTree = "<group>"; };
+		1C63E3B51812B98400E0AAEC /* Device_coverlist_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Device_coverlist_selected.png; sourceTree = "<group>"; };
+		1C63E3B61812B98400E0AAEC /* Device_coverlist_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Device_coverlist_bg.png; sourceTree = "<group>"; };
+		1C63E3B71812B98400E0AAEC /* MusicDeviceConnected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicDeviceConnected.png; sourceTree = "<group>"; };
+		1C63E3B81812B98400E0AAEC /* MusicDeviceUnconnected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicDeviceUnconnected.png; sourceTree = "<group>"; };
+		1C63E3B91812B98400E0AAEC /* NowPlaying_PanelBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NowPlaying_PanelBG.png; sourceTree = "<group>"; };
+		1C63E3BA1812B98400E0AAEC /* Disk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Disk.png; sourceTree = "<group>"; };
+		1C63E3BB1812B98400E0AAEC /* CircleSingleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleSingleButton.png; sourceTree = "<group>"; };
+		1C63E3BC1812B98400E0AAEC /* CircleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleButton.png; sourceTree = "<group>"; };
+		1C63E3BD1812B98400E0AAEC /* OptionAddToFavoriteCellBG_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionAddToFavoriteCellBG_selected.png; sourceTree = "<group>"; };
+		1C63E3BE1812B98400E0AAEC /* OptionAddToFavoriteCellBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionAddToFavoriteCellBG.png; sourceTree = "<group>"; };
+		1C63E3BF1812B98400E0AAEC /* OptionPaperCellBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionPaperCellBG.png; sourceTree = "<group>"; };
+		1C63E3C01812B98400E0AAEC /* OptionListCellBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionListCellBG.png; sourceTree = "<group>"; };
+		1C63E3C11812B98400E0AAEC /* OptionPaperCellBG_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionPaperCellBG_selected.png; sourceTree = "<group>"; };
+		1C63E3C21812B98400E0AAEC /* OptionListCellBG_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionListCellBG_selected.png; sourceTree = "<group>"; };
+		1C63E3C31812B98400E0AAEC /* OptionCellBG_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionCellBG_selected.png; sourceTree = "<group>"; };
+		1C63E3C41812B98400E0AAEC /* OptionCreateCellBG_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionCreateCellBG_selected.png; sourceTree = "<group>"; };
+		1C63E3C51812B98400E0AAEC /* OptionCreateCellBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionCreateCellBG.png; sourceTree = "<group>"; };
+		1C63E3C61812B98400E0AAEC /* MusicOnline_divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicOnline_divider.png; sourceTree = "<group>"; };
+		1C63E3C71812B98400E0AAEC /* MusicOnlineDisk1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicOnlineDisk1.png; sourceTree = "<group>"; };
+		1C63E3C81812B98400E0AAEC /* MusicOnlineDisk2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicOnlineDisk2.png; sourceTree = "<group>"; };
+		1C63E3C91812B98400E0AAEC /* MusicOnlineDisk3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicOnlineDisk3.png; sourceTree = "<group>"; };
+		1C63E3CA1812B98400E0AAEC /* MusicOptionalCellBG_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicOptionalCellBG_selected.png; sourceTree = "<group>"; };
+		1C63E3CB1812B98400E0AAEC /* MusicOnlineDisk4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicOnlineDisk4.png; sourceTree = "<group>"; };
+		1C63E3CC1812B98400E0AAEC /* MusicOnlineDisk5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicOnlineDisk5.png; sourceTree = "<group>"; };
+		1C63E3CD1812B98400E0AAEC /* List_plus_deviceList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_plus_deviceList.png; sourceTree = "<group>"; };
+		1C63E3CE1812B98400E0AAEC /* MusicOnline_xiami_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicOnline_xiami_logo.png; sourceTree = "<group>"; };
+		1C63E3CF1812B98400E0AAEC /* OptionMenuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionMenuIcon.png; sourceTree = "<group>"; };
+		1C63E3D01812B98400E0AAEC /* Music_create_alertViewBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Music_create_alertViewBG.png; sourceTree = "<group>"; };
+		1C63E3D11812B98400E0AAEC /* OptionCellBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionCellBG.png; sourceTree = "<group>"; };
+		1C63E3D21812B98400E0AAEC /* OthersButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OthersButton.png; sourceTree = "<group>"; };
+		1C63E3D31812B98400E0AAEC /* List_button_left_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_button_left_bg.png; sourceTree = "<group>"; };
+		1C63E3D41812B98400E0AAEC /* List_button_right_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_button_right_bg.png; sourceTree = "<group>"; };
+		1C63E3D51812B98400E0AAEC /* ShuffleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShuffleButton.png; sourceTree = "<group>"; };
+		1C63E3D61812B98400E0AAEC /* NextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextButton.png; sourceTree = "<group>"; };
+		1C63E3D71812B98400E0AAEC /* MusicBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicBg.png; sourceTree = "<group>"; };
+		1C63E3D81812B98400E0AAEC /* OptionalMenulBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionalMenulBG.png; sourceTree = "<group>"; };
+		1C63E3D91812B98400E0AAEC /* PreviousButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviousButton.png; sourceTree = "<group>"; };
+		1C63E3DA1812B98400E0AAEC /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButton.png; sourceTree = "<group>"; };
+		1C63E3DB1812B98400E0AAEC /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		1C63E3DC1812B98400E0AAEC /* ProgressThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProgressThumb.png; sourceTree = "<group>"; };
+		1C63E3DD1812B98400E0AAEC /* MusicList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MusicList.plist; sourceTree = "<group>"; };
+		1C63E4141812B9D400E0AAEC /* AvenirNext.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirNext.ttc; sourceTree = "<group>"; };
 		4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioConstantsConfig.h; sourceTree = "<group>"; };
 		4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPlayer.h; sourceTree = "<group>"; };
 		4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPlayer.m; sourceTree = "<group>"; };
@@ -375,6 +482,90 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		1C63E3A81812B97600E0AAEC /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				1C63E3A91812B98400E0AAEC /* List_musicPanelHeaderBG.png */,
+				1C63E3AA1812B98400E0AAEC /* AlbumBlueColor.png */,
+				1C63E3AB1812B98400E0AAEC /* MusicLoginBG.png */,
+				1C63E3AC1812B98400E0AAEC /* MusicLoginButtonBG_selected.png */,
+				1C63E3AD1812B98400E0AAEC /* List_seperator.png */,
+				1C63E3AE1812B98400E0AAEC /* List_PanelBG.png */,
+				1C63E3AF1812B98400E0AAEC /* List_like.png */,
+				1C63E3B01812B98400E0AAEC /* List_tableView_bg.png */,
+				1C63E3B11812B98400E0AAEC /* List_minus.png */,
+				1C63E3B21812B98400E0AAEC /* Music_DVD_disk_onPlayingBG.png */,
+				1C63E3B31812B98400E0AAEC /* Music_DVD_disk.png */,
+				1C63E3B41812B98400E0AAEC /* Device_check.png */,
+				1C63E3B51812B98400E0AAEC /* Device_coverlist_selected.png */,
+				1C63E3B61812B98400E0AAEC /* Device_coverlist_bg.png */,
+				1C63E3B71812B98400E0AAEC /* MusicDeviceConnected.png */,
+				1C63E3B81812B98400E0AAEC /* MusicDeviceUnconnected.png */,
+				1C63E3B91812B98400E0AAEC /* NowPlaying_PanelBG.png */,
+				1C63E3BA1812B98400E0AAEC /* Disk.png */,
+				1C63E3BB1812B98400E0AAEC /* CircleSingleButton.png */,
+				1C63E3BC1812B98400E0AAEC /* CircleButton.png */,
+				1C63E3BD1812B98400E0AAEC /* OptionAddToFavoriteCellBG_selected.png */,
+				1C63E3BE1812B98400E0AAEC /* OptionAddToFavoriteCellBG.png */,
+				1C63E3BF1812B98400E0AAEC /* OptionPaperCellBG.png */,
+				1C63E3C01812B98400E0AAEC /* OptionListCellBG.png */,
+				1C63E3C11812B98400E0AAEC /* OptionPaperCellBG_selected.png */,
+				1C63E3C21812B98400E0AAEC /* OptionListCellBG_selected.png */,
+				1C63E3C31812B98400E0AAEC /* OptionCellBG_selected.png */,
+				1C63E3C41812B98400E0AAEC /* OptionCreateCellBG_selected.png */,
+				1C63E3C51812B98400E0AAEC /* OptionCreateCellBG.png */,
+				1C63E3C61812B98400E0AAEC /* MusicOnline_divider.png */,
+				1C63E3C71812B98400E0AAEC /* MusicOnlineDisk1.png */,
+				1C63E3C81812B98400E0AAEC /* MusicOnlineDisk2.png */,
+				1C63E3C91812B98400E0AAEC /* MusicOnlineDisk3.png */,
+				1C63E3CA1812B98400E0AAEC /* MusicOptionalCellBG_selected.png */,
+				1C63E3CB1812B98400E0AAEC /* MusicOnlineDisk4.png */,
+				1C63E3CC1812B98400E0AAEC /* MusicOnlineDisk5.png */,
+				1C63E3CD1812B98400E0AAEC /* List_plus_deviceList.png */,
+				1C63E3CE1812B98400E0AAEC /* MusicOnline_xiami_logo.png */,
+				1C63E3CF1812B98400E0AAEC /* OptionMenuIcon.png */,
+				1C63E3D01812B98400E0AAEC /* Music_create_alertViewBG.png */,
+				1C63E3D11812B98400E0AAEC /* OptionCellBG.png */,
+				1C63E3D21812B98400E0AAEC /* OthersButton.png */,
+				1C63E3D31812B98400E0AAEC /* List_button_left_bg.png */,
+				1C63E3D41812B98400E0AAEC /* List_button_right_bg.png */,
+				1C63E3D51812B98400E0AAEC /* ShuffleButton.png */,
+				1C63E3D61812B98400E0AAEC /* NextButton.png */,
+				1C63E3D71812B98400E0AAEC /* MusicBg.png */,
+				1C63E3D81812B98400E0AAEC /* OptionalMenulBG.png */,
+				1C63E3D91812B98400E0AAEC /* PreviousButton.png */,
+				1C63E3DA1812B98400E0AAEC /* PauseButton.png */,
+				1C63E3DB1812B98400E0AAEC /* PlayButton.png */,
+				1C63E3DC1812B98400E0AAEC /* ProgressThumb.png */,
+				1C63E3DD1812B98400E0AAEC /* MusicList.plist */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		1C63E4131812B98900E0AAEC /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				7FC27990180AE4B400E7B225 /* VideoListBG.png */,
+				7FC27991180AE4B400E7B225 /* VideoSegmentBG.png */,
+				7FC27992180AE4B400E7B225 /* VideoEditSegmentBG.png */,
+				7FC27993180AE4B400E7B225 /* VideoPanelBG.png */,
+				7FC27994180AE4B400E7B225 /* Video_backButtonBG.png */,
+				7FC27995180AE4B400E7B225 /* Video_DVD_disk_onPlayingBG.png */,
+				7FC27996180AE4B400E7B225 /* Video_DVD_disk.png */,
+				7FC27997180AE4B400E7B225 /* Video_quick_next.png */,
+				7FC27998180AE4B400E7B225 /* Video_quick_pre.png */,
+				7FC27999180AE4B400E7B225 /* Video_plus_deviceList.png */,
+				7FC2799A180AE4B400E7B225 /* Video_YoukuIcon.png */,
+				7FC2799B180AE4B400E7B225 /* Video_YoukuVideo1.png */,
+				7FC279AE180AE4E700E7B225 /* Gaptain America.png */,
+				7FC279AF180AE4E700E7B225 /* The Hunger Games.png */,
+				7FC2799C180AE4B400E7B225 /* Video_YoukuVideo2.png */,
+				7FC2799D180AE4B400E7B225 /* Video_YoukuVideo3.png */,
+				7FC2799E180AE4B400E7B225 /* Video_YoukuVideo4.png */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
 		4BBC715F180A67E300D3C5EB /* Radio */ = {
 			isa = PBXGroup;
 			children = (
@@ -473,23 +664,9 @@
 		7FC2798F180AE47000E7B225 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7FC27990180AE4B400E7B225 /* VideoListBG.png */,
-				7FC27991180AE4B400E7B225 /* VideoSegmentBG.png */,
-				7FC27992180AE4B400E7B225 /* VideoEditSegmentBG.png */,
-				7FC27993180AE4B400E7B225 /* VideoPanelBG.png */,
-				7FC27994180AE4B400E7B225 /* Video_backButtonBG.png */,
-				7FC27995180AE4B400E7B225 /* Video_DVD_disk_onPlayingBG.png */,
-				7FC27996180AE4B400E7B225 /* Video_DVD_disk.png */,
-				7FC27997180AE4B400E7B225 /* Video_quick_next.png */,
-				7FC27998180AE4B400E7B225 /* Video_quick_pre.png */,
-				7FC27999180AE4B400E7B225 /* Video_plus_deviceList.png */,
-				7FC2799A180AE4B400E7B225 /* Video_YoukuIcon.png */,
-				7FC2799B180AE4B400E7B225 /* Video_YoukuVideo1.png */,
-				7FC279AE180AE4E700E7B225 /* Gaptain America.png */,
-				7FC279AF180AE4E700E7B225 /* The Hunger Games.png */,
-				7FC2799C180AE4B400E7B225 /* Video_YoukuVideo2.png */,
-				7FC2799D180AE4B400E7B225 /* Video_YoukuVideo3.png */,
-				7FC2799E180AE4B400E7B225 /* Video_YoukuVideo4.png */,
+				1C63E4141812B9D400E0AAEC /* AvenirNext.ttc */,
+				1C63E4131812B98900E0AAEC /* Video */,
+				1C63E3A81812B97600E0AAEC /* Music */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -570,41 +747,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C63E3EF1812B98400E0AAEC /* Disk.png in Resources */,
 				7FC279AA180AE4B400E7B225 /* Video_YoukuVideo1.png in Resources */,
+				1C63E4031812B98400E0AAEC /* MusicOnline_xiami_logo.png in Resources */,
+				1C63E3FD1812B98400E0AAEC /* MusicOnlineDisk2.png in Resources */,
 				7FC279C6180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib in Resources */,
+				1C63E4121812B98400E0AAEC /* MusicList.plist in Resources */,
+				1C63E3F41812B98400E0AAEC /* OptionPaperCellBG.png in Resources */,
+				1C63E40B1812B98400E0AAEC /* NextButton.png in Resources */,
 				7FC2795F1807E57F00E7B225 /* PSAMusicDeviceCell.xib in Resources */,
+				1C63E3FF1812B98400E0AAEC /* MusicOptionalCellBG_selected.png in Resources */,
+				1C63E3E21812B98400E0AAEC /* List_seperator.png in Resources */,
 				7FC279A0180AE4B400E7B225 /* VideoSegmentBG.png in Resources */,
 				7FC279A9180AE4B400E7B225 /* Video_YoukuIcon.png in Resources */,
 				1C63E3A1180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib in Resources */,
 				7FC279A1180AE4B400E7B225 /* VideoEditSegmentBG.png in Resources */,
+				1C63E4001812B98400E0AAEC /* MusicOnlineDisk4.png in Resources */,
+				1C63E4071812B98400E0AAEC /* OthersButton.png in Resources */,
 				7FC279A5180AE4B400E7B225 /* Video_DVD_disk.png in Resources */,
+				1C63E40C1812B98400E0AAEC /* MusicBg.png in Resources */,
+				1C63E3F31812B98400E0AAEC /* OptionAddToFavoriteCellBG.png in Resources */,
+				1C63E40A1812B98400E0AAEC /* ShuffleButton.png in Resources */,
 				7FC279B1180AE4E700E7B225 /* The Hunger Games.png in Resources */,
+				1C63E4101812B98400E0AAEC /* PlayButton.png in Resources */,
+				1C63E3F51812B98400E0AAEC /* OptionListCellBG.png in Resources */,
+				1C63E3E11812B98400E0AAEC /* MusicLoginButtonBG_selected.png in Resources */,
 				7FC279AB180AE4B400E7B225 /* Video_YoukuVideo2.png in Resources */,
+				1C63E4111812B98400E0AAEC /* ProgressThumb.png in Resources */,
+				1C63E3F91812B98400E0AAEC /* OptionCreateCellBG_selected.png in Resources */,
 				1C63E3A6180E69A400E0AAEC /* PSARootViewController.xib in Resources */,
+				1C63E40D1812B98400E0AAEC /* OptionalMenulBG.png in Resources */,
+				1C63E4011812B98400E0AAEC /* MusicOnlineDisk5.png in Resources */,
+				1C63E4041812B98400E0AAEC /* OptionMenuIcon.png in Resources */,
 				7FC279B6180B804F00E7B225 /* PSAVideoLoginViewController.xib in Resources */,
+				1C63E3FC1812B98400E0AAEC /* MusicOnlineDisk1.png in Resources */,
 				1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */,
+				1C63E3EC1812B98400E0AAEC /* MusicDeviceConnected.png in Resources */,
 				7FC279691807E5B700E7B225 /* PSAVideoCoverItemView.xib in Resources */,
+				1C63E4061812B98400E0AAEC /* OptionCellBG.png in Resources */,
 				7FC279541807E53B00E7B225 /* PSAVideoCoverViewController.xib in Resources */,
 				7FC279A4180AE4B400E7B225 /* Video_DVD_disk_onPlayingBG.png in Resources */,
 				7FC2799F180AE4B400E7B225 /* VideoListBG.png in Resources */,
+				1C63E3F21812B98400E0AAEC /* OptionAddToFavoriteCellBG_selected.png in Resources */,
+				1C63E3F61812B98400E0AAEC /* OptionPaperCellBG_selected.png in Resources */,
+				1C63E40F1812B98400E0AAEC /* PauseButton.png in Resources */,
+				1C63E3FA1812B98400E0AAEC /* OptionCreateCellBG.png in Resources */,
+				1C63E3DF1812B98400E0AAEC /* AlbumBlueColor.png in Resources */,
+				1C63E3EA1812B98400E0AAEC /* Device_coverlist_selected.png in Resources */,
 				7FC279A8180AE4B400E7B225 /* Video_plus_deviceList.png in Resources */,
+				1C63E4081812B98400E0AAEC /* List_button_left_bg.png in Resources */,
 				1C63E38918051DD400E0AAEC /* PSAVideoYoukuViewController.xib in Resources */,
+				1C63E3FB1812B98400E0AAEC /* MusicOnline_divider.png in Resources */,
+				1C63E3ED1812B98400E0AAEC /* MusicDeviceUnconnected.png in Resources */,
+				1C63E3E61812B98400E0AAEC /* List_minus.png in Resources */,
 				7FC279AD180AE4B400E7B225 /* Video_YoukuVideo4.png in Resources */,
 				7FC279AC180AE4B400E7B225 /* Video_YoukuVideo3.png in Resources */,
 				1C63E3701803C7FD00E0AAEC /* PSAMainViewController.xib in Resources */,
 				7FC279C4180FC84900E7B225 /* PSAVideoNowPlayingViewController.xib in Resources */,
 				7FC279A2180AE4B400E7B225 /* VideoPanelBG.png in Resources */,
+				1C63E3E41812B98400E0AAEC /* List_like.png in Resources */,
 				1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */,
 				7FC279A7180AE4B400E7B225 /* Video_quick_pre.png in Resources */,
+				1C63E3E31812B98400E0AAEC /* List_PanelBG.png in Resources */,
+				1C63E3E91812B98400E0AAEC /* Device_check.png in Resources */,
+				1C63E4091812B98400E0AAEC /* List_button_right_bg.png in Resources */,
 				4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */,
+				1C63E4021812B98400E0AAEC /* List_plus_deviceList.png in Resources */,
+				1C63E3F81812B98400E0AAEC /* OptionCellBG_selected.png in Resources */,
+				1C63E3DE1812B98400E0AAEC /* List_musicPanelHeaderBG.png in Resources */,
+				1C63E40E1812B98400E0AAEC /* PreviousButton.png in Resources */,
+				1C63E3EE1812B98400E0AAEC /* NowPlaying_PanelBG.png in Resources */,
+				1C63E3FE1812B98400E0AAEC /* MusicOnlineDisk3.png in Resources */,
+				1C63E3E71812B98400E0AAEC /* Music_DVD_disk_onPlayingBG.png in Resources */,
+				1C63E3F71812B98400E0AAEC /* OptionListCellBG_selected.png in Resources */,
 				1C63E38418051C7D00E0AAEC /* PSAVideoDVDViewController.xib in Resources */,
 				1C63E39C180E442500E0AAEC /* PSAMusicMainViewController.xib in Resources */,
 				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
 				7FC2795A1807E57100E7B225 /* PSAAppListHeaderView.xib in Resources */,
+				1C63E3E01812B98400E0AAEC /* MusicLoginBG.png in Resources */,
+				1C63E3E51812B98400E0AAEC /* List_tableView_bg.png in Resources */,
 				7FC2794F1807E52F00E7B225 /* PSAVideoDeviceViewController.xib in Resources */,
+				1C63E3EB1812B98400E0AAEC /* Device_coverlist_bg.png in Resources */,
+				1C63E3F11812B98400E0AAEC /* CircleButton.png in Resources */,
+				1C63E3E81812B98400E0AAEC /* Music_DVD_disk.png in Resources */,
+				1C63E4051812B98400E0AAEC /* Music_create_alertViewBG.png in Resources */,
 				7FC279A6180AE4B400E7B225 /* Video_quick_next.png in Resources */,
 				7FC279B0180AE4E700E7B225 /* Gaptain America.png in Resources */,
 				7FC279631807E59000E7B225 /* PSAMusicPlusCell.xib in Resources */,
+				1C63E3F01812B98400E0AAEC /* CircleSingleButton.png in Resources */,
 				7FC279A3180AE4B400E7B225 /* Video_backButtonBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
