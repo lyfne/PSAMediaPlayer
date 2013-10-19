@@ -42,9 +42,4 @@
     return tune;
 }
 
-- (void)share
-{
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"caoniamde" object:nil userInfo:@{kShareInfoKey: self}];
-}
-
 @end

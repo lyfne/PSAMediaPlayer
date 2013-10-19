@@ -19,5 +19,6 @@
 
 - (IBAction)swtichMainViewAction:(id)sender;
 + (PSAMainViewController *)createMainViewController;
+- (void)reloadImageWithID:(NSString *)wallpaperId;
 
 @end

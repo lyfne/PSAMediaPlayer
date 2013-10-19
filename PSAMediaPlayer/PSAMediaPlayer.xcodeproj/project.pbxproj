@@ -201,6 +201,13 @@
 		7FC279C5180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279C1180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.m */; };
 		7FC279C6180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279C2180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib */; };
 		7FC279C9180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279C8180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m */; };
+		7FC279D11812901800E7B225 /* PSASettingPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279CC1812901800E7B225 /* PSASettingPanelViewController.m */; };
+		7FC279D21812901800E7B225 /* PSASettingPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279CD1812901800E7B225 /* PSASettingPanelViewController.xib */; };
+		7FC279D31812901800E7B225 /* PSASettingSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279CF1812901800E7B225 /* PSASettingSystemViewController.m */; };
+		7FC279D41812901800E7B225 /* PSASettingSystemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279D01812901800E7B225 /* PSASettingSystemViewController.xib */; };
+		7FC279D91812906D00E7B225 /* PSASettingSystemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279D71812906D00E7B225 /* PSASettingSystemCell.m */; };
+		7FC279DA1812906D00E7B225 /* PSASettingSystemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279D81812906D00E7B225 /* PSASettingSystemCell.xib */; };
+		7FC279DD1812910100E7B225 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC279DC1812910100E7B225 /* UIImage+Blur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,7 +240,6 @@
 		1C63E36C1803C7FD00E0AAEC /* PSAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAMainViewController.h; path = Class/ViewController/PSAMainViewController.h; sourceTree = "<group>"; };
 		1C63E36D1803C7FD00E0AAEC /* PSAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAMainViewController.m; path = Class/ViewController/PSAMainViewController.m; sourceTree = "<group>"; };
 		1C63E36E1803C7FD00E0AAEC /* PSAMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PSAMainViewController.xib; path = Class/ViewController/PSAMainViewController.xib; sourceTree = "<group>"; };
-		1C63E3711803C91D00E0AAEC /* PSAConstantConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAConstantConfig.h; sourceTree = "<group>"; };
 		1C63E3721804E55500E0AAEC /* PSAVideoPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAVideoPanelViewController.h; sourceTree = "<group>"; };
 		1C63E3731804E55500E0AAEC /* PSAVideoPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAVideoPanelViewController.m; sourceTree = "<group>"; };
 		1C63E3741804E55500E0AAEC /* PSAVideoPanelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoPanelViewController.xib; sourceTree = "<group>"; };
@@ -476,6 +482,18 @@
 		7FC279C2180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAVideoNowPlayingSegmentViewController.xib; sourceTree = "<group>"; };
 		7FC279C7180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicNowPlayingSlider.h; sourceTree = "<group>"; };
 		7FC279C8180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicNowPlayingSlider.m; sourceTree = "<group>"; };
+		7FC279CB1812901800E7B225 /* PSASettingPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSASettingPanelViewController.h; sourceTree = "<group>"; };
+		7FC279CC1812901800E7B225 /* PSASettingPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSASettingPanelViewController.m; sourceTree = "<group>"; };
+		7FC279CD1812901800E7B225 /* PSASettingPanelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSASettingPanelViewController.xib; sourceTree = "<group>"; };
+		7FC279CE1812901800E7B225 /* PSASettingSystemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSASettingSystemViewController.h; sourceTree = "<group>"; };
+		7FC279CF1812901800E7B225 /* PSASettingSystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSASettingSystemViewController.m; sourceTree = "<group>"; };
+		7FC279D01812901800E7B225 /* PSASettingSystemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSASettingSystemViewController.xib; sourceTree = "<group>"; };
+		7FC279D61812906D00E7B225 /* PSASettingSystemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSASettingSystemCell.h; sourceTree = "<group>"; };
+		7FC279D71812906D00E7B225 /* PSASettingSystemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSASettingSystemCell.m; sourceTree = "<group>"; };
+		7FC279D81812906D00E7B225 /* PSASettingSystemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSASettingSystemCell.xib; sourceTree = "<group>"; };
+		7FC279DB1812910100E7B225 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		7FC279DC1812910100E7B225 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		7FC279E1181293AA00E7B225 /* PSAConstantConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAConstantConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -539,7 +557,7 @@
 				1C63E3651803C7C000E0AAEC /* Class */,
 				1C63E33F1803C74600E0AAEC /* AppDelegate.h */,
 				1C63E3401803C74600E0AAEC /* AppDelegate.m */,
-				1C63E3711803C91D00E0AAEC /* PSAConstantConfig.h */,
+				7FC279E1181293AA00E7B225 /* PSAConstantConfig.h */,
 				1C63E3481803C74600E0AAEC /* Images.xcassets */,
 				1C63E3371803C74600E0AAEC /* Supporting Files */,
 			);
@@ -590,6 +608,7 @@
 		1C63E3661803C7C500E0AAEC /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				7FC279CA1812900800E7B225 /* Setting */,
 				4BBC715F180A67E300D3C5EB /* Radio */,
 				7FC2793818068BFB00E7B225 /* Music */,
 				7FC2793718068BE600E7B225 /* Video */,
@@ -606,6 +625,8 @@
 		1C63E3771804E65000E0AAEC /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7FC279DB1812910100E7B225 /* UIImage+Blur.h */,
+				7FC279DC1812910100E7B225 /* UIImage+Blur.m */,
 				7FC279BA180B808800E7B225 /* UIView+EasingFunctions.h */,
 				7FC279BB180B808800E7B225 /* UIView+EasingFunctions.m */,
 				7FC279B7180B807D00E7B225 /* easing.c */,
@@ -944,6 +965,7 @@
 		7FC2794418068F8D00E7B225 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				7FC279D51812906100E7B225 /* Setting */,
 				4BBC71931815497800D3C5EB /* Radio */,
 				1C63E456181387D800E0AAEC /* Video */,
 				1C63E455181387C900E0AAEC /* Music */,
@@ -960,6 +982,29 @@
 				1C63E3A81812B97600E0AAEC /* Music */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		7FC279CA1812900800E7B225 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7FC279CB1812901800E7B225 /* PSASettingPanelViewController.h */,
+				7FC279CC1812901800E7B225 /* PSASettingPanelViewController.m */,
+				7FC279CD1812901800E7B225 /* PSASettingPanelViewController.xib */,
+				7FC279CE1812901800E7B225 /* PSASettingSystemViewController.h */,
+				7FC279CF1812901800E7B225 /* PSASettingSystemViewController.m */,
+				7FC279D01812901800E7B225 /* PSASettingSystemViewController.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		7FC279D51812906100E7B225 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7FC279D61812906D00E7B225 /* PSASettingSystemCell.h */,
+				7FC279D71812906D00E7B225 /* PSASettingSystemCell.m */,
+				7FC279D81812906D00E7B225 /* PSASettingSystemCell.xib */,
+			);
+			name = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1038,6 +1083,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC279D41812901800E7B225 /* PSASettingSystemViewController.xib in Resources */,
 				4BBC71A21815498000D3C5EB /* PSARadioSliderView.xib in Resources */,
 				1C63E3EF1812B98400E0AAEC /* Disk.png in Resources */,
 				4BBC71921815404800D3C5EB /* RadioFMList.plist in Resources */,
@@ -1117,6 +1163,7 @@
 				1C63E3ED1812B98400E0AAEC /* MusicDeviceUnconnected.png in Resources */,
 				1C63E4501813879800E0AAEC /* PSAMusicCoverItemView.xib in Resources */,
 				1C63E3E61812B98400E0AAEC /* List_minus.png in Resources */,
+				7FC279DA1812906D00E7B225 /* PSASettingSystemCell.xib in Resources */,
 				4BBC718C1815404800D3C5EB /* Radio_stop.png in Resources */,
 				7FC279AD180AE4B400E7B225 /* Video_YoukuVideo4.png in Resources */,
 				7FC279AC180AE4B400E7B225 /* Video_YoukuVideo3.png in Resources */,
@@ -1163,6 +1210,7 @@
 				7FC279631807E59000E7B225 /* PSAMusicPlusCell.xib in Resources */,
 				1C63E3F01812B98400E0AAEC /* CircleSingleButton.png in Resources */,
 				7FC279A3180AE4B400E7B225 /* Video_backButtonBG.png in Resources */,
+				7FC279D21812901800E7B225 /* PSASettingPanelViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1190,6 +1238,7 @@
 				7FC2794718068F9900E7B225 /* PSAMusicDiskView.m in Sources */,
 				7FC279BC180B808800E7B225 /* UIView+EasingFunctions.m in Sources */,
 				7FC279C9180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m in Sources */,
+				7FC279D31812901800E7B225 /* PSASettingSystemViewController.m in Sources */,
 				7FC2794E1807E52F00E7B225 /* PSAVideoDeviceViewController.m in Sources */,
 				1C63E36F1803C7FD00E0AAEC /* PSAMainViewController.m in Sources */,
 				7FC2793C18068E6800E7B225 /* UIView+FadeInOut.m in Sources */,
@@ -1204,6 +1253,7 @@
 				1C63E3751804E55500E0AAEC /* PSAVideoPanelViewController.m in Sources */,
 				1C63E44F1813879800E0AAEC /* PSAMusicCoverItemView.m in Sources */,
 				1C63E3941807D47700E0AAEC /* PSATunesList.m in Sources */,
+				7FC279D11812901800E7B225 /* PSASettingPanelViewController.m in Sources */,
 				7FC279531807E53B00E7B225 /* PSAVideoCoverViewController.m in Sources */,
 				1C63E3971807D4CE00E0AAEC /* NSArray+Data.m in Sources */,
 				4BBC71A6181549A500D3C5EB /* PSAAppHeaderView.m in Sources */,
@@ -1221,6 +1271,7 @@
 				4BBC71AB18154B2F00D3C5EB /* PSARadioInternetViewController.m in Sources */,
 				1C63E3A5180E69A400E0AAEC /* PSARootViewController.m in Sources */,
 				1C63E41E181385B400E0AAEC /* PSAMusicListViewController.m in Sources */,
+				7FC279DD1812910100E7B225 /* UIImage+Blur.m in Sources */,
 				1C63E420181385B400E0AAEC /* PSAMusicListCoverViewController.m in Sources */,
 				4BBC719D1815498000D3C5EB /* PSARadioFMView.m in Sources */,
 				7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */,
@@ -1235,6 +1286,7 @@
 				1C63E45F1816C8DF00E0AAEC /* PSAMusicDVDViewController.m in Sources */,
 				1C63E422181385B400E0AAEC /* PSAMusicCreateListViewController.m in Sources */,
 				7FC279641807E59000E7B225 /* PSAMusicPlusCell.m in Sources */,
+				7FC279D91812906D00E7B225 /* PSASettingSystemCell.m in Sources */,
 				7FC279B9180B807D00E7B225 /* easing.c in Sources */,
 				4BBC71B01816331A00D3C5EB /* PSARadioNowPlayingSegmentViewController.m in Sources */,
 				7FC2794018068F4D00E7B225 /* StyledPageControl.m in Sources */,

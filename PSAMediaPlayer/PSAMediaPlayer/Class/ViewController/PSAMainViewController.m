@@ -23,6 +23,8 @@ typedef enum {
 @property (weak, nonatomic) IBOutlet UIView *segmentView;
 @property (nonatomic) PSAMAINID currentPanelID;
 @property (weak, nonatomic) IBOutlet UIButton *musicButton;
+@property (weak, nonatomic) IBOutlet UIImageView *bgImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *bg60ImageView;
 
 @end
 
@@ -147,6 +149,11 @@ typedef enum {
     [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     button.userInteractionEnabled = NO;
     [self loadViewWithTag:button.tag];
+}
+
+- (void)reloadImageWithID:(NSString *)wallpaperId
+{
+    //self.bgImageView.image = [PSABlurImageGenerator getBlurImage:kImageMainScreenWallpaper withId:wallpaperId];
 }
 
 - (void)resetAllColor

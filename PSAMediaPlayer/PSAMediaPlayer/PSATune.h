@@ -16,6 +16,4 @@
 
 + (PSATune *)loadMusicInfoWithName:(NSString *)name singer:(NSString *)singerName album:(NSString *)albumName;
 
-- (void)share;
-
 @end
