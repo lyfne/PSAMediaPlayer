@@ -10,12 +10,14 @@
 #import "PSAVideoPanelViewController.h"
 #import "PSAMusicMainViewController.h"
 #import "PSARadioPanelViewController.h"
+#import "PSASettingPanelViewController.h"
 
 @interface PSAMainViewController : UIViewController
 
 @property (strong, nonatomic) PSAVideoPanelViewController *videoPanelVC;
 @property (strong, nonatomic) PSAMusicMainViewController *musicMainVC;
 @property (strong, nonatomic) PSARadioPanelViewController *radioPanelVC;
+@property (strong, nonatomic) PSASettingPanelViewController *settingPanelVC;
 
 - (IBAction)swtichMainViewAction:(id)sender;
 + (PSAMainViewController *)createMainViewController;

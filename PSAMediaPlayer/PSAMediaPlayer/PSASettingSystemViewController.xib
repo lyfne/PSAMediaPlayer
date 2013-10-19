@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PSASettingSystemViewController">
@@ -123,91 +123,6 @@
                         <action selector="wallpaperButtonPressed:" destination="-1" eventType="touchUpInside" id="dLE-p7-rO5"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34X-Zz-yWM">
-                    <rect key="frame" x="782" y="416" width="66" height="67"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <state key="normal" backgroundImage="PSAWallpaperRedThumbnail.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <state key="selected" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperRedThumbnail.png"/>
-                    <state key="highlighted" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperRedThumbnail.png"/>
-                    <connections>
-                        <action selector="wallpaperButtonPressed:" destination="-1" eventType="touchUpInside" id="pbB-pS-VPd"/>
-                    </connections>
-                </button>
-                <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfa-VV-I6X">
-                    <rect key="frame" x="533" y="416" width="66" height="67"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <state key="normal" backgroundImage="PSAWallpaperGreenThumbnail.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <state key="selected" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperGreenThumbnail.png"/>
-                    <state key="highlighted" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperGreenThumbnail.png"/>
-                    <connections>
-                        <action selector="wallpaperButtonPressed:" destination="-1" eventType="touchUpInside" id="PHM-BK-w1k"/>
-                    </connections>
-                </button>
-                <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpl-sw-yOE">
-                    <rect key="frame" x="618" y="416" width="66" height="67"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <state key="normal" backgroundImage="PSAWallpaperPurpleThumbnail.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <state key="selected" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperPurpleThumbnail.png"/>
-                    <state key="highlighted" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperPurpleThumbnail.png"/>
-                    <connections>
-                        <action selector="wallpaperButtonPressed:" destination="-1" eventType="touchUpInside" id="sDX-mL-6hF"/>
-                    </connections>
-                </button>
-                <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNf-21-uHQ">
-                    <rect key="frame" x="700" y="416" width="66" height="67"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <state key="normal" backgroundImage="PSAWallpaperOrangeThumbnail.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <state key="selected" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperOrangeThumbnail.png"/>
-                    <state key="highlighted" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperOrangeThumbnail.png"/>
-                    <connections>
-                        <action selector="wallpaperButtonPressed:" destination="-1" eventType="touchUpInside" id="DQs-2b-Rcs"/>
-                    </connections>
-                </button>
-                <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKZ-d7-830">
-                    <rect key="frame" x="447" y="416" width="66" height="67"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <state key="normal" backgroundImage="PSAWallpaperBerryThumbnail.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <state key="selected" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperBerryThumbnail.png"/>
-                    <state key="highlighted" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperBerryThumbnail.png"/>
-                    <connections>
-                        <action selector="wallpaperButtonPressed:" destination="-1" eventType="touchUpInside" id="mgB-Qj-8ME"/>
-                    </connections>
-                </button>
-                <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8PA-uJ-R73">
-                    <rect key="frame" x="364" y="416" width="66" height="67"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <state key="normal" backgroundImage="PSAWallpaperBlueThumbnail.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <state key="selected" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperBlueThumbnail.png"/>
-                    <state key="highlighted" image="PSAWallpaperColorHighlight.png" backgroundImage="PSAWallpaperBlueThumbnail.png"/>
-                    <connections>
-                        <action selector="wallpaperButtonPressed:" destination="-1" eventType="touchUpInside" id="2n1-mU-ReE"/>
-                    </connections>
-                </button>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COLOR" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMv-KU-Nnl">
-                    <rect key="frame" x="358" y="377" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="12"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WALLPAPER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7d-R2-ynl">
                     <rect key="frame" x="358" y="100" width="70" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -237,13 +152,6 @@
         <image name="PSAWallpaper4Thumbnail.png" width="160" height="99"/>
         <image name="PSAWallpaper5Thumbnail.png" width="160" height="99"/>
         <image name="PSAWallpaper6Thumbnail.png" width="160" height="99"/>
-        <image name="PSAWallpaperBerryThumbnail.png" width="66" height="67"/>
-        <image name="PSAWallpaperBlueThumbnail.png" width="66" height="67"/>
-        <image name="PSAWallpaperColorHighlight.png" width="66" height="67"/>
-        <image name="PSAWallpaperGreenThumbnail.png" width="66" height="67"/>
         <image name="PSAWallpaperHighlight.png" width="160" height="99"/>
-        <image name="PSAWallpaperOrangeThumbnail.png" width="66" height="67"/>
-        <image name="PSAWallpaperPurpleThumbnail.png" width="66" height="67"/>
-        <image name="PSAWallpaperRedThumbnail.png" width="66" height="67"/>
     </resources>
 </document>

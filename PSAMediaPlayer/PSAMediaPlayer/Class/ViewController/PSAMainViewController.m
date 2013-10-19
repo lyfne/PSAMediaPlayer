@@ -24,7 +24,6 @@ typedef enum {
 @property (nonatomic) PSAMAINID currentPanelID;
 @property (weak, nonatomic) IBOutlet UIButton *musicButton;
 @property (weak, nonatomic) IBOutlet UIImageView *bgImageView;
-@property (weak, nonatomic) IBOutlet UIImageView *bg60ImageView;
 
 @end
 
@@ -73,6 +72,10 @@ typedef enum {
     self.radioPanelVC = [PSARadioPanelViewController createRadioViewController];
     [self.radioPanelVC.view setX:0 Y:77];
     [self.radioPanelVC.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    
+    self.settingPanelVC = [PSASettingPanelViewController createPSASettingPanelViewController];
+    [self.settingPanelVC.view setX:0 Y:77];
+    [self.settingPanelVC.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
 }
 
 #pragma mark Mini Function
@@ -89,9 +92,9 @@ typedef enum {
         case PSAMAIN_VIDEO:
             return self.videoPanelVC;
             break;
-//        case PSAMAIN_SETTING:
-//            return ;
-//            break;
+        case PSAMAIN_SETTING:
+            return self.settingPanelVC;
+            break;
         default:
             break;
     }
