@@ -15,7 +15,6 @@
 //#import "PSAFunctionViewControllerProtocol.h"
 //#import "PSAMusicCreateListViewController.h"
 //#import "PSAMusicLoginViewController.h"
-//#import "PSAMusicFromMyFriendViewController.h"
 
 @interface PSAMusicMainViewController : UIViewController/*<MusicListDelegate,MusicOnlineDelegate>*/{
     BOOL needInitNowPlayingView;
@@ -35,7 +34,6 @@
 //@property (strong, nonatomic) PSAMusicDVDViewController *musicDVDViewController;
 //@property (strong, nonatomic) PSAMusicCreateListViewController *musicCreateListViewController;
 //@property (strong, nonatomic) PSAMusicLoginViewController *musicLoginViewController;
-//@property (strong, nonatomic) PSAMusicFromMyFriendViewController *musicFromMyFriendViewController;
 
 + (PSAMusicMainViewController *)createMusicMainViewController;
 
