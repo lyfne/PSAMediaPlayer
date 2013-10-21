@@ -68,9 +68,9 @@ typedef enum {
     [self.videoPanelVC.view setX:0 Y:0];
     [self.videoPanelVC.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
     
-//    self.radioPanelVC = [PSARadioPanelViewController createRadioViewController];
-//    [self.radioPanelVC.view setX:0 Y:77];
-//    [self.radioPanelVC.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    self.radioPanelVC = [PSARadioPanelViewController createRadioViewController];
+    [self.radioPanelVC.view setX:0 Y:77];
+    [self.radioPanelVC.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
 }
 
 #pragma mark Mini Function

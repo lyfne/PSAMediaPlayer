@@ -120,6 +120,24 @@
 		4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */; };
 		4BBC716C180AA52700D3C5EB /* PSARadioMyStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC716A180AA52700D3C5EB /* PSARadioMyStationViewController.m */; };
 		4BBC716D180AA52700D3C5EB /* PSARadioMyStationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC716B180AA52700D3C5EB /* PSARadioMyStationViewController.xib */; };
+		4BBC71741815403700D3C5EB /* 93.7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC716F1815403700D3C5EB /* 93.7.mp3 */; };
+		4BBC71751815403700D3C5EB /* 89.2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC71701815403700D3C5EB /* 89.2.mp3 */; };
+		4BBC71761815403700D3C5EB /* 97.9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC71711815403700D3C5EB /* 97.9.mp3 */; };
+		4BBC71771815403700D3C5EB /* 101.5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC71721815403700D3C5EB /* 101.5.mp3 */; };
+		4BBC71781815403700D3C5EB /* 107.7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC71731815403700D3C5EB /* 107.7.mp3 */; };
+		4BBC71861815404800D3C5EB /* Radio_likes_optional_view.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC71791815404800D3C5EB /* Radio_likes_optional_view.png */; };
+		4BBC71871815404800D3C5EB /* Radio_NowPlayingSegmentBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC717A1815404800D3C5EB /* Radio_NowPlayingSegmentBG.png */; };
+		4BBC71881815404800D3C5EB /* Radio_favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC717B1815404800D3C5EB /* Radio_favorites.png */; };
+		4BBC71891815404800D3C5EB /* Radio_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC717C1815404800D3C5EB /* Radio_play.png */; };
+		4BBC718A1815404800D3C5EB /* Radio_folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC717D1815404800D3C5EB /* Radio_folder.png */; };
+		4BBC718B1815404800D3C5EB /* Radio_likes_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC717E1815404800D3C5EB /* Radio_likes_selected.png */; };
+		4BBC718C1815404800D3C5EB /* Radio_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC717F1815404800D3C5EB /* Radio_stop.png */; };
+		4BBC718D1815404800D3C5EB /* Radio_likes.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC71801815404800D3C5EB /* Radio_likes.png */; };
+		4BBC718E1815404800D3C5EB /* Radio_pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC71811815404800D3C5EB /* Radio_pointer.png */; };
+		4BBC718F1815404800D3C5EB /* Radio_ring_internet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC71821815404800D3C5EB /* Radio_ring_internet.png */; };
+		4BBC71901815404800D3C5EB /* Radio_ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC71831815404800D3C5EB /* Radio_ring.png */; };
+		4BBC71911815404800D3C5EB /* Radio_tuner.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC71841815404800D3C5EB /* Radio_tuner.png */; };
+		4BBC71921815404800D3C5EB /* RadioFMList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC71851815404800D3C5EB /* RadioFMList.plist */; };
 		7FC2793C18068E6800E7B225 /* UIView+FadeInOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2793B18068E6800E7B225 /* UIView+FadeInOut.m */; };
 		7FC2794018068F4D00E7B225 /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2793F18068F4D00E7B225 /* StyledPageControl.m */; };
 		7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2794218068F6200E7B225 /* DMPagingScrollView.m */; };
@@ -329,6 +347,24 @@
 		4BBC7169180AA52700D3C5EB /* PSARadioMyStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioMyStationViewController.h; sourceTree = "<group>"; };
 		4BBC716A180AA52700D3C5EB /* PSARadioMyStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioMyStationViewController.m; sourceTree = "<group>"; };
 		4BBC716B180AA52700D3C5EB /* PSARadioMyStationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSARadioMyStationViewController.xib; sourceTree = "<group>"; };
+		4BBC716F1815403700D3C5EB /* 93.7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 93.7.mp3; sourceTree = "<group>"; };
+		4BBC71701815403700D3C5EB /* 89.2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 89.2.mp3; sourceTree = "<group>"; };
+		4BBC71711815403700D3C5EB /* 97.9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 97.9.mp3; sourceTree = "<group>"; };
+		4BBC71721815403700D3C5EB /* 101.5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 101.5.mp3; sourceTree = "<group>"; };
+		4BBC71731815403700D3C5EB /* 107.7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 107.7.mp3; sourceTree = "<group>"; };
+		4BBC71791815404800D3C5EB /* Radio_likes_optional_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_likes_optional_view.png; sourceTree = "<group>"; };
+		4BBC717A1815404800D3C5EB /* Radio_NowPlayingSegmentBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_NowPlayingSegmentBG.png; sourceTree = "<group>"; };
+		4BBC717B1815404800D3C5EB /* Radio_favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_favorites.png; sourceTree = "<group>"; };
+		4BBC717C1815404800D3C5EB /* Radio_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_play.png; sourceTree = "<group>"; };
+		4BBC717D1815404800D3C5EB /* Radio_folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_folder.png; sourceTree = "<group>"; };
+		4BBC717E1815404800D3C5EB /* Radio_likes_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_likes_selected.png; sourceTree = "<group>"; };
+		4BBC717F1815404800D3C5EB /* Radio_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_stop.png; sourceTree = "<group>"; };
+		4BBC71801815404800D3C5EB /* Radio_likes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_likes.png; sourceTree = "<group>"; };
+		4BBC71811815404800D3C5EB /* Radio_pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_pointer.png; sourceTree = "<group>"; };
+		4BBC71821815404800D3C5EB /* Radio_ring_internet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_ring_internet.png; sourceTree = "<group>"; };
+		4BBC71831815404800D3C5EB /* Radio_ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_ring.png; sourceTree = "<group>"; };
+		4BBC71841815404800D3C5EB /* Radio_tuner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio_tuner.png; sourceTree = "<group>"; };
+		4BBC71851815404800D3C5EB /* RadioFMList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RadioFMList.plist; sourceTree = "<group>"; };
 		7FC2793918068DEE00E7B225 /* PSAVideoConstantsConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAVideoConstantsConfig.h; sourceTree = "<group>"; };
 		7FC2793A18068E6800E7B225 /* UIView+FadeInOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FadeInOut.h"; sourceTree = "<group>"; };
 		7FC2793B18068E6800E7B225 /* UIView+FadeInOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FadeInOut.m"; sourceTree = "<group>"; };
@@ -720,6 +756,31 @@
 			name = Radio;
 			sourceTree = "<group>";
 		};
+		4BBC716E1815401600D3C5EB /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC716F1815403700D3C5EB /* 93.7.mp3 */,
+				4BBC71701815403700D3C5EB /* 89.2.mp3 */,
+				4BBC71711815403700D3C5EB /* 97.9.mp3 */,
+				4BBC71721815403700D3C5EB /* 101.5.mp3 */,
+				4BBC71731815403700D3C5EB /* 107.7.mp3 */,
+				4BBC71791815404800D3C5EB /* Radio_likes_optional_view.png */,
+				4BBC717A1815404800D3C5EB /* Radio_NowPlayingSegmentBG.png */,
+				4BBC717B1815404800D3C5EB /* Radio_favorites.png */,
+				4BBC717C1815404800D3C5EB /* Radio_play.png */,
+				4BBC717D1815404800D3C5EB /* Radio_folder.png */,
+				4BBC717E1815404800D3C5EB /* Radio_likes_selected.png */,
+				4BBC717F1815404800D3C5EB /* Radio_stop.png */,
+				4BBC71801815404800D3C5EB /* Radio_likes.png */,
+				4BBC71811815404800D3C5EB /* Radio_pointer.png */,
+				4BBC71821815404800D3C5EB /* Radio_ring_internet.png */,
+				4BBC71831815404800D3C5EB /* Radio_ring.png */,
+				4BBC71841815404800D3C5EB /* Radio_tuner.png */,
+				4BBC71851815404800D3C5EB /* RadioFMList.plist */,
+			);
+			name = Radio;
+			sourceTree = "<group>";
+		};
 		7FC2793718068BE600E7B225 /* Video */ = {
 			isa = PBXGroup;
 			children = (
@@ -805,6 +866,7 @@
 		7FC2798F180AE47000E7B225 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4BBC716E1815401600D3C5EB /* Radio */,
 				1C63E4141812B9D400E0AAEC /* AvenirNext.ttc */,
 				1C63E4131812B98900E0AAEC /* Video */,
 				1C63E3A81812B97600E0AAEC /* Music */,
@@ -889,13 +951,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C63E3EF1812B98400E0AAEC /* Disk.png in Resources */,
+				4BBC71921815404800D3C5EB /* RadioFMList.plist in Resources */,
 				4BBC716D180AA52700D3C5EB /* PSARadioMyStationViewController.xib in Resources */,
 				7FC279AA180AE4B400E7B225 /* Video_YoukuVideo1.png in Resources */,
 				1C63E4031812B98400E0AAEC /* MusicOnline_xiami_logo.png in Resources */,
+				4BBC718A1815404800D3C5EB /* Radio_folder.png in Resources */,
+				4BBC718B1815404800D3C5EB /* Radio_likes_selected.png in Resources */,
 				1C63E3FD1812B98400E0AAEC /* MusicOnlineDisk2.png in Resources */,
 				7FC279C6180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib in Resources */,
 				1C63E4121812B98400E0AAEC /* MusicList.plist in Resources */,
 				1C63E3F41812B98400E0AAEC /* OptionPaperCellBG.png in Resources */,
+				4BBC71911815404800D3C5EB /* Radio_tuner.png in Resources */,
 				1C63E40B1812B98400E0AAEC /* NextButton.png in Resources */,
 				7FC2795F1807E57F00E7B225 /* PSAMusicDeviceCell.xib in Resources */,
 				1C63E3FF1812B98400E0AAEC /* MusicOptionalCellBG_selected.png in Resources */,
@@ -904,28 +970,37 @@
 				7FC279A9180AE4B400E7B225 /* Video_YoukuIcon.png in Resources */,
 				1C63E3A1180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib in Resources */,
 				7FC279A1180AE4B400E7B225 /* VideoEditSegmentBG.png in Resources */,
+				4BBC71771815403700D3C5EB /* 101.5.mp3 in Resources */,
 				1C63E4001812B98400E0AAEC /* MusicOnlineDisk4.png in Resources */,
 				1C63E421181385B400E0AAEC /* PSAMusicListCoverViewController.xib in Resources */,
+				4BBC71751815403700D3C5EB /* 89.2.mp3 in Resources */,
 				1C63E4071812B98400E0AAEC /* OthersButton.png in Resources */,
 				7FC279A5180AE4B400E7B225 /* Video_DVD_disk.png in Resources */,
+				4BBC718E1815404800D3C5EB /* Radio_pointer.png in Resources */,
 				1C63E40C1812B98400E0AAEC /* MusicBg.png in Resources */,
 				1C63E3F31812B98400E0AAEC /* OptionAddToFavoriteCellBG.png in Resources */,
 				1C63E40A1812B98400E0AAEC /* ShuffleButton.png in Resources */,
 				7FC279B1180AE4E700E7B225 /* The Hunger Games.png in Resources */,
+				4BBC71871815404800D3C5EB /* Radio_NowPlayingSegmentBG.png in Resources */,
 				1C63E4101812B98400E0AAEC /* PlayButton.png in Resources */,
 				1C63E3F51812B98400E0AAEC /* OptionListCellBG.png in Resources */,
 				1C63E3E11812B98400E0AAEC /* MusicLoginButtonBG_selected.png in Resources */,
 				7FC279AB180AE4B400E7B225 /* Video_YoukuVideo2.png in Resources */,
 				1C63E4111812B98400E0AAEC /* ProgressThumb.png in Resources */,
 				1C63E3F91812B98400E0AAEC /* OptionCreateCellBG_selected.png in Resources */,
+				4BBC71881815404800D3C5EB /* Radio_favorites.png in Resources */,
 				1C63E423181385B400E0AAEC /* PSAMusicCreateListViewController.xib in Resources */,
+				4BBC71741815403700D3C5EB /* 93.7.mp3 in Resources */,
 				1C63E3A6180E69A400E0AAEC /* PSARootViewController.xib in Resources */,
 				1C63E40D1812B98400E0AAEC /* OptionalMenulBG.png in Resources */,
 				1C63E4011812B98400E0AAEC /* MusicOnlineDisk5.png in Resources */,
 				1C63E4041812B98400E0AAEC /* OptionMenuIcon.png in Resources */,
+				4BBC71761815403700D3C5EB /* 97.9.mp3 in Resources */,
 				1C63E4461813878200E0AAEC /* PSAMusicListCell.xib in Resources */,
 				7FC279B6180B804F00E7B225 /* PSAVideoLoginViewController.xib in Resources */,
 				1C63E3FC1812B98400E0AAEC /* MusicOnlineDisk1.png in Resources */,
+				4BBC718D1815404800D3C5EB /* Radio_likes.png in Resources */,
+				4BBC718F1815404800D3C5EB /* Radio_ring_internet.png in Resources */,
 				1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */,
 				1C63E3EC1812B98400E0AAEC /* MusicDeviceConnected.png in Resources */,
 				7FC279691807E5B700E7B225 /* PSAVideoCoverItemView.xib in Resources */,
@@ -947,6 +1022,7 @@
 				1C63E3ED1812B98400E0AAEC /* MusicDeviceUnconnected.png in Resources */,
 				1C63E4501813879800E0AAEC /* PSAMusicCoverItemView.xib in Resources */,
 				1C63E3E61812B98400E0AAEC /* List_minus.png in Resources */,
+				4BBC718C1815404800D3C5EB /* Radio_stop.png in Resources */,
 				7FC279AD180AE4B400E7B225 /* Video_YoukuVideo4.png in Resources */,
 				7FC279AC180AE4B400E7B225 /* Video_YoukuVideo3.png in Resources */,
 				1C63E3701803C7FD00E0AAEC /* PSAMainViewController.xib in Resources */,
@@ -963,6 +1039,7 @@
 				1C63E4021812B98400E0AAEC /* List_plus_deviceList.png in Resources */,
 				1C63E3F81812B98400E0AAEC /* OptionCellBG_selected.png in Resources */,
 				1C63E3DE1812B98400E0AAEC /* List_musicPanelHeaderBG.png in Resources */,
+				4BBC71901815404800D3C5EB /* Radio_ring.png in Resources */,
 				1C63E40E1812B98400E0AAEC /* PreviousButton.png in Resources */,
 				1C63E3EE1812B98400E0AAEC /* NowPlaying_PanelBG.png in Resources */,
 				1C63E3FE1812B98400E0AAEC /* MusicOnlineDisk3.png in Resources */,
@@ -970,8 +1047,11 @@
 				1C63E3F71812B98400E0AAEC /* OptionListCellBG_selected.png in Resources */,
 				1C63E428181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.xib in Resources */,
 				1C63E38418051C7D00E0AAEC /* PSAVideoDVDViewController.xib in Resources */,
+				4BBC71861815404800D3C5EB /* Radio_likes_optional_view.png in Resources */,
+				4BBC71891815404800D3C5EB /* Radio_play.png in Resources */,
 				1C63E39C180E442500E0AAEC /* PSAMusicMainViewController.xib in Resources */,
 				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
+				4BBC71781815403700D3C5EB /* 107.7.mp3 in Resources */,
 				7FC2795A1807E57100E7B225 /* PSAAppListHeaderView.xib in Resources */,
 				1C63E3E01812B98400E0AAEC /* MusicLoginBG.png in Resources */,
 				1C63E3E51812B98400E0AAEC /* List_tableView_bg.png in Resources */,

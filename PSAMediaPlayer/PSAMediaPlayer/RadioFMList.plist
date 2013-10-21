@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FM</key>
+	<dict>
+		<key>Num</key>
+		<string>3</string>
+		<key>1</key>
+		<string>107.7</string>
+		<key>2</key>
+		<string>93.7</string>
+		<key>3</key>
+		<string>97.9</string>
+	</dict>
+	<key>Internet</key>
+	<dict>
+		<key>Num</key>
+		<string>2</string>
+		<key>1</key>
+		<dict>
+			<key>Name</key>
+			<string>The Cove</string>
+			<key>Type</key>
+			<string>Pop</string>
+			<key>Detail</key>
+			<string>Soft relaxing love song</string>
+		</dict>
+		<key>2</key>
+		<dict>
+			<key>Name</key>
+			<string>Classy</string>
+			<key>Type</key>
+			<string>Classic</string>
+			<key>Detail</key>
+			<string>Soft relaxing love song</string>
+		</dict>
+		<key>3</key>
+		<dict>
+			<key>Name</key>
+			<string>A2RRock</string>
+			<key>Type</key>
+			<string>Rock</string>
+			<key>Detail</key>
+			<string>Soft relaxing love song</string>
+		</dict>
+		<key>4</key>
+		<dict>
+			<key>Name</key>
+			<string>Absolute Rockz</string>
+			<key>Type</key>
+			<string>Rock</string>
+			<key>Detail</key>
+			<string>Soft relaxing love song</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
