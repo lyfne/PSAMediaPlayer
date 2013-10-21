@@ -100,6 +100,21 @@
 		1C63E423181385B400E0AAEC /* PSAMusicCreateListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E41D181385B400E0AAEC /* PSAMusicCreateListViewController.xib */; };
 		1C63E427181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E425181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.m */; };
 		1C63E428181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E426181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.xib */; };
+		1C63E4391813870400E0AAEC /* IBXDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E42B1813870400E0AAEC /* IBXDataSource.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1C63E43A1813870400E0AAEC /* IBXTableViewEnableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E42D1813870400E0AAEC /* IBXTableViewEnableItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1C63E43B1813870400E0AAEC /* IBXTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E42F1813870400E0AAEC /* IBXTableViewItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1C63E43C1813870400E0AAEC /* IBXTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E4321813870400E0AAEC /* IBXTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1C63E43D1813870400E0AAEC /* IBXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E4341813870400E0AAEC /* IBXTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1C63E43E1813870400E0AAEC /* IBXTableViewDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E4361813870400E0AAEC /* IBXTableViewDataItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1C63E43F1813870400E0AAEC /* IBXTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E4381813870400E0AAEC /* IBXTableViewDataSource.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1C63E4461813878200E0AAEC /* PSAMusicListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4401813878200E0AAEC /* PSAMusicListCell.xib */; };
+		1C63E4471813878200E0AAEC /* PSAMusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E4421813878200E0AAEC /* PSAMusicListCell.m */; };
+		1C63E4481813878200E0AAEC /* PSAMusicListModeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4431813878200E0AAEC /* PSAMusicListModeCell.xib */; };
+		1C63E4491813878200E0AAEC /* PSAMusicListModeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E4451813878200E0AAEC /* PSAMusicListModeCell.m */; };
+		1C63E44F1813879800E0AAEC /* PSAMusicCoverItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E44B1813879800E0AAEC /* PSAMusicCoverItemView.m */; };
+		1C63E4501813879800E0AAEC /* PSAMusicCoverItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E44C1813879800E0AAEC /* PSAMusicCoverItemView.xib */; };
+		1C63E4511813879800E0AAEC /* PSAMusicCoverListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E44E1813879800E0AAEC /* PSAMusicCoverListItem.m */; };
+		1C63E454181387A000E0AAEC /* JHTickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E453181387A000E0AAEC /* JHTickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */; };
 		4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */; };
 		4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */; };
@@ -276,6 +291,33 @@
 		1C63E424181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicListCoverWithListViewController.h; sourceTree = "<group>"; };
 		1C63E425181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicListCoverWithListViewController.m; sourceTree = "<group>"; };
 		1C63E426181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicListCoverWithListViewController.xib; sourceTree = "<group>"; };
+		1C63E42A1813870400E0AAEC /* IBXDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBXDataSource.h; sourceTree = "<group>"; };
+		1C63E42B1813870400E0AAEC /* IBXDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBXDataSource.m; sourceTree = "<group>"; };
+		1C63E42C1813870400E0AAEC /* IBXTableViewEnableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBXTableViewEnableItem.h; sourceTree = "<group>"; };
+		1C63E42D1813870400E0AAEC /* IBXTableViewEnableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBXTableViewEnableItem.m; sourceTree = "<group>"; };
+		1C63E42E1813870400E0AAEC /* IBXTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBXTableViewItem.h; sourceTree = "<group>"; };
+		1C63E42F1813870400E0AAEC /* IBXTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBXTableViewItem.m; sourceTree = "<group>"; };
+		1C63E4311813870400E0AAEC /* IBXTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBXTableView.h; sourceTree = "<group>"; };
+		1C63E4321813870400E0AAEC /* IBXTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBXTableView.m; sourceTree = "<group>"; };
+		1C63E4331813870400E0AAEC /* IBXTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBXTableViewCell.h; sourceTree = "<group>"; };
+		1C63E4341813870400E0AAEC /* IBXTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBXTableViewCell.m; sourceTree = "<group>"; };
+		1C63E4351813870400E0AAEC /* IBXTableViewDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBXTableViewDataItem.h; sourceTree = "<group>"; };
+		1C63E4361813870400E0AAEC /* IBXTableViewDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBXTableViewDataItem.m; sourceTree = "<group>"; };
+		1C63E4371813870400E0AAEC /* IBXTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBXTableViewDataSource.h; sourceTree = "<group>"; };
+		1C63E4381813870400E0AAEC /* IBXTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBXTableViewDataSource.m; sourceTree = "<group>"; };
+		1C63E4401813878200E0AAEC /* PSAMusicListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicListCell.xib; sourceTree = "<group>"; };
+		1C63E4411813878200E0AAEC /* PSAMusicListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicListCell.h; sourceTree = "<group>"; };
+		1C63E4421813878200E0AAEC /* PSAMusicListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicListCell.m; sourceTree = "<group>"; };
+		1C63E4431813878200E0AAEC /* PSAMusicListModeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicListModeCell.xib; sourceTree = "<group>"; };
+		1C63E4441813878200E0AAEC /* PSAMusicListModeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicListModeCell.h; sourceTree = "<group>"; };
+		1C63E4451813878200E0AAEC /* PSAMusicListModeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicListModeCell.m; sourceTree = "<group>"; };
+		1C63E44A1813879800E0AAEC /* PSAMusicCoverItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicCoverItemView.h; sourceTree = "<group>"; };
+		1C63E44B1813879800E0AAEC /* PSAMusicCoverItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicCoverItemView.m; sourceTree = "<group>"; };
+		1C63E44C1813879800E0AAEC /* PSAMusicCoverItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicCoverItemView.xib; sourceTree = "<group>"; };
+		1C63E44D1813879800E0AAEC /* PSAMusicCoverListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicCoverListItem.h; sourceTree = "<group>"; };
+		1C63E44E1813879800E0AAEC /* PSAMusicCoverListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicCoverListItem.m; sourceTree = "<group>"; };
+		1C63E452181387A000E0AAEC /* JHTickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTickerView.h; sourceTree = "<group>"; };
+		1C63E453181387A000E0AAEC /* JHTickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTickerView.m; sourceTree = "<group>"; };
 		4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioConstantsConfig.h; sourceTree = "<group>"; };
 		4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPlayer.h; sourceTree = "<group>"; };
 		4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPlayer.m; sourceTree = "<group>"; };
@@ -586,6 +628,77 @@
 			name = Video;
 			sourceTree = "<group>";
 		};
+		1C63E4291813870400E0AAEC /* IBXDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				1C63E42A1813870400E0AAEC /* IBXDataSource.h */,
+				1C63E42B1813870400E0AAEC /* IBXDataSource.m */,
+				1C63E42C1813870400E0AAEC /* IBXTableViewEnableItem.h */,
+				1C63E42D1813870400E0AAEC /* IBXTableViewEnableItem.m */,
+				1C63E42E1813870400E0AAEC /* IBXTableViewItem.h */,
+				1C63E42F1813870400E0AAEC /* IBXTableViewItem.m */,
+			);
+			path = IBXDataSource;
+			sourceTree = "<group>";
+		};
+		1C63E4301813870400E0AAEC /* IBXTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1C63E4311813870400E0AAEC /* IBXTableView.h */,
+				1C63E4321813870400E0AAEC /* IBXTableView.m */,
+				1C63E4331813870400E0AAEC /* IBXTableViewCell.h */,
+				1C63E4341813870400E0AAEC /* IBXTableViewCell.m */,
+				1C63E4351813870400E0AAEC /* IBXTableViewDataItem.h */,
+				1C63E4361813870400E0AAEC /* IBXTableViewDataItem.m */,
+				1C63E4371813870400E0AAEC /* IBXTableViewDataSource.h */,
+				1C63E4381813870400E0AAEC /* IBXTableViewDataSource.m */,
+			);
+			path = IBXTableView;
+			sourceTree = "<group>";
+		};
+		1C63E455181387C900E0AAEC /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				7FC2795B1807E57F00E7B225 /* PSAMusicDeviceCell.h */,
+				7FC2795C1807E57F00E7B225 /* PSAMusicDeviceCell.m */,
+				7FC2795D1807E57F00E7B225 /* PSAMusicDeviceCell.xib */,
+				7FC279601807E59000E7B225 /* PSAMusicPlusCell.xib */,
+				7FC279611807E59000E7B225 /* PSAMusicPlusCell.h */,
+				7FC279621807E59000E7B225 /* PSAMusicPlusCell.m */,
+				1C63E452181387A000E0AAEC /* JHTickerView.h */,
+				1C63E453181387A000E0AAEC /* JHTickerView.m */,
+				1C63E44A1813879800E0AAEC /* PSAMusicCoverItemView.h */,
+				1C63E44B1813879800E0AAEC /* PSAMusicCoverItemView.m */,
+				1C63E44C1813879800E0AAEC /* PSAMusicCoverItemView.xib */,
+				1C63E44D1813879800E0AAEC /* PSAMusicCoverListItem.h */,
+				1C63E44E1813879800E0AAEC /* PSAMusicCoverListItem.m */,
+				1C63E4401813878200E0AAEC /* PSAMusicListCell.xib */,
+				1C63E4411813878200E0AAEC /* PSAMusicListCell.h */,
+				1C63E4421813878200E0AAEC /* PSAMusicListCell.m */,
+				1C63E4431813878200E0AAEC /* PSAMusicListModeCell.xib */,
+				1C63E4441813878200E0AAEC /* PSAMusicListModeCell.h */,
+				1C63E4451813878200E0AAEC /* PSAMusicListModeCell.m */,
+				7FC279C7180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.h */,
+				7FC279C8180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m */,
+				7FC2794518068F9900E7B225 /* PSAMusicDiskView.h */,
+				7FC2794618068F9900E7B225 /* PSAMusicDiskView.m */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		1C63E456181387D800E0AAEC /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				7FC279561807E57100E7B225 /* PSAAppListHeaderView.h */,
+				7FC279571807E57100E7B225 /* PSAAppListHeaderView.m */,
+				7FC279581807E57100E7B225 /* PSAAppListHeaderView.xib */,
+				7FC279651807E5B700E7B225 /* PSAVideoCoverItemView.h */,
+				7FC279661807E5B700E7B225 /* PSAVideoCoverItemView.m */,
+				7FC279671807E5B700E7B225 /* PSAVideoCoverItemView.xib */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
 		4BBC715F180A67E300D3C5EB /* Radio */ = {
 			isa = PBXGroup;
 			children = (
@@ -662,6 +775,8 @@
 		7FC2793D18068F3700E7B225 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				1C63E4291813870400E0AAEC /* IBXDataSource */,
+				1C63E4301813870400E0AAEC /* IBXTableView */,
 				7FC2793E18068F4D00E7B225 /* StyledPageControl.h */,
 				7FC2793F18068F4D00E7B225 /* StyledPageControl.m */,
 				7FC2794118068F6200E7B225 /* DMPagingScrollView.h */,
@@ -673,22 +788,8 @@
 		7FC2794418068F8D00E7B225 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				7FC279C7180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.h */,
-				7FC279C8180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m */,
-				7FC2794518068F9900E7B225 /* PSAMusicDiskView.h */,
-				7FC2794618068F9900E7B225 /* PSAMusicDiskView.m */,
-				7FC279561807E57100E7B225 /* PSAAppListHeaderView.h */,
-				7FC279571807E57100E7B225 /* PSAAppListHeaderView.m */,
-				7FC279581807E57100E7B225 /* PSAAppListHeaderView.xib */,
-				7FC2795B1807E57F00E7B225 /* PSAMusicDeviceCell.h */,
-				7FC2795C1807E57F00E7B225 /* PSAMusicDeviceCell.m */,
-				7FC2795D1807E57F00E7B225 /* PSAMusicDeviceCell.xib */,
-				7FC279601807E59000E7B225 /* PSAMusicPlusCell.xib */,
-				7FC279611807E59000E7B225 /* PSAMusicPlusCell.h */,
-				7FC279621807E59000E7B225 /* PSAMusicPlusCell.m */,
-				7FC279651807E5B700E7B225 /* PSAVideoCoverItemView.h */,
-				7FC279661807E5B700E7B225 /* PSAVideoCoverItemView.m */,
-				7FC279671807E5B700E7B225 /* PSAVideoCoverItemView.xib */,
+				1C63E456181387D800E0AAEC /* Video */,
+				1C63E455181387C900E0AAEC /* Music */,
 			);
 			name = CustomView;
 			sourceTree = "<group>";
@@ -813,6 +914,7 @@
 				1C63E40D1812B98400E0AAEC /* OptionalMenulBG.png in Resources */,
 				1C63E4011812B98400E0AAEC /* MusicOnlineDisk5.png in Resources */,
 				1C63E4041812B98400E0AAEC /* OptionMenuIcon.png in Resources */,
+				1C63E4461813878200E0AAEC /* PSAMusicListCell.xib in Resources */,
 				7FC279B6180B804F00E7B225 /* PSAVideoLoginViewController.xib in Resources */,
 				1C63E3FC1812B98400E0AAEC /* MusicOnlineDisk1.png in Resources */,
 				1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */,
@@ -828,11 +930,13 @@
 				1C63E3FA1812B98400E0AAEC /* OptionCreateCellBG.png in Resources */,
 				1C63E3DF1812B98400E0AAEC /* AlbumBlueColor.png in Resources */,
 				1C63E3EA1812B98400E0AAEC /* Device_coverlist_selected.png in Resources */,
+				1C63E4481813878200E0AAEC /* PSAMusicListModeCell.xib in Resources */,
 				7FC279A8180AE4B400E7B225 /* Video_plus_deviceList.png in Resources */,
 				1C63E4081812B98400E0AAEC /* List_button_left_bg.png in Resources */,
 				1C63E38918051DD400E0AAEC /* PSAVideoYoukuViewController.xib in Resources */,
 				1C63E3FB1812B98400E0AAEC /* MusicOnline_divider.png in Resources */,
 				1C63E3ED1812B98400E0AAEC /* MusicDeviceUnconnected.png in Resources */,
+				1C63E4501813879800E0AAEC /* PSAMusicCoverItemView.xib in Resources */,
 				1C63E3E61812B98400E0AAEC /* List_minus.png in Resources */,
 				7FC279AD180AE4B400E7B225 /* Video_YoukuVideo4.png in Resources */,
 				7FC279AC180AE4B400E7B225 /* Video_YoukuVideo3.png in Resources */,
@@ -890,9 +994,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C63E454181387A000E0AAEC /* JHTickerView.m in Sources */,
+				1C63E43B1813870400E0AAEC /* IBXTableViewItem.m in Sources */,
 				7FC2794A18068FD700E7B225 /* UIView+Subview.m in Sources */,
 				1C63E39B180E442500E0AAEC /* PSAMusicMainViewController.m in Sources */,
 				1C63E3931807D47700E0AAEC /* PSATune.m in Sources */,
+				1C63E43E1813870400E0AAEC /* IBXTableViewDataItem.m in Sources */,
 				7FC2794718068F9900E7B225 /* PSAMusicDiskView.m in Sources */,
 				7FC279BC180B808800E7B225 /* UIView+EasingFunctions.m in Sources */,
 				7FC279C9180FC8CB00E7B225 /* PSAMusicNowPlayingSlider.m in Sources */,
@@ -900,9 +1007,12 @@
 				1C63E36F1803C7FD00E0AAEC /* PSAMainViewController.m in Sources */,
 				7FC2793C18068E6800E7B225 /* UIView+FadeInOut.m in Sources */,
 				7FC279591807E57100E7B225 /* PSAAppListHeaderView.m in Sources */,
+				1C63E43D1813870400E0AAEC /* IBXTableViewCell.m in Sources */,
 				1C63E37E1804E67700E0AAEC /* UILabel+Font.m in Sources */,
+				1C63E4511813879800E0AAEC /* PSAMusicCoverListItem.m in Sources */,
 				1C63E3411803C74600E0AAEC /* AppDelegate.m in Sources */,
 				1C63E3751804E55500E0AAEC /* PSAVideoPanelViewController.m in Sources */,
+				1C63E44F1813879800E0AAEC /* PSAMusicCoverItemView.m in Sources */,
 				1C63E3941807D47700E0AAEC /* PSATunesList.m in Sources */,
 				7FC279531807E53B00E7B225 /* PSAVideoCoverViewController.m in Sources */,
 				1C63E3971807D4CE00E0AAEC /* NSArray+Data.m in Sources */,
@@ -911,13 +1021,18 @@
 				1C63E37D1804E67700E0AAEC /* UIView+Frame.m in Sources */,
 				1C63E33D1803C74600E0AAEC /* main.m in Sources */,
 				1C63E38318051C7D00E0AAEC /* PSAVideoDVDViewController.m in Sources */,
+				1C63E4391813870400E0AAEC /* IBXDataSource.m in Sources */,
+				1C63E43C1813870400E0AAEC /* IBXTableView.m in Sources */,
 				1C63E38818051DD400E0AAEC /* PSAVideoYoukuViewController.m in Sources */,
+				1C63E43A1813870400E0AAEC /* IBXTableViewEnableItem.m in Sources */,
 				4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */,
 				1C63E3A5180E69A400E0AAEC /* PSARootViewController.m in Sources */,
 				1C63E41E181385B400E0AAEC /* PSAMusicListViewController.m in Sources */,
 				1C63E420181385B400E0AAEC /* PSAMusicListCoverViewController.m in Sources */,
 				7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */,
+				1C63E4491813878200E0AAEC /* PSAMusicListModeCell.m in Sources */,
 				1C63E3A0180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m in Sources */,
+				1C63E43F1813870400E0AAEC /* IBXTableViewDataSource.m in Sources */,
 				7FC279C5180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.m in Sources */,
 				7FC279B5180B804F00E7B225 /* PSAVideoLoginViewController.m in Sources */,
 				7FC279681807E5B700E7B225 /* PSAVideoCoverItemView.m in Sources */,
@@ -927,6 +1042,7 @@
 				7FC279B9180B807D00E7B225 /* easing.c in Sources */,
 				7FC2794018068F4D00E7B225 /* StyledPageControl.m in Sources */,
 				4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */,
+				1C63E4471813878200E0AAEC /* PSAMusicListCell.m in Sources */,
 				1C63E427181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

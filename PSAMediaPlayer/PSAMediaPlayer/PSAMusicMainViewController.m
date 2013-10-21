@@ -50,6 +50,14 @@ typedef enum {
     return self;
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    if ([[PSARadioPlayer sharedPSARadioPlayer] getRadioPlayerState] == kRadioPlayerStateStop && [[PSAMusicPlayer sharedPSAMusicPlayer] firstLoad] == YES) {
+        [[PSAMusicPlayer sharedPSAMusicPlayer] playMusic];
+        [[PSAMusicPlayer sharedPSAMusicPlayer] firstLoadFinished];
+    }
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -85,12 +93,12 @@ typedef enum {
 //    self.musicNowPlayingViewController = [PSAMusicNowPlayingViewController createMusicNowPlayingViewController];
 //    [self.musicNowPlayingViewController.view setX:0 Y:kPSAMusicNowPlayingVCY];
 //    [self.view addSubview:self.musicNowPlayingViewController.view];
-//    
-//    self.musicListViewController = [PSAMusicListViewController createMusicListViewController];
-//    [self.musicListViewController.view setY:kPSAMusicPanelViewY];
-//    [self.musicListViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
-//    self.musicListViewController.delegate = self;
-//    
+    
+    self.musicListViewController = [PSAMusicListViewController createMusicListViewController];
+    [self.musicListViewController.view setY:kPSAMusicPanelViewY];
+    [self.musicListViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    self.musicListViewController.delegate = self;
+
 //    self.musicDVDViewController = [PSAMusicDVDViewController createMusicDVDViewController];
 //    [self.musicDVDViewController.view setY:kPSAMusicPanelViewY];
 //    self.musicDVDViewController.delegate = self.musicNowPlayingViewController;
@@ -115,9 +123,9 @@ typedef enum {
 - (UIViewController *)panelViewWithID:(PSAMUSICID)panelId
 {
     switch (panelId) {
-//        case PSAMUSIC_LIST:
-//            return self.musicListViewController;
-//            break;
+        case PSAMUSIC_LIST:
+            return self.musicListViewController;
+            break;
 //        case PSAMUSIC_DVD:
 //            return self.musicDVDViewController;
 //            break;
@@ -201,24 +209,6 @@ typedef enum {
     button.userInteractionEnabled = NO;
     [self loadViewWithTag:button.tag];
 }
-
-#pragma mark PSAFunctionViewControllerProtocol
-
-//- (void)panelDidAppear
-//{
-//    if ([[PSARadioPlayer sharedPSARadioPlayer] getRadioPlayerState] == kRadioPlayerStateStop && [[PSAMusicPlayer sharedPSAMusicPlayer] firstLoad] == YES) {
-//        [[PSAMusicPlayer sharedPSAMusicPlayer] playMusic];
-//        [[PSAMusicPlayer sharedPSAMusicPlayer] firstLoadFinished];
-//    }
-//}
-//
-//- (void)exitMusic:(NSNotification *)notification
-//{
-//    NSDictionary *object = [notification userInfo];
-//    if ([[object objectForKey:@"id"] intValue] == PSAIDMUSIC){
-//        [[PSAMusicPlayer sharedPSAMusicPlayer] pauseMusic];
-//    }
-//}
 
 #pragma mark MusicListDelegate
 
