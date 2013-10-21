@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-//#import "PSARadioMyStationViewController.h"
+#import "PSARadioMyStationViewController.h"
 //#import "PSARadioInternetViewController.h"
 //#import "PSARadioNowPlayingSegmentViewController.h"
-//#import "PSARadioFromMyFriendViewController.h"
 
-@interface PSARadioPanelViewController : UIViewController/*<RadioNowPlayingSegmentDelegate,RadioMyStationDelegate>*/{
+@interface PSARadioPanelViewController : UIViewController/*<RadioNowPlayingSegmentDelegate,*/<RadioMyStationDelegate>{
     NSString *resourcePath;
     NSMutableDictionary *resourceDictionary;
     UIImage *screenShot;
@@ -28,9 +27,8 @@
 @property (weak, nonatomic) IBOutlet UIView *segmentView;
 
 //@property (strong, nonatomic) PSARadioNowPlayingSegmentViewController *radioNowPlayingSegmentViewController;
-//@property (strong, nonatomic) PSARadioMyStationViewController *radioMyStationViewController;
+@property (strong, nonatomic) PSARadioMyStationViewController *radioMyStationViewController;
 //@property (strong, nonatomic) PSARadioInternetViewController *radioInternetViewController;
-//@property (strong, nonatomic) PSARadioFromMyFriendViewController *radioFromMyFriendViewController;
 
 - (IBAction)switchRadioSourceAction:(id)sender;
 

@@ -19,7 +19,6 @@
 typedef enum {
     PSARADIO_MYSTATION = 2001,
     PSARADIO_INTERNET = 2002,
-    PSARADIO_FROMMYFRIEND = 2003,
 } PSARADIOID;
 
 @interface PSARadioPanelViewController ()
@@ -95,12 +94,12 @@ typedef enum {
 //    self.radioNowPlayingSegmentViewController.delegate = self;
 //    [self.radioNowPlayingSegmentViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
 //    [self.view addSubview:self.radioNowPlayingSegmentViewController.view];
-//    
-//    self.radioMyStationViewController = [PSARadioMyStationViewController createRadioMyStationViewController];
-//    [self.radioMyStationViewController.view setY:47];
-//    [self.radioMyStationViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
-//    self.radioMyStationViewController.delegate = self;
-//    
+    
+    self.radioMyStationViewController = [PSARadioMyStationViewController createRadioMyStationViewController];
+    [self.radioMyStationViewController.view setY:47];
+    [self.radioMyStationViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    self.radioMyStationViewController.delegate = self;
+
 //    self.radioInternetViewController = [PSARadioInternetViewController createRadioInternetViewController];
 //    [self.radioInternetViewController.view setY:47];
 //    [self.radioInternetViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
@@ -142,14 +141,11 @@ typedef enum {
 - (UIViewController *)panelViewWithID:(PSARADIOID)panelId
 {
     switch (panelId) {
-//        case PSARADIO_MYSTATION:
-//            return self.radioMyStationViewController;
-//            break;
+        case PSARADIO_MYSTATION:
+            return self.radioMyStationViewController;
+            break;
 //        case PSARADIO_INTERNET:
 //            return self.radioInternetViewController;
-//            break;
-//        case PSARADIO_FROMMYFRIEND:
-//            return self.radioFromMyFriendViewController;
 //            break;
         default:
             break;
@@ -249,7 +245,7 @@ typedef enum {
 
 - (void)resetMyStation
 {
-    //[self.radioMyStationViewController resetMyStation];
+    [self.radioMyStationViewController resetMyStation];
 }
 
 #pragma mark RadioNowPlayingDelegate
