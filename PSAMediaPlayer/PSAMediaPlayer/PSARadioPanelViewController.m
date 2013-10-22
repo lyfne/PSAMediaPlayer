@@ -100,13 +100,9 @@ typedef enum {
     [self.radioMyStationViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
     self.radioMyStationViewController.delegate = self;
 
-//    self.radioInternetViewController = [PSARadioInternetViewController createRadioInternetViewController];
-//    [self.radioInternetViewController.view setY:47];
-//    [self.radioInternetViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
-//    
-//    self.radioFromMyFriendViewController = [PSARadioFromMyFriendViewController createRadioFromMyFriendViewController];
-//    [self.radioFromMyFriendViewController.view setY:47];
-//    [self.radioFromMyFriendViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    self.radioInternetViewController = [PSARadioInternetViewController createRadioInternetViewController];
+    [self.radioInternetViewController.view setY:47];
+    [self.radioInternetViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
 }
 
 - (void)initResourceAndFavoriteList
@@ -144,9 +140,9 @@ typedef enum {
         case PSARADIO_MYSTATION:
             return self.radioMyStationViewController;
             break;
-//        case PSARADIO_INTERNET:
-//            return self.radioInternetViewController;
-//            break;
+        case PSARADIO_INTERNET:
+            return self.radioInternetViewController;
+            break;
         default:
             break;
     }

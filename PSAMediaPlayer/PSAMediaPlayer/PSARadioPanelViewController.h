@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import "PSARadioMyStationViewController.h"
-//#import "PSARadioInternetViewController.h"
+#import "PSARadioInternetViewController.h"
 //#import "PSARadioNowPlayingSegmentViewController.h"
 
 @interface PSARadioPanelViewController : UIViewController/*<RadioNowPlayingSegmentDelegate,*/<RadioMyStationDelegate>{
@@ -28,7 +28,7 @@
 
 //@property (strong, nonatomic) PSARadioNowPlayingSegmentViewController *radioNowPlayingSegmentViewController;
 @property (strong, nonatomic) PSARadioMyStationViewController *radioMyStationViewController;
-//@property (strong, nonatomic) PSARadioInternetViewController *radioInternetViewController;
+@property (strong, nonatomic) PSARadioInternetViewController *radioInternetViewController;
 
 - (IBAction)switchRadioSourceAction:(id)sender;
 

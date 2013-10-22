@@ -53,7 +53,7 @@ typedef enum {
 - (void)viewDidAppear:(BOOL)animated
 {
     if ([[PSARadioPlayer sharedPSARadioPlayer] getRadioPlayerState] == kRadioPlayerStateStop && [[PSAMusicPlayer sharedPSAMusicPlayer] firstLoad] == YES) {
-        [[PSAMusicPlayer sharedPSAMusicPlayer] playMusic];
+        //[[PSAMusicPlayer sharedPSAMusicPlayer] playMusic];
         [[PSAMusicPlayer sharedPSAMusicPlayer] firstLoadFinished];
     }
 }
@@ -112,10 +112,6 @@ typedef enum {
 //    [self.musicOnlineViewController.view setY:kPSAMusicPanelViewY];
 //    [self.musicOnlineViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
 //    self.musicOnlineViewController.delegate = self;
-//    
-//    self.musicFromMyFriendViewController = [PSAMusicFromMyFriendViewController createMusicFromMyFriendViewController];
-//    [self.musicFromMyFriendViewController.view setY:kPSAMusicPanelViewY];
-//    [self.musicFromMyFriendViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
 }
 
 #pragma mark Mini Function
