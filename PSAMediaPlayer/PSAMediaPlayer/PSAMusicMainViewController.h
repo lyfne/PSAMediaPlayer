@@ -10,7 +10,7 @@
 //#import "PSAMusicOnlineViewController.h"
 #import "PSAMusicListViewController.h"
 //#import "PSAMusicDeviceViewController.h"
-//#import "PSAMusicNowPlayingViewController.h"
+#import "PSAMusicNowPlayingViewController.h"
 //#import "PSAMusicDVDViewController.h"
 //#import "PSAFunctionViewControllerProtocol.h"
 //#import "PSAMusicCreateListViewController.h"
@@ -30,7 +30,7 @@
 //@property (strong, nonatomic) PSAMusicOnlineViewController *musicOnlineViewController;
 @property (strong, nonatomic) PSAMusicListViewController *musicListViewController;
 //@property (strong, nonatomic) PSAMusicDeviceViewController *musicDeviceViewController;
-//@property (strong, nonatomic) PSAMusicNowPlayingViewController *musicNowPlayingViewController;
+@property (strong, nonatomic) PSAMusicNowPlayingViewController *musicNowPlayingViewController;
 //@property (strong, nonatomic) PSAMusicDVDViewController *musicDVDViewController;
 //@property (strong, nonatomic) PSAMusicCreateListViewController *musicCreateListViewController;
 //@property (strong, nonatomic) PSAMusicLoginViewController *musicLoginViewController;

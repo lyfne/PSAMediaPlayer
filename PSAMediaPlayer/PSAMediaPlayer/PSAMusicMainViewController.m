@@ -63,7 +63,7 @@ typedef enum {
     [super viewDidLoad];
     [self initAllView];
     [self.view addSubview:[self panelViewWithID:self.currentPanelID].view];
-    //[self.view bringSubviewToFront:self.musicNowPlayingViewController.view];
+    [self.view bringSubviewToFront:self.musicNowPlayingViewController.view];
     
     dispatch_queue_t locateQueue = dispatch_queue_create("Load Music", NULL);
     dispatch_async(locateQueue, ^{
@@ -90,9 +90,9 @@ typedef enum {
 
 - (void)initAllView
 {
-//    self.musicNowPlayingViewController = [PSAMusicNowPlayingViewController createMusicNowPlayingViewController];
-//    [self.musicNowPlayingViewController.view setX:0 Y:kPSAMusicNowPlayingVCY];
-//    [self.view addSubview:self.musicNowPlayingViewController.view];
+    self.musicNowPlayingViewController = [PSAMusicNowPlayingViewController createMusicNowPlayingViewController];
+    [self.musicNowPlayingViewController.view setX:0 Y:kPSAMusicNowPlayingVCY];
+    [self.view addSubview:self.musicNowPlayingViewController.view];
     
     self.musicListViewController = [PSAMusicListViewController createMusicListViewController];
     [self.musicListViewController.view setY:kPSAMusicPanelViewY];
@@ -130,8 +130,6 @@ typedef enum {
 //            break;
 //        case PSAMUSIC_ONLINE:
 //            return self.musicOnlineViewController;
-//        case PSAMUSIC_FROMMYFRIEND:
-//            return self.musicFromMyFriendViewController;
         default:
             break;
     }
@@ -155,7 +153,7 @@ typedef enum {
             } completion:^(BOOL finished) {
                 [currentPanel.view removeFromSuperview];
                 [self enableButton];
-                //[self.view bringSubviewToFront:self.musicNowPlayingViewController.view];
+                [self.view bringSubviewToFront:self.musicNowPlayingViewController.view];
             }];
         } else {
             UIViewController *newPanel = [self panelViewWithID:tag];
@@ -171,7 +169,7 @@ typedef enum {
             } completion:^(BOOL finished) {
                 [currentPanel.view removeFromSuperview];
                 [self enableButton];
-                //[self.view bringSubviewToFront:self.musicNowPlayingViewController.view];
+                [self.view bringSubviewToFront:self.musicNowPlayingViewController.view];
             }];
         }
     }

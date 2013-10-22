@@ -18,7 +18,7 @@
 
 @end
 
-@interface PSAVideoNowPlayingSegmentViewController : UIViewController<NowPlayingSliderDelegatye>{
+@interface PSAVideoNowPlayingSegmentViewController : UIViewController<NowPlayingSliderDelegate>{
     float videoDuration;
     float currentTime;
 }

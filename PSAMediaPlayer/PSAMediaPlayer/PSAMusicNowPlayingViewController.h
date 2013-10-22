@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 //#import "PSAMusicDVDViewController.h"
-//#import "PSAMusicNowPlayingSlider.h"
+#import "PSAMusicNowPlayingSlider.h"
 
-@interface PSAMusicNowPlayingViewController : UIViewController/*<PSADVDSwitchDelegate,NowPlayingSliderDelegate>*/{
+@interface PSAMusicNowPlayingViewController : UIViewController/*<PSADVDSwitchDelegate,*/<NowPlayingSliderDelegate>{
     NSTimer *processTimer;
     int angle;
     int rotateState;
@@ -23,7 +23,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *nowPlayingLabel;
 @property (weak, nonatomic) IBOutlet UILabel *tunesSumLabel;
 
-//@property (weak, nonatomic) IBOutlet PSAMusicNowPlayingSlider *progressSlider;
+@property (weak, nonatomic) IBOutlet PSAMusicNowPlayingSlider *progressSlider;
 
 @property (weak, nonatomic) IBOutlet UIButton *playButton;
 @property (weak, nonatomic) IBOutlet UIButton *playModeButton;

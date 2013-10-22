@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol NowPlayingSliderDelegatye
+@protocol NowPlayingSliderDelegate
 
 - (void)touchEnd;
 
@@ -19,6 +19,6 @@
 
 @interface PSAMusicNowPlayingSlider : UISlider
 
-@property(weak, nonatomic) id<NowPlayingSliderDelegatye> delegate;
+@property(weak, nonatomic) id<NowPlayingSliderDelegate> delegate;
 
 @end

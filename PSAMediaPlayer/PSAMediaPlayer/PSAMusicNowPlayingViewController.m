@@ -29,7 +29,7 @@
 
 @implementation PSAMusicNowPlayingViewController
 @synthesize songLabel,singerLabel,albumLabel,timeLabel,nowPlayingLabel,tunesSumLabel;
-//@synthesize progressSlider;
+@synthesize progressSlider;
 @synthesize rotateImageView;
 @synthesize playButton,preButton,nextButton,otherButton,playModeButton,diskButton;
 @synthesize albumButton;
@@ -132,18 +132,18 @@
 
 - (void)initSlider
 {
-//    progressSlider.maximumValue=100;
-//    progressSlider.minimumValue=0;
-//    progressSlider.continuous=YES;
-//    [progressSlider setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
-//    progressSlider.delegate = self;
-//    
-//    [progressSlider setThumbImage:[UIImage imageNamed:@"ProgressThumb.png"] forState:UIControlStateNormal];
-//    [progressSlider setThumbImage:[UIImage imageNamed:@"ProgressThumb.png"] forState:UIControlStateHighlighted];
-//    [progressSlider setMaximumTrackTintColor:[UIColor colorWithWhite:1.0 alpha:0.4]];
-//    [progressSlider setMinimumTrackTintColor:[UIColor whiteColor]];
-//    
-//    [progressSlider addTarget:self action:@selector(processTimerStop) forControlEvents:UIControlEventTouchDown];
+    progressSlider.maximumValue=100;
+    progressSlider.minimumValue=0;
+    progressSlider.continuous=YES;
+    [progressSlider setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    progressSlider.delegate = self;
+    
+    [progressSlider setThumbImage:[UIImage imageNamed:@"ProgressThumb.png"] forState:UIControlStateNormal];
+    [progressSlider setThumbImage:[UIImage imageNamed:@"ProgressThumb.png"] forState:UIControlStateHighlighted];
+    [progressSlider setMaximumTrackTintColor:[UIColor colorWithWhite:1.0 alpha:0.4]];
+    [progressSlider setMinimumTrackTintColor:[UIColor whiteColor]];
+    
+    [progressSlider addTarget:self action:@selector(processTimerStop) forControlEvents:UIControlEventTouchDown];
 }
 
 - (void)initAnimation
