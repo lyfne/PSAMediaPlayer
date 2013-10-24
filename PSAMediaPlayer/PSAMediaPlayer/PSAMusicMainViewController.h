@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 //#import "PSAMusicOnlineViewController.h"
 #import "PSAMusicListViewController.h"
-//#import "PSAMusicDeviceViewController.h"
+#import "PSAMusicDeviceViewController.h"
 #import "PSAMusicNowPlayingViewController.h"
-//#import "PSAMusicDVDViewController.h"
+#import "PSAMusicDVDViewController.h"
 //#import "PSAFunctionViewControllerProtocol.h"
 //#import "PSAMusicCreateListViewController.h"
 //#import "PSAMusicLoginViewController.h"
@@ -29,9 +29,9 @@
 @property (weak, nonatomic) IBOutlet UIView *sourceView;
 //@property (strong, nonatomic) PSAMusicOnlineViewController *musicOnlineViewController;
 @property (strong, nonatomic) PSAMusicListViewController *musicListViewController;
-//@property (strong, nonatomic) PSAMusicDeviceViewController *musicDeviceViewController;
+@property (strong, nonatomic) PSAMusicDeviceViewController *musicDeviceViewController;
 @property (strong, nonatomic) PSAMusicNowPlayingViewController *musicNowPlayingViewController;
-//@property (strong, nonatomic) PSAMusicDVDViewController *musicDVDViewController;
+@property (strong, nonatomic) PSAMusicDVDViewController *musicDVDViewController;
 //@property (strong, nonatomic) PSAMusicCreateListViewController *musicCreateListViewController;
 //@property (strong, nonatomic) PSAMusicLoginViewController *musicLoginViewController;
 

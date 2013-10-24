@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "PSAMusicDVDViewController.h"
+#import "PSAMusicDVDViewController.h"
 #import "PSAMusicNowPlayingSlider.h"
 
-@interface PSAMusicNowPlayingViewController : UIViewController/*<PSADVDSwitchDelegate,*/<NowPlayingSliderDelegate>{
+@interface PSAMusicNowPlayingViewController : UIViewController<PSADVDSwitchDelegate,NowPlayingSliderDelegate>{
     NSTimer *processTimer;
     int angle;
     int rotateState;

@@ -99,15 +99,15 @@ typedef enum {
     [self.musicListViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
     self.musicListViewController.delegate = self;
 
-//    self.musicDVDViewController = [PSAMusicDVDViewController createMusicDVDViewController];
-//    [self.musicDVDViewController.view setY:kPSAMusicPanelViewY];
-//    self.musicDVDViewController.delegate = self.musicNowPlayingViewController;
-//    [self.musicDVDViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
-//    
-//    self.musicDeviceViewController = [PSAMusicDeviceViewController createMusicDeviceViewController];
-//    [self.musicDeviceViewController.view setY:kPSAMusicPanelViewY];
-//    [self.musicDeviceViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
-//    
+    self.musicDVDViewController = [PSAMusicDVDViewController createMusicDVDViewController];
+    [self.musicDVDViewController.view setY:kPSAMusicPanelViewY];
+    self.musicDVDViewController.delegate = self.musicNowPlayingViewController;
+    [self.musicDVDViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    
+    self.musicDeviceViewController = [PSAMusicDeviceViewController createMusicDeviceViewController];
+    [self.musicDeviceViewController.view setY:kPSAMusicPanelViewY];
+    [self.musicDeviceViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+
 //    self.musicOnlineViewController = [PSAMusicOnlineViewController createMusicOnlineViewController];
 //    [self.musicOnlineViewController.view setY:kPSAMusicPanelViewY];
 //    [self.musicOnlineViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
@@ -122,12 +122,12 @@ typedef enum {
         case PSAMUSIC_LIST:
             return self.musicListViewController;
             break;
-//        case PSAMUSIC_DVD:
-//            return self.musicDVDViewController;
-//            break;
-//        case PSAMUSIC_DEVICE:
-//            return self.musicDeviceViewController;
-//            break;
+        case PSAMUSIC_DVD:
+            return self.musicDVDViewController;
+            break;
+        case PSAMUSIC_DEVICE:
+            return self.musicDeviceViewController;
+            break;
 //        case PSAMUSIC_ONLINE:
 //            return self.musicOnlineViewController;
         default:

@@ -115,6 +115,10 @@
 		1C63E4501813879800E0AAEC /* PSAMusicCoverItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E44C1813879800E0AAEC /* PSAMusicCoverItemView.xib */; };
 		1C63E4511813879800E0AAEC /* PSAMusicCoverListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E44E1813879800E0AAEC /* PSAMusicCoverListItem.m */; };
 		1C63E454181387A000E0AAEC /* JHTickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E453181387A000E0AAEC /* JHTickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1C63E45A1816C7C800E0AAEC /* PSAMusicDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E4581816C7C800E0AAEC /* PSAMusicDeviceViewController.m */; };
+		1C63E45B1816C7C800E0AAEC /* PSAMusicDeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4591816C7C800E0AAEC /* PSAMusicDeviceViewController.xib */; };
+		1C63E45F1816C8DF00E0AAEC /* PSAMusicDVDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E45D1816C8DF00E0AAEC /* PSAMusicDVDViewController.m */; };
+		1C63E4601816C8DF00E0AAEC /* PSAMusicDVDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E45E1816C8DF00E0AAEC /* PSAMusicDVDViewController.xib */; };
 		4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */; };
 		4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */; };
 		4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */; };
@@ -348,6 +352,12 @@
 		1C63E44E1813879800E0AAEC /* PSAMusicCoverListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicCoverListItem.m; sourceTree = "<group>"; };
 		1C63E452181387A000E0AAEC /* JHTickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTickerView.h; sourceTree = "<group>"; };
 		1C63E453181387A000E0AAEC /* JHTickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTickerView.m; sourceTree = "<group>"; };
+		1C63E4571816C7C800E0AAEC /* PSAMusicDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicDeviceViewController.h; sourceTree = "<group>"; };
+		1C63E4581816C7C800E0AAEC /* PSAMusicDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicDeviceViewController.m; sourceTree = "<group>"; };
+		1C63E4591816C7C800E0AAEC /* PSAMusicDeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicDeviceViewController.xib; sourceTree = "<group>"; };
+		1C63E45C1816C8DF00E0AAEC /* PSAMusicDVDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicDVDViewController.h; sourceTree = "<group>"; };
+		1C63E45D1816C8DF00E0AAEC /* PSAMusicDVDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicDVDViewController.m; sourceTree = "<group>"; };
+		1C63E45E1816C8DF00E0AAEC /* PSAMusicDVDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicDVDViewController.xib; sourceTree = "<group>"; };
 		4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioConstantsConfig.h; sourceTree = "<group>"; };
 		4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPlayer.h; sourceTree = "<group>"; };
 		4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPlayer.m; sourceTree = "<group>"; };
@@ -884,6 +894,12 @@
 				1C63E424181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.h */,
 				1C63E425181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.m */,
 				1C63E426181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.xib */,
+				1C63E4571816C7C800E0AAEC /* PSAMusicDeviceViewController.h */,
+				1C63E4581816C7C800E0AAEC /* PSAMusicDeviceViewController.m */,
+				1C63E4591816C7C800E0AAEC /* PSAMusicDeviceViewController.xib */,
+				1C63E45C1816C8DF00E0AAEC /* PSAMusicDVDViewController.h */,
+				1C63E45D1816C8DF00E0AAEC /* PSAMusicDVDViewController.m */,
+				1C63E45E1816C8DF00E0AAEC /* PSAMusicDVDViewController.xib */,
 			);
 			name = Music;
 			sourceTree = "<group>";
@@ -1026,6 +1042,7 @@
 				1C63E4071812B98400E0AAEC /* OthersButton.png in Resources */,
 				7FC279A5180AE4B400E7B225 /* Video_DVD_disk.png in Resources */,
 				4BBC718E1815404800D3C5EB /* Radio_pointer.png in Resources */,
+				1C63E45B1816C7C800E0AAEC /* PSAMusicDeviceViewController.xib in Resources */,
 				1C63E40C1812B98400E0AAEC /* MusicBg.png in Resources */,
 				1C63E3F31812B98400E0AAEC /* OptionAddToFavoriteCellBG.png in Resources */,
 				1C63E40A1812B98400E0AAEC /* ShuffleButton.png in Resources */,
@@ -1055,6 +1072,7 @@
 				1C63E3EC1812B98400E0AAEC /* MusicDeviceConnected.png in Resources */,
 				7FC279691807E5B700E7B225 /* PSAVideoCoverItemView.xib in Resources */,
 				1C63E4061812B98400E0AAEC /* OptionCellBG.png in Resources */,
+				1C63E4601816C8DF00E0AAEC /* PSAMusicDVDViewController.xib in Resources */,
 				7FC279541807E53B00E7B225 /* PSAVideoCoverViewController.xib in Resources */,
 				7FC279A4180AE4B400E7B225 /* Video_DVD_disk_onPlayingBG.png in Resources */,
 				7FC2799F180AE4B400E7B225 /* VideoListBG.png in Resources */,
@@ -1179,12 +1197,14 @@
 				4BBC719D1815498000D3C5EB /* PSARadioFMView.m in Sources */,
 				7FC2794318068F6200E7B225 /* DMPagingScrollView.m in Sources */,
 				1C63E4491813878200E0AAEC /* PSAMusicListModeCell.m in Sources */,
+				1C63E45A1816C7C800E0AAEC /* PSAMusicDeviceViewController.m in Sources */,
 				1C63E3A0180E44F700E0AAEC /* PSAMusicNowPlayingViewController.m in Sources */,
 				1C63E43F1813870400E0AAEC /* IBXTableViewDataSource.m in Sources */,
 				7FC279C5180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.m in Sources */,
 				7FC279B5180B804F00E7B225 /* PSAVideoLoginViewController.m in Sources */,
 				7FC279681807E5B700E7B225 /* PSAVideoCoverItemView.m in Sources */,
 				7FC279C3180FC84900E7B225 /* PSAVideoNowPlayingViewController.m in Sources */,
+				1C63E45F1816C8DF00E0AAEC /* PSAMusicDVDViewController.m in Sources */,
 				1C63E422181385B400E0AAEC /* PSAMusicCreateListViewController.m in Sources */,
 				7FC279641807E59000E7B225 /* PSAMusicPlusCell.m in Sources */,
 				7FC279B9180B807D00E7B225 /* easing.c in Sources */,
