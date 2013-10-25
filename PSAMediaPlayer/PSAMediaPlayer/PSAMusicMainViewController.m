@@ -108,10 +108,10 @@ typedef enum {
     [self.musicDeviceViewController.view setY:kPSAMusicPanelViewY];
     [self.musicDeviceViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
 
-//    self.musicOnlineViewController = [PSAMusicOnlineViewController createMusicOnlineViewController];
-//    [self.musicOnlineViewController.view setY:kPSAMusicPanelViewY];
-//    [self.musicOnlineViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
-//    self.musicOnlineViewController.delegate = self;
+    self.musicOnlineViewController = [PSAMusicOnlineViewController createMusicOnlineViewController];
+    [self.musicOnlineViewController.view setY:kPSAMusicPanelViewY];
+    [self.musicOnlineViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    self.musicOnlineViewController.delegate = self;
 }
 
 #pragma mark Mini Function
@@ -128,8 +128,8 @@ typedef enum {
         case PSAMUSIC_DEVICE:
             return self.musicDeviceViewController;
             break;
-//        case PSAMUSIC_ONLINE:
-//            return self.musicOnlineViewController;
+        case PSAMUSIC_ONLINE:
+            return self.musicOnlineViewController;
         default:
             break;
     }
@@ -208,19 +208,19 @@ typedef enum {
 
 - (void)addCreateView
 {
-//    self.musicCreateListViewController = [PSAMusicCreateListViewController createMusicCreateListViewController];
-//    [self.musicCreateListViewController.view setX:0 Y:0];
-//    self.musicCreateListViewController.delegate = self.musicListViewController;
-//    [self.view addSubview:self.musicCreateListViewController.view];
+    self.musicCreateListViewController = [PSAMusicCreateListViewController createMusicCreateListViewController];
+    [self.musicCreateListViewController.view setX:0 Y:0];
+    self.musicCreateListViewController.delegate = self.musicListViewController;
+    [self.view addSubview:self.musicCreateListViewController.view];
 }
 
 #pragma mark MusicOnLineDelegate
 
 - (void)addLoginView
 {
-//    self.musicLoginViewController = [PSAMusicLoginViewController createMusicLoginViewController];
-//    [self.musicLoginViewController.view setX:0 Y:0];
-//    [self.view addSubview:self.musicLoginViewController.view];
+    self.musicLoginViewController = [PSAMusicLoginViewController createMusicLoginViewController];
+    [self.musicLoginViewController.view setX:0 Y:0];
+    [self.view addSubview:self.musicLoginViewController.view];
 }
 
 @end
