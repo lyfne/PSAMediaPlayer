@@ -52,7 +52,7 @@ typedef enum {
     if ([[[PSARadioPlayer sharedPSARadioPlayer] getNowPlayingRadio] isEqualToString:@"F89.2"]) {
         if ([[PSAMusicPlayer sharedPSAMusicPlayer] getMusicPlayerState] == kMusicPlayerStateStop) {
             [self playRadio:@"89.2"];
-            //[self.radioNowPlayingSegmentViewController.playButton setImage:[UIImage imageNamed:@"Radio_stop.png"] forState:UIControlStateNormal];
+            [self.radioNowPlayingSegmentViewController.playButton setImage:[UIImage imageNamed:@"Radio_stop.png"] forState:UIControlStateNormal];
         }
     }
 }
@@ -89,11 +89,11 @@ typedef enum {
 
 - (void)initAllView
 {
-//    self.radioNowPlayingSegmentViewController = [PSARadioNowPlayingSegmentViewController createRadioNowPlayingSegmentViewController];
-//    [self.radioNowPlayingSegmentViewController.view setX:0 Y:475];
-//    self.radioNowPlayingSegmentViewController.delegate = self;
-//    [self.radioNowPlayingSegmentViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
-//    [self.view addSubview:self.radioNowPlayingSegmentViewController.view];
+    self.radioNowPlayingSegmentViewController = [PSARadioNowPlayingSegmentViewController createRadioNowPlayingSegmentViewController];
+    [self.radioNowPlayingSegmentViewController.view setX:0 Y:475];
+    self.radioNowPlayingSegmentViewController.delegate = self;
+    [self.radioNowPlayingSegmentViewController.view setEasingFunction:kPSAAnimationDefaultEaseCurve forKeyPath:@"frame"];
+    [self.view addSubview:self.radioNowPlayingSegmentViewController.view];
     
     self.radioMyStationViewController = [PSARadioMyStationViewController createRadioMyStationViewController];
     [self.radioMyStationViewController.view setY:47];
@@ -198,7 +198,7 @@ typedef enum {
 
 - (void)resetAllColor
 {
-    for (int i = kRadioSegmentButtonTagBasic+1; i<kRadioSegmentButtonTagBasic+4; i++) {
+    for (int i = kRadioSegmentButtonTagBasic+1; i<kRadioSegmentButtonTagBasic+3; i++) {
         UIButton *btn = (UIButton *)[segmentView viewWithTag:i];
         [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [btn setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
@@ -275,7 +275,7 @@ typedef enum {
         [[PSARadioPlayer sharedPSARadioPlayer] stop];
         [self playRadio:value];
         
-        //[self.radioNowPlayingSegmentViewController scrollToPlayingStation:value animate:YES];
+        [self.radioNowPlayingSegmentViewController scrollToPlayingStation:value animate:YES];
     }
 }
 
