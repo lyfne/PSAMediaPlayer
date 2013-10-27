@@ -156,7 +156,7 @@ typedef enum {
 
 - (void)reloadImageWithID:(NSString *)wallpaperId
 {
-    //self.bgImageView.image = [PSABlurImageGenerator getBlurImage:kImageMainScreenWallpaper withId:wallpaperId];
+    self.bgImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"kImageMainScreenWallpaperBlur20%@",wallpaperId]];
 }
 
 - (void)resetAllColor
