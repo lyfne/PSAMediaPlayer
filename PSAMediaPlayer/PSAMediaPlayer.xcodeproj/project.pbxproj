@@ -222,6 +222,10 @@
 		7FC279FA1812990C00E7B225 /* PSAWallpaper6Thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279F41812990C00E7B225 /* PSAWallpaper6Thumbnail.png */; };
 		7FC279FC1812991C00E7B225 /* PSAPhoneShareButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279FB1812991C00E7B225 /* PSAPhoneShareButtonBackground.png */; };
 		7FC279FE1812992E00E7B225 /* PSAPhoneListShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279FD1812992E00E7B225 /* PSAPhoneListShadow.png */; };
+		7FC27A00181D287100E7B225 /* PSAPhoneContactCellSelectedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC279FF181D287100E7B225 /* PSAPhoneContactCellSelectedBackground.png */; };
+		7FC27A02181D292800E7B225 /* PSAAppSeparator.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27A01181D292800E7B225 /* PSAAppSeparator.png */; };
+		7FC27A04181D299100E7B225 /* PSALockPanelPageControlFocus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27A03181D299100E7B225 /* PSALockPanelPageControlFocus.png */; };
+		7FC27A06181D299F00E7B225 /* PSALockPanelPageControlDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FC27A05181D299F00E7B225 /* PSALockPanelPageControlDot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -522,6 +526,10 @@
 		7FC279F41812990C00E7B225 /* PSAWallpaper6Thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAWallpaper6Thumbnail.png; sourceTree = "<group>"; };
 		7FC279FB1812991C00E7B225 /* PSAPhoneShareButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAPhoneShareButtonBackground.png; sourceTree = "<group>"; };
 		7FC279FD1812992E00E7B225 /* PSAPhoneListShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAPhoneListShadow.png; sourceTree = "<group>"; };
+		7FC279FF181D287100E7B225 /* PSAPhoneContactCellSelectedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAPhoneContactCellSelectedBackground.png; sourceTree = "<group>"; };
+		7FC27A01181D292800E7B225 /* PSAAppSeparator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAAppSeparator.png; sourceTree = "<group>"; };
+		7FC27A03181D299100E7B225 /* PSALockPanelPageControlFocus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSALockPanelPageControlFocus.png; sourceTree = "<group>"; };
+		7FC27A05181D299F00E7B225 /* PSALockPanelPageControlDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSALockPanelPageControlDot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -747,6 +755,8 @@
 		1C63E4131812B98900E0AAEC /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				7FC27A03181D299100E7B225 /* PSALockPanelPageControlFocus.png */,
+				7FC27A05181D299F00E7B225 /* PSALockPanelPageControlDot.png */,
 				7FC27990180AE4B400E7B225 /* VideoListBG.png */,
 				7FC27991180AE4B400E7B225 /* VideoSegmentBG.png */,
 				7FC27992180AE4B400E7B225 /* VideoEditSegmentBG.png */,
@@ -869,6 +879,7 @@
 				4BBC71711815403700D3C5EB /* 97.9.mp3 */,
 				4BBC71721815403700D3C5EB /* 101.5.mp3 */,
 				4BBC71731815403700D3C5EB /* 107.7.mp3 */,
+				7FC27A01181D292800E7B225 /* PSAAppSeparator.png */,
 				4BBC71791815404800D3C5EB /* Radio_likes_optional_view.png */,
 				4BBC717A1815404800D3C5EB /* Radio_NowPlayingSegmentBG.png */,
 				4BBC717B1815404800D3C5EB /* Radio_favorites.png */,
@@ -1039,6 +1050,7 @@
 		7FC279E21812980400E7B225 /* Wallpaper */ = {
 			isa = PBXGroup;
 			children = (
+				7FC279FF181D287100E7B225 /* PSAPhoneContactCellSelectedBackground.png */,
 				7FC279FD1812992E00E7B225 /* PSAPhoneListShadow.png */,
 				7FC279FB1812991C00E7B225 /* PSAPhoneShareButtonBackground.png */,
 				7FC279E31812981700E7B225 /* kImageMainScreenWallpaperBlur201.png */,
@@ -1157,6 +1169,7 @@
 				7FC279A9180AE4B400E7B225 /* Video_YoukuIcon.png in Resources */,
 				1C63E3A1180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib in Resources */,
 				7FC279A1180AE4B400E7B225 /* VideoEditSegmentBG.png in Resources */,
+				7FC27A00181D287100E7B225 /* PSAPhoneContactCellSelectedBackground.png in Resources */,
 				7FC279F91812990C00E7B225 /* PSAWallpaper5Thumbnail.png in Resources */,
 				4BBC71771815403700D3C5EB /* 101.5.mp3 in Resources */,
 				1C63E4001812B98400E0AAEC /* MusicOnlineDisk4.png in Resources */,
@@ -1224,6 +1237,7 @@
 				1C63E3E61812B98400E0AAEC /* List_minus.png in Resources */,
 				7FC279DA1812906D00E7B225 /* PSASettingSystemCell.xib in Resources */,
 				7FC279F51812990C00E7B225 /* PSAWallpaper1Thumbnail.png in Resources */,
+				7FC27A02181D292800E7B225 /* PSAAppSeparator.png in Resources */,
 				4BBC718C1815404800D3C5EB /* Radio_stop.png in Resources */,
 				7FC279AD180AE4B400E7B225 /* Video_YoukuVideo4.png in Resources */,
 				7FC279AC180AE4B400E7B225 /* Video_YoukuVideo3.png in Resources */,
@@ -1232,6 +1246,7 @@
 				7FC279A2180AE4B400E7B225 /* VideoPanelBG.png in Resources */,
 				1C63E3E41812B98400E0AAEC /* List_like.png in Resources */,
 				1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */,
+				7FC27A06181D299F00E7B225 /* PSALockPanelPageControlDot.png in Resources */,
 				7FC279A7180AE4B400E7B225 /* Video_quick_pre.png in Resources */,
 				1C63E3E31812B98400E0AAEC /* List_PanelBG.png in Resources */,
 				1C63E3E91812B98400E0AAEC /* Device_check.png in Resources */,
@@ -1253,6 +1268,7 @@
 				1C63E428181385CB00E0AAEC /* PSAMusicListCoverWithListViewController.xib in Resources */,
 				1C63E38418051C7D00E0AAEC /* PSAVideoDVDViewController.xib in Resources */,
 				4BBC71861815404800D3C5EB /* Radio_likes_optional_view.png in Resources */,
+				7FC27A04181D299100E7B225 /* PSALockPanelPageControlFocus.png in Resources */,
 				4BBC71891815404800D3C5EB /* Radio_play.png in Resources */,
 				1C63E39C180E442500E0AAEC /* PSAMusicMainViewController.xib in Resources */,
 				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
