@@ -138,6 +138,62 @@
 		1C63E487181A138100E0AAEC /* Mylo XylotoMid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E478181A138100E0AAEC /* Mylo XylotoMid.png */; };
 		1C63E488181A138100E0AAEC /* The Midsummer Station.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E479181A138100E0AAEC /* The Midsummer Station.png */; };
 		1C63E489181A138100E0AAEC /* Viva La Vida or Death and All His Friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E47A181A138100E0AAEC /* Viva La Vida or Death and All His Friends.png */; };
+		1C63E4C3181E368900E0AAEC /* Lost_.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E48B181E368900E0AAEC /* Lost_.mp3 */; };
+		1C63E4C4181E368900E0AAEC /* 42.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E48C181E368900E0AAEC /* 42.mp3 */; };
+		1C63E4C5181E368900E0AAEC /* Death and All His Friends.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E48D181E368900E0AAEC /* Death and All His Friends.mp3 */; };
+		1C63E4C6181E368900E0AAEC /* Bombshell Blonde.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E48E181E368900E0AAEC /* Bombshell Blonde.mp3 */; };
+		1C63E4C7181E368900E0AAEC /* A Hopeful Transmission.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E48F181E368900E0AAEC /* A Hopeful Transmission.mp3 */; };
+		1C63E4C8181E368900E0AAEC /* Something I Need.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E490181E368900E0AAEC /* Something I Need.mp3 */; };
+		1C63E4C9181E368900E0AAEC /* Daylight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E491181E368900E0AAEC /* Daylight.mp3 */; };
+		1C63E4CA181E368900E0AAEC /* Fortune Teller.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E492181E368900E0AAEC /* Fortune Teller.mp3 */; };
+		1C63E4CB181E368900E0AAEC /* Ladykiller.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E493181E368900E0AAEC /* Ladykiller.mp3 */; };
+		1C63E4CC181E368900E0AAEC /* Love Somebody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E494181E368900E0AAEC /* Love Somebody.mp3 */; };
+		1C63E4CD181E368900E0AAEC /* Lucky Strike.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E495181E368900E0AAEC /* Lucky Strike.mp3 */; };
+		1C63E4CE181E368900E0AAEC /* One More Night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E496181E368900E0AAEC /* One More Night.mp3 */; };
+		1C63E4CF181E368900E0AAEC /* Payphone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E497181E368900E0AAEC /* Payphone.mp3 */; };
+		1C63E4D0181E368900E0AAEC /* The Man Who Never Lied.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E498181E368900E0AAEC /* The Man Who Never Lied.mp3 */; };
+		1C63E4D1181E368900E0AAEC /* Animals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E499181E368900E0AAEC /* Animals.mp3 */; };
+		1C63E4D2181E368900E0AAEC /* Explorers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E49A181E368900E0AAEC /* Explorers.mp3 */; };
+		1C63E4D3181E368900E0AAEC /* Follow Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E49B181E368900E0AAEC /* Follow Me.mp3 */; };
+		1C63E4D4181E368900E0AAEC /* Madness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E49C181E368900E0AAEC /* Madness.mp3 */; };
+		1C63E4D5181E368900E0AAEC /* Panic Station.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E49D181E368900E0AAEC /* Panic Station.mp3 */; };
+		1C63E4D6181E368900E0AAEC /* Prelude.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E49E181E368900E0AAEC /* Prelude.mp3 */; };
+		1C63E4D7181E368900E0AAEC /* Supremacy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E49F181E368900E0AAEC /* Supremacy.mp3 */; };
+		1C63E4D8181E368900E0AAEC /* Survival.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4A0181E368900E0AAEC /* Survival.mp3 */; };
+		1C63E4D9181E368900E0AAEC /* Charlie Brown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4A1181E368900E0AAEC /* Charlie Brown.mp3 */; };
+		1C63E4DA181E368900E0AAEC /* Don't Let It Break Your Heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4A2181E368900E0AAEC /* Don't Let It Break Your Heart.mp3 */; };
+		1C63E4DB181E368900E0AAEC /* Every Teardrop Is a Waterfall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4A3181E368900E0AAEC /* Every Teardrop Is a Waterfall.mp3 */; };
+		1C63E4DC181E368900E0AAEC /* M.M.I.X..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4A4181E368900E0AAEC /* M.M.I.X..mp3 */; };
+		1C63E4DD181E368900E0AAEC /* Major Minus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4A5181E368900E0AAEC /* Major Minus.mp3 */; };
+		1C63E4DE181E368900E0AAEC /* Princess of China.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4A6181E368900E0AAEC /* Princess of China.mp3 */; };
+		1C63E4DF181E368900E0AAEC /* U.F.O..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4A7181E368900E0AAEC /* U.F.O..mp3 */; };
+		1C63E4E0181E368900E0AAEC /* Up in Flames.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4A8181E368900E0AAEC /* Up in Flames.mp3 */; };
+		1C63E4E1181E368900E0AAEC /* Up with the Birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4A9181E368900E0AAEC /* Up with the Birds.mp3 */; };
+		1C63E4E2181E368900E0AAEC /* Us Against the World.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4AA181E368900E0AAEC /* Us Against the World.mp3 */; };
+		1C63E4E3181E368900E0AAEC /* Dementia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4AB181E368900E0AAEC /* Dementia.mp3 */; };
+		1C63E4E4181E368900E0AAEC /* Embers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4AC181E368900E0AAEC /* Embers.mp3 */; };
+		1C63E4E5181E368900E0AAEC /* Good Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4AD181E368900E0AAEC /* Good Time.mp3 */; };
+		1C63E4E6181E368900E0AAEC /* I'm Coming After You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4AE181E368900E0AAEC /* I'm Coming After You.mp3 */; };
+		1C63E4E7181E368900E0AAEC /* Metropolis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4AF181E368900E0AAEC /* Metropolis.mp3 */; };
+		1C63E4E8181E368900E0AAEC /* Silhouette.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4B0181E368900E0AAEC /* Silhouette.mp3 */; };
+		1C63E4E9181E368900E0AAEC /* Speed of Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4B1181E368900E0AAEC /* Speed of Love.mp3 */; };
+		1C63E4EA181E368900E0AAEC /* Take It All Away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4B2181E368900E0AAEC /* Take It All Away.mp3 */; };
+		1C63E4EB181E368900E0AAEC /* Lovers in Japan _.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4B3181E368900E0AAEC /* Lovers in Japan _.mp3 */; };
+		1C63E4EC181E368900E0AAEC /* Lovers in Japan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4B4181E368900E0AAEC /* Lovers in Japan.mp3 */; };
+		1C63E4ED181E368900E0AAEC /* Strawberry Swing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4B5181E368900E0AAEC /* Strawberry Swing.mp3 */; };
+		1C63E4EE181E368900E0AAEC /* The Escapist.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4B6181E368900E0AAEC /* The Escapist.mp3 */; };
+		1C63E4EF181E368900E0AAEC /* Violet Hill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4B7181E368900E0AAEC /* Violet Hill.mp3 */; };
+		1C63E4F0181E368900E0AAEC /* Viva la Vida.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4B8181E368900E0AAEC /* Viva la Vida.mp3 */; };
+		1C63E4F1181E368900E0AAEC /* Yes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4B9181E368900E0AAEC /* Yes.mp3 */; };
+		1C63E4F2181E368900E0AAEC /* Hurts Like Heaven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4BA181E368900E0AAEC /* Hurts Like Heaven.mp3 */; };
+		1C63E4F3181E368900E0AAEC /* Mylo Xyloto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4BB181E368900E0AAEC /* Mylo Xyloto.mp3 */; };
+		1C63E4F4181E368900E0AAEC /* Paradise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4BC181E368900E0AAEC /* Paradise.mp3 */; };
+		1C63E4F5181E368900E0AAEC /* Dreams and Disasters.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4BD181E368900E0AAEC /* Dreams and Disasters.mp3 */; };
+		1C63E4F6181E368900E0AAEC /* Gold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4BE181E368900E0AAEC /* Gold.mp3 */; };
+		1C63E4F7181E368900E0AAEC /* Shooting Star.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4BF181E368900E0AAEC /* Shooting Star.mp3 */; };
+		1C63E4F8181E368900E0AAEC /* Cemeteries of London.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4C0181E368900E0AAEC /* Cemeteries of London.mp3 */; };
+		1C63E4F9181E368900E0AAEC /* Life in Technicolor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4C1181E368900E0AAEC /* Life in Technicolor.mp3 */; };
+		1C63E4FA181E368900E0AAEC /* Lost!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4C2181E368900E0AAEC /* Lost!.mp3 */; };
 		4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */; };
 		4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */; };
 		4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */; };
@@ -424,6 +480,62 @@
 		1C63E478181A138100E0AAEC /* Mylo XylotoMid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mylo XylotoMid.png"; sourceTree = "<group>"; };
 		1C63E479181A138100E0AAEC /* The Midsummer Station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Midsummer Station.png"; sourceTree = "<group>"; };
 		1C63E47A181A138100E0AAEC /* Viva La Vida or Death and All His Friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Viva La Vida or Death and All His Friends.png"; sourceTree = "<group>"; };
+		1C63E48B181E368900E0AAEC /* Lost_.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lost_.mp3; sourceTree = "<group>"; };
+		1C63E48C181E368900E0AAEC /* 42.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 42.mp3; sourceTree = "<group>"; };
+		1C63E48D181E368900E0AAEC /* Death and All His Friends.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Death and All His Friends.mp3"; sourceTree = "<group>"; };
+		1C63E48E181E368900E0AAEC /* Bombshell Blonde.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bombshell Blonde.mp3"; sourceTree = "<group>"; };
+		1C63E48F181E368900E0AAEC /* A Hopeful Transmission.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A Hopeful Transmission.mp3"; sourceTree = "<group>"; };
+		1C63E490181E368900E0AAEC /* Something I Need.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Something I Need.mp3"; sourceTree = "<group>"; };
+		1C63E491181E368900E0AAEC /* Daylight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Daylight.mp3; sourceTree = "<group>"; };
+		1C63E492181E368900E0AAEC /* Fortune Teller.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fortune Teller.mp3"; sourceTree = "<group>"; };
+		1C63E493181E368900E0AAEC /* Ladykiller.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ladykiller.mp3; sourceTree = "<group>"; };
+		1C63E494181E368900E0AAEC /* Love Somebody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Love Somebody.mp3"; sourceTree = "<group>"; };
+		1C63E495181E368900E0AAEC /* Lucky Strike.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lucky Strike.mp3"; sourceTree = "<group>"; };
+		1C63E496181E368900E0AAEC /* One More Night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One More Night.mp3"; sourceTree = "<group>"; };
+		1C63E497181E368900E0AAEC /* Payphone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Payphone.mp3; sourceTree = "<group>"; };
+		1C63E498181E368900E0AAEC /* The Man Who Never Lied.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Man Who Never Lied.mp3"; sourceTree = "<group>"; };
+		1C63E499181E368900E0AAEC /* Animals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Animals.mp3; sourceTree = "<group>"; };
+		1C63E49A181E368900E0AAEC /* Explorers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Explorers.mp3; sourceTree = "<group>"; };
+		1C63E49B181E368900E0AAEC /* Follow Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Follow Me.mp3"; sourceTree = "<group>"; };
+		1C63E49C181E368900E0AAEC /* Madness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Madness.mp3; sourceTree = "<group>"; };
+		1C63E49D181E368900E0AAEC /* Panic Station.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Panic Station.mp3"; sourceTree = "<group>"; };
+		1C63E49E181E368900E0AAEC /* Prelude.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Prelude.mp3; sourceTree = "<group>"; };
+		1C63E49F181E368900E0AAEC /* Supremacy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Supremacy.mp3; sourceTree = "<group>"; };
+		1C63E4A0181E368900E0AAEC /* Survival.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Survival.mp3; sourceTree = "<group>"; };
+		1C63E4A1181E368900E0AAEC /* Charlie Brown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Charlie Brown.mp3"; sourceTree = "<group>"; };
+		1C63E4A2181E368900E0AAEC /* Don't Let It Break Your Heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Don't Let It Break Your Heart.mp3"; sourceTree = "<group>"; };
+		1C63E4A3181E368900E0AAEC /* Every Teardrop Is a Waterfall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Every Teardrop Is a Waterfall.mp3"; sourceTree = "<group>"; };
+		1C63E4A4181E368900E0AAEC /* M.M.I.X..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = M.M.I.X..mp3; sourceTree = "<group>"; };
+		1C63E4A5181E368900E0AAEC /* Major Minus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Major Minus.mp3"; sourceTree = "<group>"; };
+		1C63E4A6181E368900E0AAEC /* Princess of China.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Princess of China.mp3"; sourceTree = "<group>"; };
+		1C63E4A7181E368900E0AAEC /* U.F.O..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = U.F.O..mp3; sourceTree = "<group>"; };
+		1C63E4A8181E368900E0AAEC /* Up in Flames.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Up in Flames.mp3"; sourceTree = "<group>"; };
+		1C63E4A9181E368900E0AAEC /* Up with the Birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Up with the Birds.mp3"; sourceTree = "<group>"; };
+		1C63E4AA181E368900E0AAEC /* Us Against the World.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Us Against the World.mp3"; sourceTree = "<group>"; };
+		1C63E4AB181E368900E0AAEC /* Dementia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dementia.mp3; sourceTree = "<group>"; };
+		1C63E4AC181E368900E0AAEC /* Embers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Embers.mp3; sourceTree = "<group>"; };
+		1C63E4AD181E368900E0AAEC /* Good Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Good Time.mp3"; sourceTree = "<group>"; };
+		1C63E4AE181E368900E0AAEC /* I'm Coming After You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I'm Coming After You.mp3"; sourceTree = "<group>"; };
+		1C63E4AF181E368900E0AAEC /* Metropolis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Metropolis.mp3; sourceTree = "<group>"; };
+		1C63E4B0181E368900E0AAEC /* Silhouette.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Silhouette.mp3; sourceTree = "<group>"; };
+		1C63E4B1181E368900E0AAEC /* Speed of Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Speed of Love.mp3"; sourceTree = "<group>"; };
+		1C63E4B2181E368900E0AAEC /* Take It All Away.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Take It All Away.mp3"; sourceTree = "<group>"; };
+		1C63E4B3181E368900E0AAEC /* Lovers in Japan _.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lovers in Japan _.mp3"; sourceTree = "<group>"; };
+		1C63E4B4181E368900E0AAEC /* Lovers in Japan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lovers in Japan.mp3"; sourceTree = "<group>"; };
+		1C63E4B5181E368900E0AAEC /* Strawberry Swing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Strawberry Swing.mp3"; sourceTree = "<group>"; };
+		1C63E4B6181E368900E0AAEC /* The Escapist.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Escapist.mp3"; sourceTree = "<group>"; };
+		1C63E4B7181E368900E0AAEC /* Violet Hill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Violet Hill.mp3"; sourceTree = "<group>"; };
+		1C63E4B8181E368900E0AAEC /* Viva la Vida.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Viva la Vida.mp3"; sourceTree = "<group>"; };
+		1C63E4B9181E368900E0AAEC /* Yes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yes.mp3; sourceTree = "<group>"; };
+		1C63E4BA181E368900E0AAEC /* Hurts Like Heaven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hurts Like Heaven.mp3"; sourceTree = "<group>"; };
+		1C63E4BB181E368900E0AAEC /* Mylo Xyloto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mylo Xyloto.mp3"; sourceTree = "<group>"; };
+		1C63E4BC181E368900E0AAEC /* Paradise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Paradise.mp3; sourceTree = "<group>"; };
+		1C63E4BD181E368900E0AAEC /* Dreams and Disasters.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dreams and Disasters.mp3"; sourceTree = "<group>"; };
+		1C63E4BE181E368900E0AAEC /* Gold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gold.mp3; sourceTree = "<group>"; };
+		1C63E4BF181E368900E0AAEC /* Shooting Star.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shooting Star.mp3"; sourceTree = "<group>"; };
+		1C63E4C0181E368900E0AAEC /* Cemeteries of London.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cemeteries of London.mp3"; sourceTree = "<group>"; };
+		1C63E4C1181E368900E0AAEC /* Life in Technicolor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Life in Technicolor.mp3"; sourceTree = "<group>"; };
+		1C63E4C2181E368900E0AAEC /* Lost!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lost!.mp3"; sourceTree = "<group>"; };
 		4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioConstantsConfig.h; sourceTree = "<group>"; };
 		4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPlayer.h; sourceTree = "<group>"; };
 		4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPlayer.m; sourceTree = "<group>"; };
@@ -725,6 +837,7 @@
 		1C63E3A81812B97600E0AAEC /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				1C63E48A181E362B00E0AAEC /* Mp3 */,
 				1C63E46C181A138100E0AAEC /* Overexposed.png */,
 				1C63E46D181A138100E0AAEC /* OverexposedMid.png */,
 				1C63E46E181A138100E0AAEC /* OverexposedSmall.png */,
@@ -892,6 +1005,69 @@
 				7FC279671807E5B700E7B225 /* PSAVideoCoverItemView.xib */,
 			);
 			name = Video;
+			sourceTree = "<group>";
+		};
+		1C63E48A181E362B00E0AAEC /* Mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				1C63E48B181E368900E0AAEC /* Lost_.mp3 */,
+				1C63E48C181E368900E0AAEC /* 42.mp3 */,
+				1C63E48D181E368900E0AAEC /* Death and All His Friends.mp3 */,
+				1C63E48E181E368900E0AAEC /* Bombshell Blonde.mp3 */,
+				1C63E48F181E368900E0AAEC /* A Hopeful Transmission.mp3 */,
+				1C63E490181E368900E0AAEC /* Something I Need.mp3 */,
+				1C63E491181E368900E0AAEC /* Daylight.mp3 */,
+				1C63E492181E368900E0AAEC /* Fortune Teller.mp3 */,
+				1C63E493181E368900E0AAEC /* Ladykiller.mp3 */,
+				1C63E494181E368900E0AAEC /* Love Somebody.mp3 */,
+				1C63E495181E368900E0AAEC /* Lucky Strike.mp3 */,
+				1C63E496181E368900E0AAEC /* One More Night.mp3 */,
+				1C63E497181E368900E0AAEC /* Payphone.mp3 */,
+				1C63E498181E368900E0AAEC /* The Man Who Never Lied.mp3 */,
+				1C63E499181E368900E0AAEC /* Animals.mp3 */,
+				1C63E49A181E368900E0AAEC /* Explorers.mp3 */,
+				1C63E49B181E368900E0AAEC /* Follow Me.mp3 */,
+				1C63E49C181E368900E0AAEC /* Madness.mp3 */,
+				1C63E49D181E368900E0AAEC /* Panic Station.mp3 */,
+				1C63E49E181E368900E0AAEC /* Prelude.mp3 */,
+				1C63E49F181E368900E0AAEC /* Supremacy.mp3 */,
+				1C63E4A0181E368900E0AAEC /* Survival.mp3 */,
+				1C63E4A1181E368900E0AAEC /* Charlie Brown.mp3 */,
+				1C63E4A2181E368900E0AAEC /* Don't Let It Break Your Heart.mp3 */,
+				1C63E4A3181E368900E0AAEC /* Every Teardrop Is a Waterfall.mp3 */,
+				1C63E4A4181E368900E0AAEC /* M.M.I.X..mp3 */,
+				1C63E4A5181E368900E0AAEC /* Major Minus.mp3 */,
+				1C63E4A6181E368900E0AAEC /* Princess of China.mp3 */,
+				1C63E4A7181E368900E0AAEC /* U.F.O..mp3 */,
+				1C63E4A8181E368900E0AAEC /* Up in Flames.mp3 */,
+				1C63E4A9181E368900E0AAEC /* Up with the Birds.mp3 */,
+				1C63E4AA181E368900E0AAEC /* Us Against the World.mp3 */,
+				1C63E4AB181E368900E0AAEC /* Dementia.mp3 */,
+				1C63E4AC181E368900E0AAEC /* Embers.mp3 */,
+				1C63E4AD181E368900E0AAEC /* Good Time.mp3 */,
+				1C63E4AE181E368900E0AAEC /* I'm Coming After You.mp3 */,
+				1C63E4AF181E368900E0AAEC /* Metropolis.mp3 */,
+				1C63E4B0181E368900E0AAEC /* Silhouette.mp3 */,
+				1C63E4B1181E368900E0AAEC /* Speed of Love.mp3 */,
+				1C63E4B2181E368900E0AAEC /* Take It All Away.mp3 */,
+				1C63E4B3181E368900E0AAEC /* Lovers in Japan _.mp3 */,
+				1C63E4B4181E368900E0AAEC /* Lovers in Japan.mp3 */,
+				1C63E4B5181E368900E0AAEC /* Strawberry Swing.mp3 */,
+				1C63E4B6181E368900E0AAEC /* The Escapist.mp3 */,
+				1C63E4B7181E368900E0AAEC /* Violet Hill.mp3 */,
+				1C63E4B8181E368900E0AAEC /* Viva la Vida.mp3 */,
+				1C63E4B9181E368900E0AAEC /* Yes.mp3 */,
+				1C63E4BA181E368900E0AAEC /* Hurts Like Heaven.mp3 */,
+				1C63E4BB181E368900E0AAEC /* Mylo Xyloto.mp3 */,
+				1C63E4BC181E368900E0AAEC /* Paradise.mp3 */,
+				1C63E4BD181E368900E0AAEC /* Dreams and Disasters.mp3 */,
+				1C63E4BE181E368900E0AAEC /* Gold.mp3 */,
+				1C63E4BF181E368900E0AAEC /* Shooting Star.mp3 */,
+				1C63E4C0181E368900E0AAEC /* Cemeteries of London.mp3 */,
+				1C63E4C1181E368900E0AAEC /* Life in Technicolor.mp3 */,
+				1C63E4C2181E368900E0AAEC /* Lost!.mp3 */,
+			);
+			name = Mp3;
 			sourceTree = "<group>";
 		};
 		4BBC715F180A67E300D3C5EB /* Radio */ = {
@@ -1193,16 +1369,21 @@
 				7FC279D41812901800E7B225 /* PSASettingSystemViewController.xib in Resources */,
 				7FC279EC1812981700E7B225 /* kImageMainScreenWallpaperBlur204.png in Resources */,
 				4BBC71A21815498000D3C5EB /* PSARadioSliderView.xib in Resources */,
+				1C63E4E6181E368900E0AAEC /* I'm Coming After You.mp3 in Resources */,
 				1C63E3EF1812B98400E0AAEC /* Disk.png in Resources */,
 				4BBC71921815404800D3C5EB /* RadioFMList.plist in Resources */,
 				4BBC716D180AA52700D3C5EB /* PSARadioMyStationViewController.xib in Resources */,
 				7FC279AA180AE4B400E7B225 /* Video_YoukuVideo1.png in Resources */,
 				1C63E4031812B98400E0AAEC /* MusicOnline_xiami_logo.png in Resources */,
+				1C63E4E8181E368900E0AAEC /* Silhouette.mp3 in Resources */,
+				1C63E4DA181E368900E0AAEC /* Don't Let It Break Your Heart.mp3 in Resources */,
+				1C63E4ED181E368900E0AAEC /* Strawberry Swing.mp3 in Resources */,
 				4BBC718A1815404800D3C5EB /* Radio_folder.png in Resources */,
 				1C63E480181A138100E0AAEC /* The 2nd LawSmall.png in Resources */,
 				1C63E489181A138100E0AAEC /* Viva La Vida or Death and All His Friends.png in Resources */,
 				4BBC718B1815404800D3C5EB /* Radio_likes_selected.png in Resources */,
 				1C63E3FD1812B98400E0AAEC /* MusicOnlineDisk2.png in Resources */,
+				1C63E4F0181E368900E0AAEC /* Viva la Vida.mp3 in Resources */,
 				7FC279C6180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib in Resources */,
 				1C63E487181A138100E0AAEC /* Mylo XylotoMid.png in Resources */,
 				1C63E4121812B98400E0AAEC /* MusicList.plist in Resources */,
@@ -1215,64 +1396,88 @@
 				1C63E3E21812B98400E0AAEC /* List_seperator.png in Resources */,
 				7FC279A0180AE4B400E7B225 /* VideoSegmentBG.png in Resources */,
 				7FC279A9180AE4B400E7B225 /* Video_YoukuIcon.png in Resources */,
+				1C63E4E4181E368900E0AAEC /* Embers.mp3 in Resources */,
+				1C63E4F5181E368900E0AAEC /* Dreams and Disasters.mp3 in Resources */,
 				1C63E3A1180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib in Resources */,
 				7FC279A1180AE4B400E7B225 /* VideoEditSegmentBG.png in Resources */,
 				1C63E47F181A138100E0AAEC /* The 2nd LawMid.png in Resources */,
+				1C63E4F2181E368900E0AAEC /* Hurts Like Heaven.mp3 in Resources */,
 				7FC27A00181D287100E7B225 /* PSAPhoneContactCellSelectedBackground.png in Resources */,
 				7FC279F91812990C00E7B225 /* PSAWallpaper5Thumbnail.png in Resources */,
+				1C63E4D7181E368900E0AAEC /* Supremacy.mp3 in Resources */,
 				4BBC71771815403700D3C5EB /* 101.5.mp3 in Resources */,
+				1C63E4CB181E368900E0AAEC /* Ladykiller.mp3 in Resources */,
 				1C63E4001812B98400E0AAEC /* MusicOnlineDisk4.png in Resources */,
+				1C63E4EC181E368900E0AAEC /* Lovers in Japan.mp3 in Resources */,
 				1C63E421181385B400E0AAEC /* PSAMusicListCoverViewController.xib in Resources */,
 				4BBC71751815403700D3C5EB /* 89.2.mp3 in Resources */,
 				1C63E4071812B98400E0AAEC /* OthersButton.png in Resources */,
 				7FC279A5180AE4B400E7B225 /* Video_DVD_disk.png in Resources */,
 				4BBC718E1815404800D3C5EB /* Radio_pointer.png in Resources */,
+				1C63E4E9181E368900E0AAEC /* Speed of Love.mp3 in Resources */,
+				1C63E4E7181E368900E0AAEC /* Metropolis.mp3 in Resources */,
 				1C63E45B1816C7C800E0AAEC /* PSAMusicDeviceViewController.xib in Resources */,
+				1C63E4C6181E368900E0AAEC /* Bombshell Blonde.mp3 in Resources */,
+				1C63E4E5181E368900E0AAEC /* Good Time.mp3 in Resources */,
 				1C63E40C1812B98400E0AAEC /* MusicBg.png in Resources */,
 				1C63E3F31812B98400E0AAEC /* OptionAddToFavoriteCellBG.png in Resources */,
+				1C63E4C5181E368900E0AAEC /* Death and All His Friends.mp3 in Resources */,
 				1C63E40A1812B98400E0AAEC /* ShuffleButton.png in Resources */,
+				1C63E4F6181E368900E0AAEC /* Gold.mp3 in Resources */,
 				7FC279B1180AE4E700E7B225 /* The Hunger Games.png in Resources */,
 				4BBC71871815404800D3C5EB /* Radio_NowPlayingSegmentBG.png in Resources */,
 				1C63E4101812B98400E0AAEC /* PlayButton.png in Resources */,
 				1C63E3F51812B98400E0AAEC /* OptionListCellBG.png in Resources */,
 				1C63E3E11812B98400E0AAEC /* MusicLoginButtonBG_selected.png in Resources */,
 				7FC279AB180AE4B400E7B225 /* Video_YoukuVideo2.png in Resources */,
+				1C63E4EE181E368900E0AAEC /* The Escapist.mp3 in Resources */,
 				1C63E4111812B98400E0AAEC /* ProgressThumb.png in Resources */,
 				1C63E3F91812B98400E0AAEC /* OptionCreateCellBG_selected.png in Resources */,
 				7FC279EA1812981700E7B225 /* kImageMainScreenWallpaperBlur202.png in Resources */,
 				7FC279F71812990C00E7B225 /* PSAWallpaper3Thumbnail.png in Resources */,
 				7FC279EE1812981700E7B225 /* kImageMainScreenWallpaperBlur206.png in Resources */,
+				1C63E4CE181E368900E0AAEC /* One More Night.mp3 in Resources */,
 				1C63E482181A138100E0AAEC /* The Midsummer StationSmall.png in Resources */,
 				4BBC71881815404800D3C5EB /* Radio_favorites.png in Resources */,
 				1C63E423181385B400E0AAEC /* PSAMusicCreateListViewController.xib in Resources */,
+				1C63E4F7181E368900E0AAEC /* Shooting Star.mp3 in Resources */,
 				4BBC71741815403700D3C5EB /* 93.7.mp3 in Resources */,
 				1C63E47C181A138100E0AAEC /* OverexposedMid.png in Resources */,
 				1C63E3A6180E69A400E0AAEC /* PSARootViewController.xib in Resources */,
+				1C63E4D3181E368900E0AAEC /* Follow Me.mp3 in Resources */,
 				1C63E40D1812B98400E0AAEC /* OptionalMenulBG.png in Resources */,
 				1C63E4011812B98400E0AAEC /* MusicOnlineDisk5.png in Resources */,
 				7FC279FE1812992E00E7B225 /* PSAPhoneListShadow.png in Resources */,
+				1C63E4CC181E368900E0AAEC /* Love Somebody.mp3 in Resources */,
 				1C63E4041812B98400E0AAEC /* OptionMenuIcon.png in Resources */,
 				4BBC71761815403700D3C5EB /* 97.9.mp3 in Resources */,
 				1C63E4461813878200E0AAEC /* PSAMusicListCell.xib in Resources */,
 				7FC279B6180B804F00E7B225 /* PSAVideoLoginViewController.xib in Resources */,
 				4BBC719F1815498000D3C5EB /* PSARadioFMView.xib in Resources */,
 				1C63E3FC1812B98400E0AAEC /* MusicOnlineDisk1.png in Resources */,
+				1C63E4D0181E368900E0AAEC /* The Man Who Never Lied.mp3 in Resources */,
+				1C63E4EF181E368900E0AAEC /* Violet Hill.mp3 in Resources */,
 				4BBC718D1815404800D3C5EB /* Radio_likes.png in Resources */,
 				4BBC718F1815404800D3C5EB /* Radio_ring_internet.png in Resources */,
+				1C63E4D5181E368900E0AAEC /* Panic Station.mp3 in Resources */,
 				1C63E3491803C74600E0AAEC /* Images.xcassets in Resources */,
 				7FC279ED1812981700E7B225 /* kImageMainScreenWallpaperBlur205.png in Resources */,
 				7FC279FC1812991C00E7B225 /* PSAPhoneShareButtonBackground.png in Resources */,
 				4BBC71B11816331A00D3C5EB /* PSARadioNowPlayingSegmentViewController.xib in Resources */,
+				1C63E4F3181E368900E0AAEC /* Mylo Xyloto.mp3 in Resources */,
+				1C63E4CF181E368900E0AAEC /* Payphone.mp3 in Resources */,
 				1C63E3EC1812B98400E0AAEC /* MusicDeviceConnected.png in Resources */,
 				7FC279691807E5B700E7B225 /* PSAVideoCoverItemView.xib in Resources */,
 				1C63E4061812B98400E0AAEC /* OptionCellBG.png in Resources */,
 				1C63E4601816C8DF00E0AAEC /* PSAMusicDVDViewController.xib in Resources */,
 				7FC279541807E53B00E7B225 /* PSAVideoCoverViewController.xib in Resources */,
 				1C63E47E181A138100E0AAEC /* The 2nd Law.png in Resources */,
+				1C63E4DC181E368900E0AAEC /* M.M.I.X..mp3 in Resources */,
 				7FC279A4180AE4B400E7B225 /* Video_DVD_disk_onPlayingBG.png in Resources */,
 				7FC2799F180AE4B400E7B225 /* VideoListBG.png in Resources */,
 				1C63E3F21812B98400E0AAEC /* OptionAddToFavoriteCellBG_selected.png in Resources */,
 				1C63E3F61812B98400E0AAEC /* OptionPaperCellBG_selected.png in Resources */,
+				1C63E4D8181E368900E0AAEC /* Survival.mp3 in Resources */,
 				4BBC71AC18154B2F00D3C5EB /* PSARadioInternetViewController.xib in Resources */,
 				1C63E40F1812B98400E0AAEC /* PauseButton.png in Resources */,
 				4BBC71A01815498000D3C5EB /* PSARadioInternetView.xib in Resources */,
@@ -1286,40 +1491,59 @@
 				1C63E38918051DD400E0AAEC /* PSAVideoYoukuViewController.xib in Resources */,
 				1C63E3FB1812B98400E0AAEC /* MusicOnline_divider.png in Resources */,
 				1C63E3ED1812B98400E0AAEC /* MusicDeviceUnconnected.png in Resources */,
+				1C63E4CD181E368900E0AAEC /* Lucky Strike.mp3 in Resources */,
 				1C63E4501813879800E0AAEC /* PSAMusicCoverItemView.xib in Resources */,
+				1C63E4E3181E368900E0AAEC /* Dementia.mp3 in Resources */,
 				1C63E3E61812B98400E0AAEC /* List_minus.png in Resources */,
 				7FC279DA1812906D00E7B225 /* PSASettingSystemCell.xib in Resources */,
 				1C63E488181A138100E0AAEC /* The Midsummer Station.png in Resources */,
+				1C63E4D4181E368900E0AAEC /* Madness.mp3 in Resources */,
 				7FC279F51812990C00E7B225 /* PSAWallpaper1Thumbnail.png in Resources */,
 				7FC27A02181D292800E7B225 /* PSAAppSeparator.png in Resources */,
 				4BBC718C1815404800D3C5EB /* Radio_stop.png in Resources */,
 				7FC279AD180AE4B400E7B225 /* Video_YoukuVideo4.png in Resources */,
+				1C63E4C7181E368900E0AAEC /* A Hopeful Transmission.mp3 in Resources */,
 				7FC279AC180AE4B400E7B225 /* Video_YoukuVideo3.png in Resources */,
 				1C63E3701803C7FD00E0AAEC /* PSAMainViewController.xib in Resources */,
+				1C63E4F1181E368900E0AAEC /* Yes.mp3 in Resources */,
 				7FC279C4180FC84900E7B225 /* PSAVideoNowPlayingViewController.xib in Resources */,
 				7FC279A2180AE4B400E7B225 /* VideoPanelBG.png in Resources */,
+				1C63E4F8181E368900E0AAEC /* Cemeteries of London.mp3 in Resources */,
 				1C63E3E41812B98400E0AAEC /* List_like.png in Resources */,
 				1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */,
+				1C63E4CA181E368900E0AAEC /* Fortune Teller.mp3 in Resources */,
+				1C63E4C3181E368900E0AAEC /* Lost_.mp3 in Resources */,
 				7FC27A06181D299F00E7B225 /* PSALockPanelPageControlDot.png in Resources */,
+				1C63E4D9181E368900E0AAEC /* Charlie Brown.mp3 in Resources */,
 				1C63E47B181A138100E0AAEC /* Overexposed.png in Resources */,
+				1C63E4EA181E368900E0AAEC /* Take It All Away.mp3 in Resources */,
 				7FC279A7180AE4B400E7B225 /* Video_quick_pre.png in Resources */,
 				1C63E3E31812B98400E0AAEC /* List_PanelBG.png in Resources */,
 				1C63E3E91812B98400E0AAEC /* Device_check.png in Resources */,
+				1C63E4F4181E368900E0AAEC /* Paradise.mp3 in Resources */,
 				1C63E41F181385B400E0AAEC /* PSAMusicListViewController.xib in Resources */,
 				1C63E4091812B98400E0AAEC /* List_button_right_bg.png in Resources */,
+				1C63E4D6181E368900E0AAEC /* Prelude.mp3 in Resources */,
+				1C63E4E0181E368900E0AAEC /* Up in Flames.mp3 in Resources */,
 				1C63E485181A138100E0AAEC /* The Midsummer StationMid.png in Resources */,
 				4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */,
 				1C63E4021812B98400E0AAEC /* List_plus_deviceList.png in Resources */,
 				1C63E47D181A138100E0AAEC /* OverexposedSmall.png in Resources */,
 				1C63E3F81812B98400E0AAEC /* OptionCellBG_selected.png in Resources */,
 				1C63E3DE1812B98400E0AAEC /* List_musicPanelHeaderBG.png in Resources */,
+				1C63E4E2181E368900E0AAEC /* Us Against the World.mp3 in Resources */,
 				4BBC71A7181549A500D3C5EB /* PSAAppHeaderView.xib in Resources */,
+				1C63E4C9181E368900E0AAEC /* Daylight.mp3 in Resources */,
 				1C63E468181A018E00E0AAEC /* PSAMusicOnlineViewController.xib in Resources */,
+				1C63E4DE181E368900E0AAEC /* Princess of China.mp3 in Resources */,
+				1C63E4DD181E368900E0AAEC /* Major Minus.mp3 in Resources */,
 				4BBC71901815404800D3C5EB /* Radio_ring.png in Resources */,
 				1C63E483181A138100E0AAEC /* Viva La Vida or Death and All His FriendsSmall.png in Resources */,
 				1C63E484181A138100E0AAEC /* Mylo Xyloto.png in Resources */,
 				1C63E40E1812B98400E0AAEC /* PreviousButton.png in Resources */,
+				1C63E4FA181E368900E0AAEC /* Lost!.mp3 in Resources */,
 				1C63E3EE1812B98400E0AAEC /* NowPlaying_PanelBG.png in Resources */,
+				1C63E4D1181E368900E0AAEC /* Animals.mp3 in Resources */,
 				7FC279E91812981700E7B225 /* kImageMainScreenWallpaperBlur201.png in Resources */,
 				1C63E3FE1812B98400E0AAEC /* MusicOnlineDisk3.png in Resources */,
 				1C63E3E71812B98400E0AAEC /* Music_DVD_disk_onPlayingBG.png in Resources */,
@@ -1332,12 +1556,15 @@
 				1C63E39C180E442500E0AAEC /* PSAMusicMainViewController.xib in Resources */,
 				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
 				7FC279EB1812981700E7B225 /* kImageMainScreenWallpaperBlur203.png in Resources */,
+				1C63E4C4181E368900E0AAEC /* 42.mp3 in Resources */,
 				4BBC71781815403700D3C5EB /* 107.7.mp3 in Resources */,
+				1C63E4E1181E368900E0AAEC /* Up with the Birds.mp3 in Resources */,
 				7FC2795A1807E57100E7B225 /* PSAAppListHeaderView.xib in Resources */,
 				1C63E3E01812B98400E0AAEC /* MusicLoginBG.png in Resources */,
 				1C63E3E51812B98400E0AAEC /* List_tableView_bg.png in Resources */,
 				7FC2794F1807E52F00E7B225 /* PSAVideoDeviceViewController.xib in Resources */,
 				1C63E3EB1812B98400E0AAEC /* Device_coverlist_bg.png in Resources */,
+				1C63E4EB181E368900E0AAEC /* Lovers in Japan _.mp3 in Resources */,
 				1C63E3F11812B98400E0AAEC /* CircleButton.png in Resources */,
 				1C63E3E81812B98400E0AAEC /* Music_DVD_disk.png in Resources */,
 				7FC279F61812990C00E7B225 /* PSAWallpaper2Thumbnail.png in Resources */,
@@ -1349,8 +1576,13 @@
 				1C63E3F01812B98400E0AAEC /* CircleSingleButton.png in Resources */,
 				7FC279A3180AE4B400E7B225 /* Video_backButtonBG.png in Resources */,
 				1C63E481181A138100E0AAEC /* Mylo XylotoSmall.png in Resources */,
+				1C63E4DF181E368900E0AAEC /* U.F.O..mp3 in Resources */,
+				1C63E4C8181E368900E0AAEC /* Something I Need.mp3 in Resources */,
 				7FC279D21812901800E7B225 /* PSASettingPanelViewController.xib in Resources */,
 				7FC279FA1812990C00E7B225 /* PSAWallpaper6Thumbnail.png in Resources */,
+				1C63E4DB181E368900E0AAEC /* Every Teardrop Is a Waterfall.mp3 in Resources */,
+				1C63E4F9181E368900E0AAEC /* Life in Technicolor.mp3 in Resources */,
+				1C63E4D2181E368900E0AAEC /* Explorers.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
