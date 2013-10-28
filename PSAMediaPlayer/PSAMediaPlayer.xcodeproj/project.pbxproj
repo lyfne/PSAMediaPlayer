@@ -123,6 +123,21 @@
 		1C63E468181A018E00E0AAEC /* PSAMusicOnlineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E463181A018E00E0AAEC /* PSAMusicOnlineViewController.xib */; };
 		1C63E469181A018E00E0AAEC /* PSAMusicLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63E465181A018E00E0AAEC /* PSAMusicLoginViewController.m */; };
 		1C63E46A181A018E00E0AAEC /* PSAMusicLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E466181A018E00E0AAEC /* PSAMusicLoginViewController.xib */; };
+		1C63E47B181A138100E0AAEC /* Overexposed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E46C181A138100E0AAEC /* Overexposed.png */; };
+		1C63E47C181A138100E0AAEC /* OverexposedMid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E46D181A138100E0AAEC /* OverexposedMid.png */; };
+		1C63E47D181A138100E0AAEC /* OverexposedSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E46E181A138100E0AAEC /* OverexposedSmall.png */; };
+		1C63E47E181A138100E0AAEC /* The 2nd Law.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E46F181A138100E0AAEC /* The 2nd Law.png */; };
+		1C63E47F181A138100E0AAEC /* The 2nd LawMid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E470181A138100E0AAEC /* The 2nd LawMid.png */; };
+		1C63E480181A138100E0AAEC /* The 2nd LawSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E471181A138100E0AAEC /* The 2nd LawSmall.png */; };
+		1C63E481181A138100E0AAEC /* Mylo XylotoSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E472181A138100E0AAEC /* Mylo XylotoSmall.png */; };
+		1C63E482181A138100E0AAEC /* The Midsummer StationSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E473181A138100E0AAEC /* The Midsummer StationSmall.png */; };
+		1C63E483181A138100E0AAEC /* Viva La Vida or Death and All His FriendsSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E474181A138100E0AAEC /* Viva La Vida or Death and All His FriendsSmall.png */; };
+		1C63E484181A138100E0AAEC /* Mylo Xyloto.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E475181A138100E0AAEC /* Mylo Xyloto.png */; };
+		1C63E485181A138100E0AAEC /* The Midsummer StationMid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E476181A138100E0AAEC /* The Midsummer StationMid.png */; };
+		1C63E486181A138100E0AAEC /* Viva La Vida or Death and All His FriendsMid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E477181A138100E0AAEC /* Viva La Vida or Death and All His FriendsMid.png */; };
+		1C63E487181A138100E0AAEC /* Mylo XylotoMid.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E478181A138100E0AAEC /* Mylo XylotoMid.png */; };
+		1C63E488181A138100E0AAEC /* The Midsummer Station.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E479181A138100E0AAEC /* The Midsummer Station.png */; };
+		1C63E489181A138100E0AAEC /* Viva La Vida or Death and All His Friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E47A181A138100E0AAEC /* Viva La Vida or Death and All His Friends.png */; };
 		4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */; };
 		4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */; };
 		4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */; };
@@ -394,6 +409,21 @@
 		1C63E464181A018E00E0AAEC /* PSAMusicLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAMusicLoginViewController.h; sourceTree = "<group>"; };
 		1C63E465181A018E00E0AAEC /* PSAMusicLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAMusicLoginViewController.m; sourceTree = "<group>"; };
 		1C63E466181A018E00E0AAEC /* PSAMusicLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAMusicLoginViewController.xib; sourceTree = "<group>"; };
+		1C63E46C181A138100E0AAEC /* Overexposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overexposed.png; sourceTree = "<group>"; };
+		1C63E46D181A138100E0AAEC /* OverexposedMid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OverexposedMid.png; sourceTree = "<group>"; };
+		1C63E46E181A138100E0AAEC /* OverexposedSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OverexposedSmall.png; sourceTree = "<group>"; };
+		1C63E46F181A138100E0AAEC /* The 2nd Law.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The 2nd Law.png"; sourceTree = "<group>"; };
+		1C63E470181A138100E0AAEC /* The 2nd LawMid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The 2nd LawMid.png"; sourceTree = "<group>"; };
+		1C63E471181A138100E0AAEC /* The 2nd LawSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The 2nd LawSmall.png"; sourceTree = "<group>"; };
+		1C63E472181A138100E0AAEC /* Mylo XylotoSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mylo XylotoSmall.png"; sourceTree = "<group>"; };
+		1C63E473181A138100E0AAEC /* The Midsummer StationSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Midsummer StationSmall.png"; sourceTree = "<group>"; };
+		1C63E474181A138100E0AAEC /* Viva La Vida or Death and All His FriendsSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Viva La Vida or Death and All His FriendsSmall.png"; sourceTree = "<group>"; };
+		1C63E475181A138100E0AAEC /* Mylo Xyloto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mylo Xyloto.png"; sourceTree = "<group>"; };
+		1C63E476181A138100E0AAEC /* The Midsummer StationMid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Midsummer StationMid.png"; sourceTree = "<group>"; };
+		1C63E477181A138100E0AAEC /* Viva La Vida or Death and All His FriendsMid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Viva La Vida or Death and All His FriendsMid.png"; sourceTree = "<group>"; };
+		1C63E478181A138100E0AAEC /* Mylo XylotoMid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mylo XylotoMid.png"; sourceTree = "<group>"; };
+		1C63E479181A138100E0AAEC /* The Midsummer Station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Midsummer Station.png"; sourceTree = "<group>"; };
+		1C63E47A181A138100E0AAEC /* Viva La Vida or Death and All His Friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Viva La Vida or Death and All His Friends.png"; sourceTree = "<group>"; };
 		4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioConstantsConfig.h; sourceTree = "<group>"; };
 		4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPlayer.h; sourceTree = "<group>"; };
 		4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPlayer.m; sourceTree = "<group>"; };
@@ -695,6 +725,21 @@
 		1C63E3A81812B97600E0AAEC /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				1C63E46C181A138100E0AAEC /* Overexposed.png */,
+				1C63E46D181A138100E0AAEC /* OverexposedMid.png */,
+				1C63E46E181A138100E0AAEC /* OverexposedSmall.png */,
+				1C63E46F181A138100E0AAEC /* The 2nd Law.png */,
+				1C63E470181A138100E0AAEC /* The 2nd LawMid.png */,
+				1C63E471181A138100E0AAEC /* The 2nd LawSmall.png */,
+				1C63E472181A138100E0AAEC /* Mylo XylotoSmall.png */,
+				1C63E473181A138100E0AAEC /* The Midsummer StationSmall.png */,
+				1C63E474181A138100E0AAEC /* Viva La Vida or Death and All His FriendsSmall.png */,
+				1C63E475181A138100E0AAEC /* Mylo Xyloto.png */,
+				1C63E476181A138100E0AAEC /* The Midsummer StationMid.png */,
+				1C63E477181A138100E0AAEC /* Viva La Vida or Death and All His FriendsMid.png */,
+				1C63E478181A138100E0AAEC /* Mylo XylotoMid.png */,
+				1C63E479181A138100E0AAEC /* The Midsummer Station.png */,
+				1C63E47A181A138100E0AAEC /* Viva La Vida or Death and All His Friends.png */,
 				1C63E3A91812B98400E0AAEC /* List_musicPanelHeaderBG.png */,
 				1C63E3AA1812B98400E0AAEC /* AlbumBlueColor.png */,
 				1C63E3AB1812B98400E0AAEC /* MusicLoginBG.png */,
@@ -1154,9 +1199,12 @@
 				7FC279AA180AE4B400E7B225 /* Video_YoukuVideo1.png in Resources */,
 				1C63E4031812B98400E0AAEC /* MusicOnline_xiami_logo.png in Resources */,
 				4BBC718A1815404800D3C5EB /* Radio_folder.png in Resources */,
+				1C63E480181A138100E0AAEC /* The 2nd LawSmall.png in Resources */,
+				1C63E489181A138100E0AAEC /* Viva La Vida or Death and All His Friends.png in Resources */,
 				4BBC718B1815404800D3C5EB /* Radio_likes_selected.png in Resources */,
 				1C63E3FD1812B98400E0AAEC /* MusicOnlineDisk2.png in Resources */,
 				7FC279C6180FC84900E7B225 /* PSAVideoNowPlayingSegmentViewController.xib in Resources */,
+				1C63E487181A138100E0AAEC /* Mylo XylotoMid.png in Resources */,
 				1C63E4121812B98400E0AAEC /* MusicList.plist in Resources */,
 				1C63E3F41812B98400E0AAEC /* OptionPaperCellBG.png in Resources */,
 				4BBC71911815404800D3C5EB /* Radio_tuner.png in Resources */,
@@ -1169,6 +1217,7 @@
 				7FC279A9180AE4B400E7B225 /* Video_YoukuIcon.png in Resources */,
 				1C63E3A1180E44F700E0AAEC /* PSAMusicNowPlayingViewController.xib in Resources */,
 				7FC279A1180AE4B400E7B225 /* VideoEditSegmentBG.png in Resources */,
+				1C63E47F181A138100E0AAEC /* The 2nd LawMid.png in Resources */,
 				7FC27A00181D287100E7B225 /* PSAPhoneContactCellSelectedBackground.png in Resources */,
 				7FC279F91812990C00E7B225 /* PSAWallpaper5Thumbnail.png in Resources */,
 				4BBC71771815403700D3C5EB /* 101.5.mp3 in Resources */,
@@ -1193,9 +1242,11 @@
 				7FC279EA1812981700E7B225 /* kImageMainScreenWallpaperBlur202.png in Resources */,
 				7FC279F71812990C00E7B225 /* PSAWallpaper3Thumbnail.png in Resources */,
 				7FC279EE1812981700E7B225 /* kImageMainScreenWallpaperBlur206.png in Resources */,
+				1C63E482181A138100E0AAEC /* The Midsummer StationSmall.png in Resources */,
 				4BBC71881815404800D3C5EB /* Radio_favorites.png in Resources */,
 				1C63E423181385B400E0AAEC /* PSAMusicCreateListViewController.xib in Resources */,
 				4BBC71741815403700D3C5EB /* 93.7.mp3 in Resources */,
+				1C63E47C181A138100E0AAEC /* OverexposedMid.png in Resources */,
 				1C63E3A6180E69A400E0AAEC /* PSARootViewController.xib in Resources */,
 				1C63E40D1812B98400E0AAEC /* OptionalMenulBG.png in Resources */,
 				1C63E4011812B98400E0AAEC /* MusicOnlineDisk5.png in Resources */,
@@ -1217,6 +1268,7 @@
 				1C63E4061812B98400E0AAEC /* OptionCellBG.png in Resources */,
 				1C63E4601816C8DF00E0AAEC /* PSAMusicDVDViewController.xib in Resources */,
 				7FC279541807E53B00E7B225 /* PSAVideoCoverViewController.xib in Resources */,
+				1C63E47E181A138100E0AAEC /* The 2nd Law.png in Resources */,
 				7FC279A4180AE4B400E7B225 /* Video_DVD_disk_onPlayingBG.png in Resources */,
 				7FC2799F180AE4B400E7B225 /* VideoListBG.png in Resources */,
 				1C63E3F21812B98400E0AAEC /* OptionAddToFavoriteCellBG_selected.png in Resources */,
@@ -1224,6 +1276,7 @@
 				4BBC71AC18154B2F00D3C5EB /* PSARadioInternetViewController.xib in Resources */,
 				1C63E40F1812B98400E0AAEC /* PauseButton.png in Resources */,
 				4BBC71A01815498000D3C5EB /* PSARadioInternetView.xib in Resources */,
+				1C63E486181A138100E0AAEC /* Viva La Vida or Death and All His FriendsMid.png in Resources */,
 				1C63E3FA1812B98400E0AAEC /* OptionCreateCellBG.png in Resources */,
 				1C63E3DF1812B98400E0AAEC /* AlbumBlueColor.png in Resources */,
 				1C63E3EA1812B98400E0AAEC /* Device_coverlist_selected.png in Resources */,
@@ -1236,6 +1289,7 @@
 				1C63E4501813879800E0AAEC /* PSAMusicCoverItemView.xib in Resources */,
 				1C63E3E61812B98400E0AAEC /* List_minus.png in Resources */,
 				7FC279DA1812906D00E7B225 /* PSASettingSystemCell.xib in Resources */,
+				1C63E488181A138100E0AAEC /* The Midsummer Station.png in Resources */,
 				7FC279F51812990C00E7B225 /* PSAWallpaper1Thumbnail.png in Resources */,
 				7FC27A02181D292800E7B225 /* PSAAppSeparator.png in Resources */,
 				4BBC718C1815404800D3C5EB /* Radio_stop.png in Resources */,
@@ -1247,18 +1301,23 @@
 				1C63E3E41812B98400E0AAEC /* List_like.png in Resources */,
 				1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */,
 				7FC27A06181D299F00E7B225 /* PSALockPanelPageControlDot.png in Resources */,
+				1C63E47B181A138100E0AAEC /* Overexposed.png in Resources */,
 				7FC279A7180AE4B400E7B225 /* Video_quick_pre.png in Resources */,
 				1C63E3E31812B98400E0AAEC /* List_PanelBG.png in Resources */,
 				1C63E3E91812B98400E0AAEC /* Device_check.png in Resources */,
 				1C63E41F181385B400E0AAEC /* PSAMusicListViewController.xib in Resources */,
 				1C63E4091812B98400E0AAEC /* List_button_right_bg.png in Resources */,
+				1C63E485181A138100E0AAEC /* The Midsummer StationMid.png in Resources */,
 				4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */,
 				1C63E4021812B98400E0AAEC /* List_plus_deviceList.png in Resources */,
+				1C63E47D181A138100E0AAEC /* OverexposedSmall.png in Resources */,
 				1C63E3F81812B98400E0AAEC /* OptionCellBG_selected.png in Resources */,
 				1C63E3DE1812B98400E0AAEC /* List_musicPanelHeaderBG.png in Resources */,
 				4BBC71A7181549A500D3C5EB /* PSAAppHeaderView.xib in Resources */,
 				1C63E468181A018E00E0AAEC /* PSAMusicOnlineViewController.xib in Resources */,
 				4BBC71901815404800D3C5EB /* Radio_ring.png in Resources */,
+				1C63E483181A138100E0AAEC /* Viva La Vida or Death and All His FriendsSmall.png in Resources */,
+				1C63E484181A138100E0AAEC /* Mylo Xyloto.png in Resources */,
 				1C63E40E1812B98400E0AAEC /* PreviousButton.png in Resources */,
 				1C63E3EE1812B98400E0AAEC /* NowPlaying_PanelBG.png in Resources */,
 				7FC279E91812981700E7B225 /* kImageMainScreenWallpaperBlur201.png in Resources */,
@@ -1289,6 +1348,7 @@
 				7FC279631807E59000E7B225 /* PSAMusicPlusCell.xib in Resources */,
 				1C63E3F01812B98400E0AAEC /* CircleSingleButton.png in Resources */,
 				7FC279A3180AE4B400E7B225 /* Video_backButtonBG.png in Resources */,
+				1C63E481181A138100E0AAEC /* Mylo XylotoSmall.png in Resources */,
 				7FC279D21812901800E7B225 /* PSASettingPanelViewController.xib in Resources */,
 				7FC279FA1812990C00E7B225 /* PSAWallpaper6Thumbnail.png in Resources */,
 			);

@@ -36,7 +36,6 @@
 - (IBAction)preRadioAction:(id)sender;
 - (IBAction)likeAction:(id)sender;
 - (IBAction)nextRadioAction:(id)sender;
-- (IBAction)otherAction:(id)sender;
 - (IBAction)stopPlayingAction:(id)sender;
 
 - (void)scrollToPlayingStation:(NSString *)value animate:(BOOL)animated;

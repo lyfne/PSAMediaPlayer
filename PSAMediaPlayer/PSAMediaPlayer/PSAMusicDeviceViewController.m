@@ -62,15 +62,7 @@
 #pragma mark IBAction Method
 
 - (IBAction)syncAction:(id)sender {
-//    if (selectedCellNum>0) {
-//        syncButton.userInteractionEnabled = NO;
-//        editButton.userInteractionEnabled = NO;
-//        [syncButton setTitle:@"Syncing..." forState:UIControlStateNormal];
-//        [self.musicListCoverWithListViewController syncMusicToLocal];
-//    }
-    [[PSAMusicPlayer sharedPSAMusicPlayer] setOptionalViewMode:kOptionalViewSyncMode];
-    NSDictionary *dictionary = [[NSDictionary alloc] initWithObjects:[NSArray arrayWithObject:[[PSAMusicPlayer sharedPSAMusicPlayer] getCurrentTune]] forKeys:[NSArray arrayWithObject:kOptionalModelViewUserInfo]];
-    [[NSNotificationCenter defaultCenter] postNotificationName:kAddOptionalModelView object:self userInfo:dictionary];
+    
 }
 
 - (IBAction)editAction:(id)sender {

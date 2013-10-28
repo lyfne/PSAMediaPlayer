@@ -31,7 +31,7 @@
 @synthesize songLabel,singerLabel,albumLabel,timeLabel,nowPlayingLabel,tunesSumLabel;
 @synthesize progressSlider;
 @synthesize rotateImageView;
-@synthesize playButton,preButton,nextButton,otherButton,playModeButton,diskButton;
+@synthesize playButton,preButton,nextButton,playModeButton,diskButton;
 @synthesize albumButton;
 @synthesize buttonView,labelView,diskView;
 @synthesize bgImageView;
@@ -53,7 +53,6 @@
 - (void)viewDidDisappear:(BOOL)animated
 {
     [[NSNotificationCenter defaultCenter] removeObserver:self name:kSwitchSongNotifySign object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:kOptionalViewSwitchSongNotifySign object:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:kFMFViewSwitchSongNotifySign object:nil];
     [processTimer invalidate];
     [self stopAnimation];
@@ -62,7 +61,6 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(switchSong) name:kSwitchSongNotifySign object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(switchSong:) name:kOptionalViewSwitchSongNotifySign object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playFMFMusic:) name:kFMFViewSwitchSongNotifySign object:nil];
     processTimer=[NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(process) userInfo:nil repeats:YES];
     [[PSAMusicPlayer sharedPSAMusicPlayer] setMusicViewState:kNormalState];
@@ -212,12 +210,6 @@
     }
 }
 
-- (IBAction)othersAction:(id)sender {
-    [[PSAMusicPlayer sharedPSAMusicPlayer] setOptionalViewMode:kOptionalViewNormalMode];
-    NSDictionary *dictionary = [[NSDictionary alloc] initWithObjects:[NSArray arrayWithObject:[[PSAMusicPlayer sharedPSAMusicPlayer] getCurrentTune]] forKeys:[NSArray arrayWithObject:kOptionalModelViewUserInfo]];
-    [[NSNotificationCenter defaultCenter] postNotificationName:kAddOptionalModelView object:self userInfo:dictionary];
-}
-
 - (IBAction)shufferAction:(id)sender {
     switch ([[PSAMusicPlayer sharedPSAMusicPlayer] getPlayMode]) {
         case kPlayModeOrder:{
@@ -342,32 +334,6 @@
     }
 }
 
-- (void)switchSong:(NSNotification *)notification
-{
-    NSDictionary *dic = [notification userInfo];
-    int index = [[dic objectForKey:kOptionalModelViewSwitchTuneUserInfo] intValue];
-    [[PSAMusicPlayer sharedPSAMusicPlayer] playTuneAtIndex:[[[[PSAMusicPlayer sharedPSAMusicPlayer] getShufflePlayArray] objectAtIndex:index] intValue] withDelegate:self];
-    
-    [self setSongName:[[[PSAMusicPlayer sharedPSAMusicPlayer] getCurrentList] tuneAtIndex:[[[[PSAMusicPlayer sharedPSAMusicPlayer] getShufflePlayArray] objectAtIndex:index] intValue]]];
-    timeLabel.text = [NSString stringWithFormat:@"%i:%.2i",([[NSString stringWithFormat:@"%f",[PSAMusicPlayer sharedPSAMusicPlayer].duration] intValue] / 60),([[NSString stringWithFormat:@"%f",[PSAMusicPlayer sharedPSAMusicPlayer].duration] intValue] % 60)];
-    
-    if ([[PSAMusicPlayer sharedPSAMusicPlayer] getNowPlayingSource]==kNowPlayingSourceDVD) {
-        albumButton.hidden = YES;
-        [rotateImageView stopAnimating];
-    }else{
-        albumButton.hidden = NO;
-        [rotateImageView startAnimating];
-    }
-    
-    [playButton setImage:[UIImage imageNamed:@"PauseButton.png"] forState:UIControlStateNormal];
-}
-
-- (void)playFMFMusic:(NSNotification *)notification
-{
-    NSDictionary *dic = [notification userInfo];
-    [self playFMFMusicFromDic:dic];
-}
-
 #pragma mark PSADVDSwitchDelegate
 
 - (void)switchDiskAtIndax:(int)index
@@ -386,28 +352,8 @@
     }
     
     [diskButton setTitle:[NSString stringWithFormat:@"Disk %d",index+1] forState:UIControlStateNormal];
-    //progressSlider.value=2;
+    progressSlider.value=2;
     tunesSumLabel.text = [NSString stringWithFormat:@"/%d",[[PSAMusicPlayer sharedPSAMusicPlayer] getSongCount]];
-}
-
-#pragma mark Public Method
-
-- (void)playFMFMusicFromDic:(NSDictionary *)dictionary
-{
-    if ([[PSARadioPlayer sharedPSARadioPlayer] getRadioPlayerState] == kRadioPlayerStatePlaying) {
-        [[PSARadioPlayer sharedPSARadioPlayer] setRadioPlayerState:kRadioPlayerStateStop];
-        [[PSARadioPlayer sharedPSARadioPlayer] pause];
-    }
-    [[PSAMusicPlayer sharedPSAMusicPlayer] playTuneWithName:dictionary withDelegate:self];
-    songLabel.text = [dictionary objectForKey:@"song"];
-    singerLabel.text = [NSString stringWithFormat:@"From %@",[dictionary objectForKey:@"from"]];
-    albumLabel.text = [dictionary objectForKey:@"album"];
-    
-    albumButton.hidden = NO;
-    [rotateImageView startAnimating];
-    [albumButton setImage:[UIImage imageNamed:[dictionary objectForKey:@"album"]] forState:UIControlStateNormal];
-    
-    [playButton setImage:[UIImage imageNamed:@"PauseButton.png"] forState:UIControlStateNormal];
 }
 
 @end

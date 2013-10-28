@@ -16,7 +16,6 @@
     int playMode;
     int nowPlayingSource;
     int playTime;
-    int optionalViewMode;
     BOOL firstLoad;
     NSString *musicListPath;
     NSDictionary *musicListDictionary;
@@ -28,7 +27,6 @@
 
 - (PSATune *)loadMusicWithTunesList:(PSATunesList *)tunesList withDelegate:(id)delegate;
 - (void)playTuneAtIndex:(int)index withDelegate:(id)delegate;
-- (void)playTuneWithName:(NSDictionary *)musicDic withDelegate:(id)delegate;
 
 - (void)serialze;
 - (BOOL)firstLoad;
@@ -37,8 +35,6 @@
 - (void)playOrder;
 - (void)playShuffle;
 - (void)playCycle;
-
-- (void)resetPlayer;
 
 //     Tune
 
@@ -49,7 +45,6 @@
 - (int)getAddArrayCount;
 - (void)addTuneToListFromArray:(NSString *)listName;
 - (void)addTune:(PSATune *)tune toList:(NSString *)listName;
-- (void)exchangeObjectAtIndex:(int)preIndex withObjectAtIndex:(int)newIndex;
 - (void)exchangeObjectInShowListAtIndex:(int)preIndex withObjectAtIndex:(int)newIndex;
 - (void)playMusic;
 - (void)pauseMusic;
@@ -84,7 +79,5 @@
 - (void)setPlayMode:(int)mode;
 - (int)getPlayMode;
 - (int)getMusicPlayerState;
-- (int)getOptionalViewMode;
-- (void)setOptionalViewMode:(int)mode;
 
 @end

@@ -48,13 +48,7 @@
 #define kEditButtonNormalState 6
 #define kEditButtonSelectedImage @"List_button_left_bg.png"
 #define kSwitchSongNotifySign @"SWITCHSONG"
-#define kOptionalViewSwitchSongNotifySign @"OPTIONALVIEWSWITCHSONG"
 #define kFMFViewSwitchSongNotifySign @"FMFVIEWSWITCHSONG"
-
-//     OptionalView
-#define kIndexOffset 1+[[PSAMusicPlayer sharedPSAMusicPlayer] getShufflePlayIndex]
-#define kOptionalActionCellTagBasic 1000
-#define kIBXCellTag 999
 
 //     Cover List
 #define kCoverViewWidght 576

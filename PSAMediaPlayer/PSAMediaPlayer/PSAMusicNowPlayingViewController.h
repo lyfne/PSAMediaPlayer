@@ -29,7 +29,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *playModeButton;
 @property (weak, nonatomic) IBOutlet UIButton *preButton;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
-@property (weak, nonatomic) IBOutlet UIButton *otherButton;
 @property (weak, nonatomic) IBOutlet UIButton *diskButton;
 @property (weak, nonatomic) IBOutlet UIButton *albumButton;
 
@@ -44,9 +43,6 @@
 - (IBAction)nextTuneAction:(id)sender;
 - (IBAction)preTuneAction:(id)sender;
 - (IBAction)playAndStopAction:(id)sender;
-- (IBAction)othersAction:(id)sender;
 - (IBAction)shufferAction:(id)sender;
-
-- (void)playFMFMusicFromDic:(NSDictionary *)dictionary;
 
 @end

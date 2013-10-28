@@ -78,19 +78,8 @@ typedef enum {
 
 #define kPlayerSourceChangeToMusic @"PlayerSourceChangeToMusic"
 #define kPlayerSourceChangeToRadio @"PlayerSourceChangeToRadio"
-#define kAddOptionalModelView @"AddOptionalModelView"
-#define kRemoveOptionalModelView @"RemoveOptionalModelView"
-
-// NotificationUserInfoKey
-#define kOptionalModelViewUserInfo @"kOptionalModelViewUserInfo"
-#define kOptionalModelViewSwitchTuneUserInfo @"OptionalModelViewSwitchTuneUserInfo"
 
 #define kPSAAnimationDefaultDuration 0.7
 #define kPSAAnimationDefaultEaseCurve CubicEaseOut
-
-// Share
-#define kShareNotifcation @"kShareNotifcation"
-#define kShareInfoKey @"kShareInfoKey"
-
 
 #endif

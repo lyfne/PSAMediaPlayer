@@ -122,12 +122,6 @@ static int musicPlayerState;
     psaMusicPlayerInstance.numberOfLoops = 100;
 }
 
-- (void)resetPlayer
-{
-    [self stop];
-    musicPlayerState = kMusicPlayerStateStop;
-}
-
 #pragma mark Init Method
 
 - (id)init
@@ -255,27 +249,6 @@ static int musicPlayerState;
     musicPlayerState = kMusicPlayerStatePlaying;
 }
 
-- (void)playTuneWithName:(NSDictionary *)musicDic withDelegate:(id)delegate
-{
-    musicPlayerState = kMusicPlayerStatePlaying;
-    [PSAMusicPlayer needSaveMusic:[musicDic objectForKey:@"song"]];
-    
-    nowPlayingTune.songName = [musicDic objectForKey:@"song"];
-    nowPlayingTune.singerName = [musicDic objectForKey:@"artist"];
-    nowPlayingTune.albumName = [musicDic objectForKey:@"album"];
-    
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
-    NSString *uniquePath=[[paths objectAtIndex:0] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.mp3",[musicDic objectForKey:@"song"]]];
-    NSURL* url = [NSURL fileURLWithPath:uniquePath];
-    
-    [psaMusicPlayerInstance stop];
-    psaMusicPlayerInstance = [psaMusicPlayerInstance initWithContentsOfURL:url error:nil];
-    psaMusicPlayerInstance.delegate = delegate;
-    psaMusicPlayerInstance.volume= 1.0f;
-    [psaMusicPlayerInstance prepareToPlay];
-    [psaMusicPlayerInstance play];
-}
-
 #pragma mark Tune Method
 
 - (PSATune *)getCurrentTune
@@ -337,7 +310,7 @@ static int musicPlayerState;
     [self serialze];
 }
 
-- (void)exchangeObjectAtIndex:(int)preIndex withObjectAtIndex:(int)newIndex
+- (void)exchangeObjectInShowListAtIndex:(int)preIndex withObjectAtIndex:(int)newIndex
 {
     NSString *str = [shufflePlayArray objectAtIndex:preIndex];
     [shufflePlayArray removeObjectAtIndex:preIndex];
@@ -350,11 +323,6 @@ static int musicPlayerState;
         shufflePlayIndex = shufflePlayIndex-1;
     }
     [shufflePlayArray insertObject:str atIndex:insertIndex];
-}
-
-- (void)exchangeObjectInShowListAtIndex:(int)preIndex withObjectAtIndex:(int)newIndex
-{
-    [[[PSAMusicPlayer sharedPSAMusicPlayer] getCurrentShowList] exchangeObjectAtIndex:preIndex withObjectAtIndex:newIndex];
     [[PSAMusicPlayer sharedPSAMusicPlayer] serialze];
 }
 
@@ -503,16 +471,6 @@ static int musicPlayerState;
 - (int)getMusicPlayerState
 {
     return musicPlayerState;
-}
-
-- (void)setOptionalViewMode:(int)mode
-{
-    optionalViewMode = mode;
-}
-
-- (int)getOptionalViewMode
-{
-    return optionalViewMode;
 }
 
 #pragma mark Private Method

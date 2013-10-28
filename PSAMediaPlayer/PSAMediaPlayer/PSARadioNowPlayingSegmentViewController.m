@@ -98,7 +98,6 @@
 {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(switchRadio:) name:kSwitchRadioNotifySign object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(addToFavorite) name:kAddToFavoriteNotifySign object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(switchRadioFromFMF:) name:kFMFSwitchRadioNotifySign object:nil];
 }
 
 - (void)initSlider
@@ -136,12 +135,6 @@
     }
 }
 
-- (IBAction)otherAction:(id)sender {
-    NSNumber *num = [NSNumber numberWithInt:[[NSString stringWithFormat:@"%d",[sliderView getWhichStation]] intValue]];
-    NSDictionary *dictionary = [[NSDictionary alloc] initWithObjects:[NSArray arrayWithObject:num] forKeys:[NSArray arrayWithObject:kOptionalModelViewUserInfo]];
-    [[NSNotificationCenter defaultCenter] postNotificationName:kAddOptionalModelView object:self userInfo:dictionary];
-}
-
 - (IBAction)stopPlayingAction:(id)sender {
     if ([self.delegate isPlayingOrNot]) {
         [self.delegate pausePlay];
@@ -163,17 +156,6 @@
     [[PSARadioPlayer sharedPSARadioPlayer] stop];
     [[PSARadioPlayer sharedPSARadioPlayer] playRadio:indexStr];
     fmValueLabel.text = indexStr;
-    [playButton setImage:[UIImage imageNamed:@"Radio_stop.png"] forState:UIControlStateNormal];
-}
-
-- (void)switchRadioFromFMF:(NSNotification *)notification
-{
-    NSDictionary *dic = [notification userInfo];
-    [sliderView scrollTo:[dic objectForKey:@"radio"] animate:YES];
-    [self.delegate pausePlay];
-    [[PSARadioPlayer sharedPSARadioPlayer] stop];
-    [[PSARadioPlayer sharedPSARadioPlayer] playRadio:[dic objectForKey:@"radio"]];
-    fmValueLabel.text = [dic objectForKey:@"radio"];
     [playButton setImage:[UIImage imageNamed:@"Radio_stop.png"] forState:UIControlStateNormal];
 }
 

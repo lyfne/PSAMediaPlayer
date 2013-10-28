@@ -18,7 +18,6 @@
 //     NowPlaying
 
 #define kSwitchRadioNotifySign @"SWITCHRADIO"
-#define kFMFSwitchRadioNotifySign @"FMFSWITCHRADIO"
 #define kOptionalCellIndexInfo @"OptionalCellIndex"
 #define kAddToFavoriteNotifySign @"ADDTOFAVORITE"
 #define kRadioNowPlayingType 101
