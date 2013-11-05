@@ -10,7 +10,6 @@
 #import "PSAMusicPlayer.h"
 #import "PSAMusicConstantsConfig.h"
 #import "UIView+FadeInOut.h"
-//#import "PSAShareMusicCell.h"
 #import "PSARadioPlayer.h"
 #import "PSARadioConstantsConfig.h"
 
@@ -61,7 +60,6 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(switchSong) name:kSwitchSongNotifySign object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playFMFMusic:) name:kFMFViewSwitchSongNotifySign object:nil];
     processTimer=[NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(process) userInfo:nil repeats:YES];
     [[PSAMusicPlayer sharedPSAMusicPlayer] setMusicViewState:kNormalState];
     [self initImageAndButton];
@@ -255,7 +253,7 @@
     [self loadMusicWithTunesList:[[PSAMusicPlayer sharedPSAMusicPlayer] getCurrentList]];
     
     [[PSAMusicPlayer sharedPSAMusicPlayer] playMusic];
-    //progressSlider.value = 2;
+    progressSlider.value = 2;
 }
 
 #pragma mark Slider Process Method
@@ -264,7 +262,7 @@
 {
     processTimer=[NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(process) userInfo:nil repeats:YES];
     
-    //[PSAMusicPlayer sharedPSAMusicPlayer].currentTime=progressSlider.value/100*[PSAMusicPlayer sharedPSAMusicPlayer].duration;
+    [PSAMusicPlayer sharedPSAMusicPlayer].currentTime=progressSlider.value/100*[PSAMusicPlayer sharedPSAMusicPlayer].duration;
     if([PSAMusicPlayer sharedPSAMusicPlayer].playing==YES)
         [[PSAMusicPlayer sharedPSAMusicPlayer] playAtTime:[PSAMusicPlayer sharedPSAMusicPlayer].currentTime];
 }
@@ -276,7 +274,7 @@
 
 -(void)process
 {
-//    progressSlider.value = 100*[PSAMusicPlayer sharedPSAMusicPlayer].currentTime/[PSAMusicPlayer sharedPSAMusicPlayer].duration;
+    progressSlider.value = 100*[PSAMusicPlayer sharedPSAMusicPlayer].currentTime/[PSAMusicPlayer sharedPSAMusicPlayer].duration;
 }
 
 #pragma mark Mini Function

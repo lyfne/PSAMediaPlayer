@@ -194,6 +194,12 @@
 		1C63E4F8181E368900E0AAEC /* Cemeteries of London.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4C0181E368900E0AAEC /* Cemeteries of London.mp3 */; };
 		1C63E4F9181E368900E0AAEC /* Life in Technicolor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4C1181E368900E0AAEC /* Life in Technicolor.mp3 */; };
 		1C63E4FA181E368900E0AAEC /* Lost!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E4C2181E368900E0AAEC /* Lost!.mp3 */; };
+		1C63E4FC181E372500E0AAEC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C63E4FB181E372500E0AAEC /* QuartzCore.framework */; };
+		1C63E4FE181E372B00E0AAEC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C63E4FD181E372B00E0AAEC /* MediaPlayer.framework */; };
+		1C63E500181E373900E0AAEC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C63E4FF181E373900E0AAEC /* AVFoundation.framework */; };
+		1C63E502181E3A1C00E0AAEC /* PSAPhonePanelBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E501181E3A1C00E0AAEC /* PSAPhonePanelBackground.png */; };
+		1C63E504181E3A3C00E0AAEC /* PSASegmentButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E503181E3A3C00E0AAEC /* PSASegmentButtonBackground.png */; };
+		1C63E506181E3A6600E0AAEC /* PSAWallpaperHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E505181E3A6600E0AAEC /* PSAWallpaperHighlight.png */; };
 		4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */; };
 		4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */; };
 		4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */; };
@@ -536,6 +542,12 @@
 		1C63E4C0181E368900E0AAEC /* Cemeteries of London.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cemeteries of London.mp3"; sourceTree = "<group>"; };
 		1C63E4C1181E368900E0AAEC /* Life in Technicolor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Life in Technicolor.mp3"; sourceTree = "<group>"; };
 		1C63E4C2181E368900E0AAEC /* Lost!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lost!.mp3"; sourceTree = "<group>"; };
+		1C63E4FB181E372500E0AAEC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1C63E4FD181E372B00E0AAEC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1C63E4FF181E373900E0AAEC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1C63E501181E3A1C00E0AAEC /* PSAPhonePanelBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAPhonePanelBackground.png; sourceTree = "<group>"; };
+		1C63E503181E3A3C00E0AAEC /* PSASegmentButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSASegmentButtonBackground.png; sourceTree = "<group>"; };
+		1C63E505181E3A6600E0AAEC /* PSAWallpaperHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAWallpaperHighlight.png; sourceTree = "<group>"; };
 		4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioConstantsConfig.h; sourceTree = "<group>"; };
 		4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPlayer.h; sourceTree = "<group>"; };
 		4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPlayer.m; sourceTree = "<group>"; };
@@ -679,6 +691,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C63E500181E373900E0AAEC /* AVFoundation.framework in Frameworks */,
+				1C63E4FE181E372B00E0AAEC /* MediaPlayer.framework in Frameworks */,
+				1C63E4FC181E372500E0AAEC /* QuartzCore.framework in Frameworks */,
 				1C63E3331803C74600E0AAEC /* CoreGraphics.framework in Frameworks */,
 				1C63E3351803C74600E0AAEC /* UIKit.framework in Frameworks */,
 				1C63E3311803C74600E0AAEC /* Foundation.framework in Frameworks */,
@@ -720,6 +735,9 @@
 		1C63E32F1803C74600E0AAEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C63E4FF181E373900E0AAEC /* AVFoundation.framework */,
+				1C63E4FD181E372B00E0AAEC /* MediaPlayer.framework */,
+				1C63E4FB181E372500E0AAEC /* QuartzCore.framework */,
 				1C63E3301803C74600E0AAEC /* Foundation.framework */,
 				1C63E3321803C74600E0AAEC /* CoreGraphics.framework */,
 				1C63E3341803C74600E0AAEC /* UIKit.framework */,
@@ -1102,6 +1120,7 @@
 				4BBC71731815403700D3C5EB /* 107.7.mp3 */,
 				7FC27A01181D292800E7B225 /* PSAAppSeparator.png */,
 				4BBC71791815404800D3C5EB /* Radio_likes_optional_view.png */,
+				1C63E503181E3A3C00E0AAEC /* PSASegmentButtonBackground.png */,
 				4BBC717A1815404800D3C5EB /* Radio_NowPlayingSegmentBG.png */,
 				4BBC717B1815404800D3C5EB /* Radio_favorites.png */,
 				4BBC717C1815404800D3C5EB /* Radio_play.png */,
@@ -1271,10 +1290,12 @@
 		7FC279E21812980400E7B225 /* Wallpaper */ = {
 			isa = PBXGroup;
 			children = (
+				1C63E501181E3A1C00E0AAEC /* PSAPhonePanelBackground.png */,
 				7FC279FF181D287100E7B225 /* PSAPhoneContactCellSelectedBackground.png */,
 				7FC279FD1812992E00E7B225 /* PSAPhoneListShadow.png */,
 				7FC279FB1812991C00E7B225 /* PSAPhoneShareButtonBackground.png */,
 				7FC279E31812981700E7B225 /* kImageMainScreenWallpaperBlur201.png */,
+				1C63E505181E3A6600E0AAEC /* PSAWallpaperHighlight.png */,
 				7FC279E41812981700E7B225 /* kImageMainScreenWallpaperBlur202.png */,
 				7FC279E51812981700E7B225 /* kImageMainScreenWallpaperBlur203.png */,
 				7FC279E61812981700E7B225 /* kImageMainScreenWallpaperBlur204.png */,
@@ -1404,6 +1425,7 @@
 				1C63E4F2181E368900E0AAEC /* Hurts Like Heaven.mp3 in Resources */,
 				7FC27A00181D287100E7B225 /* PSAPhoneContactCellSelectedBackground.png in Resources */,
 				7FC279F91812990C00E7B225 /* PSAWallpaper5Thumbnail.png in Resources */,
+				1C63E502181E3A1C00E0AAEC /* PSAPhonePanelBackground.png in Resources */,
 				1C63E4D7181E368900E0AAEC /* Supremacy.mp3 in Resources */,
 				4BBC71771815403700D3C5EB /* 101.5.mp3 in Resources */,
 				1C63E4CB181E368900E0AAEC /* Ladykiller.mp3 in Resources */,
@@ -1412,6 +1434,7 @@
 				1C63E421181385B400E0AAEC /* PSAMusicListCoverViewController.xib in Resources */,
 				4BBC71751815403700D3C5EB /* 89.2.mp3 in Resources */,
 				1C63E4071812B98400E0AAEC /* OthersButton.png in Resources */,
+				1C63E504181E3A3C00E0AAEC /* PSASegmentButtonBackground.png in Resources */,
 				7FC279A5180AE4B400E7B225 /* Video_DVD_disk.png in Resources */,
 				4BBC718E1815404800D3C5EB /* Radio_pointer.png in Resources */,
 				1C63E4E9181E368900E0AAEC /* Speed of Love.mp3 in Resources */,
@@ -1580,6 +1603,7 @@
 				1C63E4C8181E368900E0AAEC /* Something I Need.mp3 in Resources */,
 				7FC279D21812901800E7B225 /* PSASettingPanelViewController.xib in Resources */,
 				7FC279FA1812990C00E7B225 /* PSAWallpaper6Thumbnail.png in Resources */,
+				1C63E506181E3A6600E0AAEC /* PSAWallpaperHighlight.png in Resources */,
 				1C63E4DB181E368900E0AAEC /* Every Teardrop Is a Waterfall.mp3 in Resources */,
 				1C63E4F9181E368900E0AAEC /* Life in Technicolor.mp3 in Resources */,
 				1C63E4D2181E368900E0AAEC /* Explorers.mp3 in Resources */,

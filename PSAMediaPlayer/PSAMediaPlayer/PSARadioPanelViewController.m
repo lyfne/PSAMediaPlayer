@@ -30,7 +30,7 @@ typedef enum {
 
 @implementation PSARadioPanelViewController
 @synthesize segmentView;
-@synthesize myStationButton,internetButton,fromMyFriendsButton;
+@synthesize myStationButton,internetButton;
 
 + (PSARadioPanelViewController *)createRadioViewController
 {
@@ -81,7 +81,6 @@ typedef enum {
     [self setSegmentView:nil];
     [self setMyStationButton:nil];
     [self setInternetButton:nil];
-    [self setFromMyFriendsButton:nil];
     [super viewDidUnload];
 }
 

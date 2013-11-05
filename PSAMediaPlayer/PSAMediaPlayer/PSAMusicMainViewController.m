@@ -50,10 +50,10 @@ typedef enum {
     return self;
 }
 
-- (void)viewDidAppear:(BOOL)animated
+- (void)viewWillAppear:(BOOL)animated
 {
     if ([[PSARadioPlayer sharedPSARadioPlayer] getRadioPlayerState] == kRadioPlayerStateStop && [[PSAMusicPlayer sharedPSAMusicPlayer] firstLoad] == YES) {
-        //[[PSAMusicPlayer sharedPSAMusicPlayer] playMusic];
+        [[PSAMusicPlayer sharedPSAMusicPlayer] playMusic];
         [[PSAMusicPlayer sharedPSAMusicPlayer] firstLoadFinished];
     }
 }

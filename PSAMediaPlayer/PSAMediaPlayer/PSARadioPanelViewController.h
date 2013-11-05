@@ -22,7 +22,6 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *myStationButton;
 @property (weak, nonatomic) IBOutlet UIButton *internetButton;
-@property (weak, nonatomic) IBOutlet UIButton *fromMyFriendsButton;
 
 @property (weak, nonatomic) IBOutlet UIView *segmentView;
 
