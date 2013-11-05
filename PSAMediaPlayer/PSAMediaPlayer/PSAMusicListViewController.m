@@ -133,6 +133,11 @@
     }
 }
 
+- (void)cellMovedFrom:(NSUInteger)source index:(NSUInteger)to
+{
+    [[PSAMusicPlayer sharedPSAMusicPlayer] exchangeObjectInShowListAtIndex:source withObjectAtIndex:to];
+}
+
 - (void)cellDeleted:(NSUInteger)index
 {
     [_tableViewDataSource removeItemAtIndex:index];

@@ -312,17 +312,7 @@ static int musicPlayerState;
 
 - (void)exchangeObjectInShowListAtIndex:(int)preIndex withObjectAtIndex:(int)newIndex
 {
-    NSString *str = [shufflePlayArray objectAtIndex:preIndex];
-    [shufflePlayArray removeObjectAtIndex:preIndex];
-    int insertIndex = newIndex;
-    if (preIndex>shufflePlayIndex && newIndex<shufflePlayIndex) {
-        insertIndex = newIndex+1;
-        shufflePlayIndex = shufflePlayIndex+1;
-    }else if(preIndex<shufflePlayIndex && newIndex>shufflePlayIndex){
-        insertIndex = newIndex-1;
-        shufflePlayIndex = shufflePlayIndex-1;
-    }
-    [shufflePlayArray insertObject:str atIndex:insertIndex];
+    [[[PSAMusicPlayer sharedPSAMusicPlayer] getCurrentShowList] exchangeObjectAtIndex:preIndex withObjectAtIndex:newIndex];
     [[PSAMusicPlayer sharedPSAMusicPlayer] serialze];
 }
 
