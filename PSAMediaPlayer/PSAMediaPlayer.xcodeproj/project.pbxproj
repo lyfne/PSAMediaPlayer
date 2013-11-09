@@ -200,6 +200,18 @@
 		1C63E502181E3A1C00E0AAEC /* PSAPhonePanelBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E501181E3A1C00E0AAEC /* PSAPhonePanelBackground.png */; };
 		1C63E504181E3A3C00E0AAEC /* PSASegmentButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E503181E3A3C00E0AAEC /* PSASegmentButtonBackground.png */; };
 		1C63E506181E3A6600E0AAEC /* PSAWallpaperHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C63E505181E3A6600E0AAEC /* PSAWallpaperHighlight.png */; };
+		1CCA6D6318290809001CF2D6 /* kImageMainScreenWallpaperBlur20Berry.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D5D18290809001CF2D6 /* kImageMainScreenWallpaperBlur20Berry.png */; };
+		1CCA6D6418290809001CF2D6 /* kImageMainScreenWallpaperBlur20Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D5E18290809001CF2D6 /* kImageMainScreenWallpaperBlur20Blue.png */; };
+		1CCA6D6518290809001CF2D6 /* kImageMainScreenWallpaperBlur20Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D5F18290809001CF2D6 /* kImageMainScreenWallpaperBlur20Green.png */; };
+		1CCA6D6618290809001CF2D6 /* kImageMainScreenWallpaperBlur20Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D6018290809001CF2D6 /* kImageMainScreenWallpaperBlur20Orange.png */; };
+		1CCA6D6718290809001CF2D6 /* kImageMainScreenWallpaperBlur20Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D6118290809001CF2D6 /* kImageMainScreenWallpaperBlur20Purple.png */; };
+		1CCA6D6818290809001CF2D6 /* kImageMainScreenWallpaperBlur20Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D6218290809001CF2D6 /* kImageMainScreenWallpaperBlur20Red.png */; };
+		1CCA6D6F182908E0001CF2D6 /* PSAWallpaperBerryThumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D69182908E0001CF2D6 /* PSAWallpaperBerryThumbnail.png */; };
+		1CCA6D70182908E0001CF2D6 /* PSAWallpaperBlueThumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D6A182908E0001CF2D6 /* PSAWallpaperBlueThumbnail.png */; };
+		1CCA6D71182908E0001CF2D6 /* PSAWallpaperGreenThumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D6B182908E0001CF2D6 /* PSAWallpaperGreenThumbnail.png */; };
+		1CCA6D72182908E0001CF2D6 /* PSAWallpaperOrangeThumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D6C182908E0001CF2D6 /* PSAWallpaperOrangeThumbnail.png */; };
+		1CCA6D73182908E0001CF2D6 /* PSAWallpaperPurpleThumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D6D182908E0001CF2D6 /* PSAWallpaperPurpleThumbnail.png */; };
+		1CCA6D74182908E0001CF2D6 /* PSAWallpaperRedThumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA6D6E182908E0001CF2D6 /* PSAWallpaperRedThumbnail.png */; };
 		4BBC7163180A67EC00D3C5EB /* PSARadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */; };
 		4BBC7167180A689E00D3C5EB /* PSARadioPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7165180A689E00D3C5EB /* PSARadioPanelViewController.m */; };
 		4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC7166180A689E00D3C5EB /* PSARadioPanelViewController.xib */; };
@@ -548,6 +560,18 @@
 		1C63E501181E3A1C00E0AAEC /* PSAPhonePanelBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAPhonePanelBackground.png; sourceTree = "<group>"; };
 		1C63E503181E3A3C00E0AAEC /* PSASegmentButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSASegmentButtonBackground.png; sourceTree = "<group>"; };
 		1C63E505181E3A6600E0AAEC /* PSAWallpaperHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAWallpaperHighlight.png; sourceTree = "<group>"; };
+		1CCA6D5D18290809001CF2D6 /* kImageMainScreenWallpaperBlur20Berry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kImageMainScreenWallpaperBlur20Berry.png; sourceTree = "<group>"; };
+		1CCA6D5E18290809001CF2D6 /* kImageMainScreenWallpaperBlur20Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kImageMainScreenWallpaperBlur20Blue.png; sourceTree = "<group>"; };
+		1CCA6D5F18290809001CF2D6 /* kImageMainScreenWallpaperBlur20Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kImageMainScreenWallpaperBlur20Green.png; sourceTree = "<group>"; };
+		1CCA6D6018290809001CF2D6 /* kImageMainScreenWallpaperBlur20Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kImageMainScreenWallpaperBlur20Orange.png; sourceTree = "<group>"; };
+		1CCA6D6118290809001CF2D6 /* kImageMainScreenWallpaperBlur20Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kImageMainScreenWallpaperBlur20Purple.png; sourceTree = "<group>"; };
+		1CCA6D6218290809001CF2D6 /* kImageMainScreenWallpaperBlur20Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kImageMainScreenWallpaperBlur20Red.png; sourceTree = "<group>"; };
+		1CCA6D69182908E0001CF2D6 /* PSAWallpaperBerryThumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAWallpaperBerryThumbnail.png; sourceTree = "<group>"; };
+		1CCA6D6A182908E0001CF2D6 /* PSAWallpaperBlueThumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAWallpaperBlueThumbnail.png; sourceTree = "<group>"; };
+		1CCA6D6B182908E0001CF2D6 /* PSAWallpaperGreenThumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAWallpaperGreenThumbnail.png; sourceTree = "<group>"; };
+		1CCA6D6C182908E0001CF2D6 /* PSAWallpaperOrangeThumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAWallpaperOrangeThumbnail.png; sourceTree = "<group>"; };
+		1CCA6D6D182908E0001CF2D6 /* PSAWallpaperPurpleThumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAWallpaperPurpleThumbnail.png; sourceTree = "<group>"; };
+		1CCA6D6E182908E0001CF2D6 /* PSAWallpaperRedThumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSAWallpaperRedThumbnail.png; sourceTree = "<group>"; };
 		4BBC7160180A67EC00D3C5EB /* PSARadioConstantsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioConstantsConfig.h; sourceTree = "<group>"; };
 		4BBC7161180A67EC00D3C5EB /* PSARadioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSARadioPlayer.h; sourceTree = "<group>"; };
 		4BBC7162180A67EC00D3C5EB /* PSARadioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSARadioPlayer.m; sourceTree = "<group>"; };
@@ -1290,6 +1314,12 @@
 		7FC279E21812980400E7B225 /* Wallpaper */ = {
 			isa = PBXGroup;
 			children = (
+				1CCA6D69182908E0001CF2D6 /* PSAWallpaperBerryThumbnail.png */,
+				1CCA6D6A182908E0001CF2D6 /* PSAWallpaperBlueThumbnail.png */,
+				1CCA6D6B182908E0001CF2D6 /* PSAWallpaperGreenThumbnail.png */,
+				1CCA6D6C182908E0001CF2D6 /* PSAWallpaperOrangeThumbnail.png */,
+				1CCA6D6D182908E0001CF2D6 /* PSAWallpaperPurpleThumbnail.png */,
+				1CCA6D6E182908E0001CF2D6 /* PSAWallpaperRedThumbnail.png */,
 				1C63E501181E3A1C00E0AAEC /* PSAPhonePanelBackground.png */,
 				7FC279FF181D287100E7B225 /* PSAPhoneContactCellSelectedBackground.png */,
 				7FC279FD1812992E00E7B225 /* PSAPhoneListShadow.png */,
@@ -1301,6 +1331,12 @@
 				7FC279E61812981700E7B225 /* kImageMainScreenWallpaperBlur204.png */,
 				7FC279E71812981700E7B225 /* kImageMainScreenWallpaperBlur205.png */,
 				7FC279E81812981700E7B225 /* kImageMainScreenWallpaperBlur206.png */,
+				1CCA6D5D18290809001CF2D6 /* kImageMainScreenWallpaperBlur20Berry.png */,
+				1CCA6D5E18290809001CF2D6 /* kImageMainScreenWallpaperBlur20Blue.png */,
+				1CCA6D5F18290809001CF2D6 /* kImageMainScreenWallpaperBlur20Green.png */,
+				1CCA6D6018290809001CF2D6 /* kImageMainScreenWallpaperBlur20Orange.png */,
+				1CCA6D6118290809001CF2D6 /* kImageMainScreenWallpaperBlur20Purple.png */,
+				1CCA6D6218290809001CF2D6 /* kImageMainScreenWallpaperBlur20Red.png */,
 				7FC279EF1812990C00E7B225 /* PSAWallpaper1Thumbnail.png */,
 				7FC279F01812990C00E7B225 /* PSAWallpaper2Thumbnail.png */,
 				7FC279F11812990C00E7B225 /* PSAWallpaper3Thumbnail.png */,
@@ -1429,12 +1465,15 @@
 				1C63E4D7181E368900E0AAEC /* Supremacy.mp3 in Resources */,
 				4BBC71771815403700D3C5EB /* 101.5.mp3 in Resources */,
 				1C63E4CB181E368900E0AAEC /* Ladykiller.mp3 in Resources */,
+				1CCA6D74182908E0001CF2D6 /* PSAWallpaperRedThumbnail.png in Resources */,
+				1CCA6D6618290809001CF2D6 /* kImageMainScreenWallpaperBlur20Orange.png in Resources */,
 				1C63E4001812B98400E0AAEC /* MusicOnlineDisk4.png in Resources */,
 				1C63E4EC181E368900E0AAEC /* Lovers in Japan.mp3 in Resources */,
 				1C63E421181385B400E0AAEC /* PSAMusicListCoverViewController.xib in Resources */,
 				4BBC71751815403700D3C5EB /* 89.2.mp3 in Resources */,
 				1C63E4071812B98400E0AAEC /* OthersButton.png in Resources */,
 				1C63E504181E3A3C00E0AAEC /* PSASegmentButtonBackground.png in Resources */,
+				1CCA6D6518290809001CF2D6 /* kImageMainScreenWallpaperBlur20Green.png in Resources */,
 				7FC279A5180AE4B400E7B225 /* Video_DVD_disk.png in Resources */,
 				4BBC718E1815404800D3C5EB /* Radio_pointer.png in Resources */,
 				1C63E4E9181E368900E0AAEC /* Speed of Love.mp3 in Resources */,
@@ -1474,6 +1513,7 @@
 				1C63E4CC181E368900E0AAEC /* Love Somebody.mp3 in Resources */,
 				1C63E4041812B98400E0AAEC /* OptionMenuIcon.png in Resources */,
 				4BBC71761815403700D3C5EB /* 97.9.mp3 in Resources */,
+				1CCA6D6F182908E0001CF2D6 /* PSAWallpaperBerryThumbnail.png in Resources */,
 				1C63E4461813878200E0AAEC /* PSAMusicListCell.xib in Resources */,
 				7FC279B6180B804F00E7B225 /* PSAVideoLoginViewController.xib in Resources */,
 				4BBC719F1815498000D3C5EB /* PSARadioFMView.xib in Resources */,
@@ -1516,6 +1556,7 @@
 				1C63E3ED1812B98400E0AAEC /* MusicDeviceUnconnected.png in Resources */,
 				1C63E4CD181E368900E0AAEC /* Lucky Strike.mp3 in Resources */,
 				1C63E4501813879800E0AAEC /* PSAMusicCoverItemView.xib in Resources */,
+				1CCA6D72182908E0001CF2D6 /* PSAWallpaperOrangeThumbnail.png in Resources */,
 				1C63E4E3181E368900E0AAEC /* Dementia.mp3 in Resources */,
 				1C63E3E61812B98400E0AAEC /* List_minus.png in Resources */,
 				7FC279DA1812906D00E7B225 /* PSASettingSystemCell.xib in Resources */,
@@ -1535,6 +1576,7 @@
 				1C63E3E41812B98400E0AAEC /* List_like.png in Resources */,
 				1C63E3761804E55500E0AAEC /* PSAVideoPanelViewController.xib in Resources */,
 				1C63E4CA181E368900E0AAEC /* Fortune Teller.mp3 in Resources */,
+				1CCA6D73182908E0001CF2D6 /* PSAWallpaperPurpleThumbnail.png in Resources */,
 				1C63E4C3181E368900E0AAEC /* Lost_.mp3 in Resources */,
 				7FC27A06181D299F00E7B225 /* PSALockPanelPageControlDot.png in Resources */,
 				1C63E4D9181E368900E0AAEC /* Charlie Brown.mp3 in Resources */,
@@ -1544,11 +1586,13 @@
 				1C63E3E31812B98400E0AAEC /* List_PanelBG.png in Resources */,
 				1C63E3E91812B98400E0AAEC /* Device_check.png in Resources */,
 				1C63E4F4181E368900E0AAEC /* Paradise.mp3 in Resources */,
+				1CCA6D71182908E0001CF2D6 /* PSAWallpaperGreenThumbnail.png in Resources */,
 				1C63E41F181385B400E0AAEC /* PSAMusicListViewController.xib in Resources */,
 				1C63E4091812B98400E0AAEC /* List_button_right_bg.png in Resources */,
 				1C63E4D6181E368900E0AAEC /* Prelude.mp3 in Resources */,
 				1C63E4E0181E368900E0AAEC /* Up in Flames.mp3 in Resources */,
 				1C63E485181A138100E0AAEC /* The Midsummer StationMid.png in Resources */,
+				1CCA6D6318290809001CF2D6 /* kImageMainScreenWallpaperBlur20Berry.png in Resources */,
 				4BBC7168180A689E00D3C5EB /* PSARadioPanelViewController.xib in Resources */,
 				1C63E4021812B98400E0AAEC /* List_plus_deviceList.png in Resources */,
 				1C63E47D181A138100E0AAEC /* OverexposedSmall.png in Resources */,
@@ -1562,6 +1606,7 @@
 				1C63E4DD181E368900E0AAEC /* Major Minus.mp3 in Resources */,
 				4BBC71901815404800D3C5EB /* Radio_ring.png in Resources */,
 				1C63E483181A138100E0AAEC /* Viva La Vida or Death and All His FriendsSmall.png in Resources */,
+				1CCA6D6818290809001CF2D6 /* kImageMainScreenWallpaperBlur20Red.png in Resources */,
 				1C63E484181A138100E0AAEC /* Mylo Xyloto.png in Resources */,
 				1C63E40E1812B98400E0AAEC /* PreviousButton.png in Resources */,
 				1C63E4FA181E368900E0AAEC /* Lost!.mp3 in Resources */,
@@ -1580,10 +1625,12 @@
 				1C63E33B1803C74600E0AAEC /* InfoPlist.strings in Resources */,
 				7FC279EB1812981700E7B225 /* kImageMainScreenWallpaperBlur203.png in Resources */,
 				1C63E4C4181E368900E0AAEC /* 42.mp3 in Resources */,
+				1CCA6D6718290809001CF2D6 /* kImageMainScreenWallpaperBlur20Purple.png in Resources */,
 				4BBC71781815403700D3C5EB /* 107.7.mp3 in Resources */,
 				1C63E4E1181E368900E0AAEC /* Up with the Birds.mp3 in Resources */,
 				7FC2795A1807E57100E7B225 /* PSAAppListHeaderView.xib in Resources */,
 				1C63E3E01812B98400E0AAEC /* MusicLoginBG.png in Resources */,
+				1CCA6D6418290809001CF2D6 /* kImageMainScreenWallpaperBlur20Blue.png in Resources */,
 				1C63E3E51812B98400E0AAEC /* List_tableView_bg.png in Resources */,
 				7FC2794F1807E52F00E7B225 /* PSAVideoDeviceViewController.xib in Resources */,
 				1C63E3EB1812B98400E0AAEC /* Device_coverlist_bg.png in Resources */,
@@ -1600,6 +1647,7 @@
 				7FC279A3180AE4B400E7B225 /* Video_backButtonBG.png in Resources */,
 				1C63E481181A138100E0AAEC /* Mylo XylotoSmall.png in Resources */,
 				1C63E4DF181E368900E0AAEC /* U.F.O..mp3 in Resources */,
+				1CCA6D70182908E0001CF2D6 /* PSAWallpaperBlueThumbnail.png in Resources */,
 				1C63E4C8181E368900E0AAEC /* Something I Need.mp3 in Resources */,
 				7FC279D21812901800E7B225 /* PSASettingPanelViewController.xib in Resources */,
 				7FC279FA1812990C00E7B225 /* PSAWallpaper6Thumbnail.png in Resources */,

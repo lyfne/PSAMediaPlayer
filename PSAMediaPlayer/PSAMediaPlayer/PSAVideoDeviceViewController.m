@@ -135,10 +135,10 @@
         if (indexPath.row==0) {
             [cell setIsConnected:YES];
             cell.tag = kDeviceIPhoneCellTag;
-            cell.deviceNameLabel.text = @"Evan Fung's iPhone";
+            cell.deviceNameLabel.text = @"Fan's iPhone";
         }else{
             [cell setIsConnected:NO];
-            cell.deviceNameLabel.text = @"Evan Fung's iPad";
+            cell.deviceNameLabel.text = @"Fan's iPad";
         }
         
         if ([cell getIsConnected]) {

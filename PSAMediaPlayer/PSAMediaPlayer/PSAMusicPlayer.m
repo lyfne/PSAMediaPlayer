@@ -177,10 +177,10 @@ static int musicPlayerState;
         //     Device
         
         NSMutableArray *deviceList1 = [[NSMutableArray alloc] initWithObjects:@"1",@"2",@"3",@"4",@"21",@"22",@"23",@"24",@"25",@"61",@"62",@"70",@"71",@"40",@"41",nil];
-        [self addTunesListToLists:[self createTunesList:@"_DeviEvan Fung's iPhone" WithArray:deviceList1]];
+        [self addTunesListToLists:[self createTunesList:@"_DeviFan's iPhone" WithArray:deviceList1]];
         
         NSMutableArray *deviceList2 = [[NSMutableArray alloc] initWithObjects:@"0",@"1",@"6",@"7",@"25",@"26",@"28",@"60",@"65",@"67",@"45",@"52",@"20",@"75",nil];
-        [self addTunesListToLists:[self createTunesList:@"_DeviEvan Fung's iPad" WithArray:deviceList2]];
+        [self addTunesListToLists:[self createTunesList:@"_DeviFan's iPad" WithArray:deviceList2]];
         
         //     list
         
