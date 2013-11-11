@@ -52,7 +52,6 @@
 - (void)viewDidDisappear:(BOOL)animated
 {
     [[NSNotificationCenter defaultCenter] removeObserver:self name:kSwitchSongNotifySign object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:kFMFViewSwitchSongNotifySign object:nil];
     [processTimer invalidate];
     [self stopAnimation];
 }

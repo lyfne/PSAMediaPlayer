@@ -23,7 +23,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *dvdButton;
 @property (weak, nonatomic) IBOutlet UIButton *deviceButton;
 @property (weak, nonatomic) IBOutlet UIButton *onlineButton;
-@property (weak, nonatomic) IBOutlet UIButton *fromMyFriendButton;
 
 @property (weak, nonatomic) IBOutlet UIView *sourceView;
 @property (strong, nonatomic) PSAMusicOnlineViewController *musicOnlineViewController;

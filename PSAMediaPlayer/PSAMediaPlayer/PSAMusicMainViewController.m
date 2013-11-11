@@ -22,7 +22,6 @@ typedef enum {
     PSAMUSIC_DVD = 1002,
     PSAMUSIC_DEVICE = 1003,
     PSAMUSIC_ONLINE = 1004,
-    PSAMUSIC_FROMMYFRIEND = 1005,
 } PSAMUSICID;
 
 @interface PSAMusicMainViewController ()
@@ -33,7 +32,7 @@ typedef enum {
 
 @implementation PSAMusicMainViewController
 @synthesize sourceView;
-@synthesize listButton,dvdButton,deviceButton,onlineButton,fromMyFriendButton;
+@synthesize listButton,dvdButton,deviceButton,onlineButton;
 
 + (PSAMusicMainViewController *)createMusicMainViewController
 {
@@ -187,7 +186,7 @@ typedef enum {
 
 - (void)resetAllColor
 {
-    for (int i = kMusicSegmentButtonTagBasic+1; i<kMusicSegmentButtonTagBasic+6; i++) {
+    for (int i = kMusicSegmentButtonTagBasic+1; i<kMusicSegmentButtonTagBasic+5; i++) {
         UIButton *btn = (UIButton *)[sourceView viewWithTag:i];
         [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [btn setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];

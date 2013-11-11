@@ -48,7 +48,6 @@
 #define kEditButtonNormalState 6
 #define kEditButtonSelectedImage @"List_button_left_bg.png"
 #define kSwitchSongNotifySign @"SWITCHSONG"
-#define kFMFViewSwitchSongNotifySign @"FMFVIEWSWITCHSONG"
 
 //     Cover List
 #define kCoverViewWidght 576
@@ -86,12 +85,5 @@
 #define kBackgroundState 3
 #define kNowPlayingState 2
 #define kNormalState 1
-
-//     OptionalActionCell
-
-#define kSourceRadio 101
-#define kSourceMusicDevice 102
-#define kSourceMusic 103
-#define kAddCreateListNotifySign @"ADDCREATELIST"
 
 #endif
